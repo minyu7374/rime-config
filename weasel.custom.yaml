@@ -15,7 +15,7 @@ patch:
   "app_options/totalcmd64.exe":
     ascii_mode: true
   "style/color_scheme": steam
-  "style/display_tray_icon": true
+  #"style/display_tray_icon": true
   "style/font_face": "Microsoft YaHei"
   "style/font_point": 13
   "style/horizontal": true

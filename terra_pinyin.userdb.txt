@@ -1,0 +1,468 @@
+# Rime user dictionary
+#@/db_name	terra_pinyin
+#@/db_type	userdb
+#@/rime_version	1.8.5
+#@/tick	787
+#@/user_id	240c8f47-1b3e-481f-bf46-4ce45a0f2d10
+an1 pai2 	安排	c=1 d=0.680451 t=787
+an1 quan2 	安全	c=2 d=0.804295 t=787
+an1 zhuang1 	安裝	c=11 d=9.00573 t=787
+an4 	按	c=1 d=0.486752 t=787
+an4 xu1 	按需	c=1 d=0.126818 t=787
+an4 zhuan3 	暗轉	c=1 d=0.83527 t=787
+ba1 	吧	c=1 d=0.213312 t=787
+bai3 du4 	百度	c=1 d=0.737123 t=787
+ban1 	班	c=1 d=0.697676 t=787
+ban3 ben3 	版本	c=8 d=5.40727 t=787
+bei4 	被	c=1 d=0.752014 t=787
+ben3 	本	c=0 d=0.0932394 t=787
+ben3 da4 qu1 	本大區	c=1 d=0.937067 t=787
+ben3 di4 	本地	c=1 d=0.634448 t=787
+ben3 sheng3 	本省	c=1 d=0.900325 t=787
+bi3 jiao4 	比較	c=1 d=0.332871 t=787
+bi3 jiao4 da4 	比較大	c=0 d=0.0499074 t=787
+bi3 li4 	比例	c=4 d=1.19417 t=787
+bi4 mian3 	避免	c=1 d=0.148823 t=787
+bian3 yi4 	貶義	c=1 d=0.733447 t=787
+bian4 dong4 	變動	c=5 d=1.64988 t=787
+bian4 liang4 	變量	c=1 d=0.88692 t=787
+bian4 shi4 	便是	c=1 d=0.514274 t=787
+biao3 	表	c=3 d=1.16277 t=787
+biao3 shi4 	表示	c=2 d=0.543769 t=787
+bu2 da4 	不大	c=1 d=0.316637 t=787
+bu4 	不	c=0 d=0.0768413 t=787
+bu4 bei4 	不備	c=1 d=0.644036 t=787
+bu4 cun2 zai4 	不存在	c=1 d=0.562705 t=787
+bu4 hao3 yong4 	不好用	c=1 d=0.980199 t=787
+bu4 quan2 	不全	c=1 d=0.172907 t=787
+bu4 tiao2 zheng3 	不調整	c=1 d=0.436049 t=787
+bu4 zuo4 	不做	c=1 d=0.453845 t=787
+cai2 na2 	纔拿	c=1 d=1 t=787
+can1 kao3 	參考	c=1 d=0.210136 t=787
+can1 shu4 	參數	c=1 d=0.364219 t=787
+can1 yu4 	參與	c=1 d=0.171187 t=787
+ce4 lve4 	策略	c=5 d=1.16899 t=787
+ce4 shi4 	測試	c=2 d=0.198891 t=787
+cha2 kan4 	查看	c=1 d=0.612626 t=787
+cha2 xun2 	查詢	c=1 d=0.774916 t=787
+chan3 yu2 	產於	c=1 d=0.170333 t=787
+chang2 jing3 	場景	c=2 d=1.63342 t=787
+chang2 liang4 	常量	c=1 d=0.511709 t=787
+cheng2 	成	c=1 d=0.588605 t=787
+cheng2 ben3 	成本	c=8 d=1.48319 t=787
+cheng2 ben3 gui1 hua4 	成本規劃	c=1 d=0.588605 t=787
+cheng2 ben3 xian1 	成本先	c=1 d=0.412714 t=787
+cheng2 du1 	成都	c=1 d=0.204948 t=787
+cheng2 jie1 	承接	c=1 d=0.217621 t=787
+cheng2 xu4 	程序	c=1 d=0.543351 t=787
+chi1 	吃	c=1 d=0.594521 t=787
+chong1 ding3 	衝頂	c=14 d=1.9462 t=787
+chu3 li3 	處理	c=2 d=0.603506 t=787
+ci2 ku4 	詞庫	c=2 d=1.9361 t=787
+cong2 	從	c=2 d=1.24086 t=787
+cuo4 le5 	錯了	c=1 d=0.110251 t=787
+da2 dao4 	達到	c=2 d=0.486627 t=787
+da4 qu1 	大區	c=1 d=0.936907 t=787
+da4 yu2 	大於	c=1 d=0.392586 t=787
+dai4 kuan1 	帶寬	c=9 d=4.0739 t=787
+dai4 kuan3 	貸款	c=4 d=2.20836 t=787
+dan1 du2 	單獨	c=1 d=0.694197 t=787
+dan1 yuan2 	單元	c=8 d=2.27011 t=787
+dan4 	但	c=1 d=0.377192 t=787
+dang1 ri4 	當日	c=1 d=0.136695 t=787
+dao3 zhi4 	導致	c=1 d=0.402524 t=787
+de2 zhou1 	德州	c=1 d=0.307279 t=787
+de5 	的	c=24 d=8.35338 t=787
+deng3 	等	c=1 d=0.786628 t=787
+di1 jia4 	低價	c=0 d=0.0442639 t=787
+di1 jia4 duo1 yong4 	低價多用	c=1 d=0.444858 t=787
+di1 yu2 	低於	c=2 d=0.630322 t=787
+di2 qiu2 	敵酋	c=1 d=1 t=4
+di4 	的	c=0 d=0.097531 t=787
+di4 qiu2 	地球	c=1 d=1.09352 t=787
+di4 qiu2 pin1 yin1 	地球拼音	c=1 d=0.99005 t=787
+diao4 	調	c=1 d=0.995012 t=787
+ding3 feng1 	頂峯	c=1 d=0.213312 t=787
+dou1 	都	c=0 d=0.033454 t=787
+dou1 bu4 man3 zu2 	都不滿足	c=1 d=0.336216 t=787
+dui4 	對	c=1 d=0.118245 t=787
+dui4 ying4 	對應	c=1 d=0.715338 t=787
+dui4 yu2 	對於	c=1 d=0.559898 t=787
+duo1 kai1 	多開	c=1 d=0.149569 t=787
+duo1 yong4 	多用	c=0 d=0.0442639 t=787
+er2 bu4 shi4 	而不是	c=1 d=0.140156 t=787
+er4 ge4 	二個	c=1 d=0.600496 t=787
+fan3 hui2 	返回	c=1 d=0.748264 t=787
+fan4 wei2 	範圍	c=1 d=0.529935 t=787
+fei1 	非	c=1 d=0.396531 t=787
+fei1 xian4 xing4 	非線性	c=1 d=0.932394 t=787
+fen1 	分	c=1 d=0.537944 t=787
+fen1 chu1 	分出	c=1 d=0.540641 t=787
+fen1 duan4 	分段	c=8 d=2.80424 t=787
+fen1 lei4 	分類	c=1 d=0.205975 t=787
+feng1 zhi2 	峯值	c=1 d=0.245367 t=787
+fu2 he2 	符合	c=1 d=0.241714 t=787
+gai1 	該	c=1 d=0.831441 t=787
+gai1 bi3 li4 	該比例	c=1 d=0.433874 t=787
+gai3 bian4 	改變	c=0 d=0.0818731 t=787
+gai3 bian4 liang4 	改變量	c=1 d=0.822835 t=787
+gai3 yong4 	改用	c=1 d=0.436049 t=787
+gao1 	高	c=1 d=0.257947 t=787
+gen1 ju4 	根據	c=1 d=0.287941 t=787
+gu3 wen2 zi4 	古文字	c=1 d=0.286505 t=787
+guang3 xi1 	廣西	c=2 d=1.84328 t=787
+gui1 fan4 	規範	c=1 d=0.778801 t=787
+gui1 hua4 	規劃	c=9 d=2.26619 t=787
+gui1 mo2 	規模	c=2 d=0.8438 t=787
+gui1 ze2 	規則	c=0 d=0.026054 t=787
+guo2 nei4 	國內	c=1 d=0.97531 t=787
+guo4 di1 	過低	c=1 d=0.631284 t=787
+guo4 gao1 	過高	c=1 d=0.162838 t=787
+ha1 ha1 ha1 	哈哈哈	c=1 d=0.105928 t=787
+hai2 shi4 	還是	c=1 d=0.117068 t=787
+hao4 	號	c=1 d=0.280832 t=787
+he2 	和	c=8 d=3.02484 t=787
+he2 li3 	合理	c=1 d=0.299692 t=787
+hen3 bu4 cuo4 	很不錯	c=0 d=0.0104874 t=787
+hen3 bu4 cuo4 ya5 	很不錯呀	c=1 d=0.105399 t=787
+hou4 	後	c=1 d=0.782705 t=787
+hou4 qi2 	後期	c=2 d=0.669396 t=787
+hu2 nan2 	湖南	c=1 d=0.546074 t=787
+hu4 	戶	c=1 d=0.99005 t=787
+hua2 nan2 	華南	c=1 d=0.839457 t=787
+hua4 	畫	c=1 d=0.282239 t=787
+hua4 	話	c=1 d=0.339596 t=787
+hui2 gui1 	回歸	c=1 d=0.390628 t=787
+hui4 	會	c=2 d=1.47432 t=787
+hui4 min2 	惠民	c=1 d=0.302704 t=787
+hui4 zhi4 	繪製	c=1 d=0.310367 t=787
+huo2 dong4 	活動	c=1 d=0.818731 t=787
+huo4 	或	c=1 d=0.13466 t=787
+huo4 qu3 	獲取	c=3 d=2.00234 t=787
+ji1 chu3 	基礎	c=1 d=0.481909 t=787
+ji1 qi4 	機器	c=1 d=0.408608 t=787
+ji1 yu2 	基於	c=1 d=0.278037 t=787
+ji2 shi3 	即使	c=1 d=0.226502 t=787
+ji4 fei4 	計費	c=3 d=1.15959 t=787
+ji4 fei4 dan1 yuan2 	計費單元	c=5 d=1.49774 t=787
+ji4 fei4 zhi2 	計費值	c=1 d=0.201897 t=787
+ji4 hua4 	計劃	c=2 d=0.340978 t=787
+ji4 shu4 	技術	c=1 d=0.289384 t=787
+ji4 suan4 	計算	c=10 d=2.11702 t=787
+ji4 xu4 	繼續	c=1 d=0.767206 t=787
+jia1 	加	c=1 d=0.142274 t=787
+jia1 qiang2 	加強	c=1 d=0.242926 t=787
+jia3 	假	c=1 d=0.704688 t=787
+jia4 qi1 	假期	c=2 d=1.3374 t=787
+jian3 shao3 	減少	c=1 d=0.491644 t=787
+jian4 	見	c=0 d=0.0120633 t=787
+jian4 she4 	建設	c=1 d=0.227638 t=787
+jiang1 	將	c=1 d=0.932394 t=787
+jiang4 di1 	降低	c=2 d=0.830325 t=787
+jiang4 zhi4 	降至	c=1 d=0.267135 t=787
+jiao3 ben3 	腳本	c=1 d=0.191092 t=787
+jiao4 di1 	較低	c=1 d=0.99005 t=787
+jiao4 gao1 	較高	c=1 d=0.909373 t=787
+jiao4 xiao3 	較小	c=1 d=0.451581 t=787
+jie1 kou3 	接口	c=1 d=0.873716 t=787
+jie2 dian3 	節點	c=1 d=0.174645 t=787
+jie2 guo3 	結果	c=2 d=0.940865 t=787
+jie2 ju4 	截距	c=1 d=0.519442 t=787
+jie3 	解	c=1 d=0.190139 t=787
+jie4 mian4 	界面	c=1 d=0.116484 t=787
+jin1 tian1 	今天	c=1 d=0.591555 t=787
+jin3 ke3 neng2 	儘可能	c=1 d=0.548812 t=787
+jin3 liang4 	儘量	c=2 d=1.02445 t=787
+jin4 xing2 	進行	c=4 d=1.30907 t=787
+jing4 tai4 	靜態	c=1 d=0.26054 t=787
+jiu4 	就	c=0 d=0.0155673 t=787
+jiu4 	舊	c=1 d=0.157237 t=787
+jiu4 ban3 ben3 	就版本	c=1 d=0.156453 t=787
+jiu4 shi4 	就是	c=1 d=0.323033 t=787
+jun1 heng2 	均衡	c=0 d=0.0440432 t=787
+jun1 heng2 xing4 	均衡性	c=1 d=0.442639 t=787
+jun1 zhi2 	均值	c=1 d=0.301194 t=787
+kai1 qi3 	開啓	c=5 d=1.11065 t=787
+kai1 shi3 	開始	c=2 d=0.897409 t=787
+kao3 lv4 	考慮	c=2 d=0.729104 t=787
+kao4 hou4 	靠後	c=2 d=0.27316 t=787
+ke3 neng2 	可能	c=0 d=0.0111917 t=787
+ke3 neng2 ne5 ge4 	可能呢個	c=1 d=0.112478 t=787
+ke3 yong4 	可用	c=1 d=0.818731 t=787
+ke4 hu4 	客戶	c=1 d=0.806541 t=787
+kong1 jian1 	空間	c=7 d=1.18004 t=787
+kong4 zhi4 	控制	c=1 d=0.249075 t=787
+ku4 	庫	c=0 d=0.0790571 t=787
+ku4 wen2 jian4 	庫文件	c=1 d=0.794534 t=787
+kua4 jin4 lai2 	跨進來	c=1 d=0.951229 t=787
+lai2 	來	c=1 d=0.145148 t=787
+lai2 zi4 	來自	c=1 d=0.22313 t=787
+le5 	了	c=5 d=2.14348 t=787
+li3 	裏	c=1 d=0.594521 t=787
+li3 zi5 	李子	c=1 d=0.603506 t=787
+li4 shi3 	歷史	c=1 d=0.472367 t=787
+li4 yong4 	利用	c=1 d=0.265803 t=787
+li4 yong4 lv4 	利用率	c=3 d=0.890238 t=787
+lian2 tong1 	聯通	c=1 d=0.847894 t=787
+liang3 	兩	c=2 d=0.634545 t=787
+liang3 jiao3 	兩腳	c=0 d=0.097531 t=787
+liang3 jiao3 di4 	兩腳的	c=1 d=0.980199 t=787
+liang4 	量	c=2 d=1.22925 t=787
+liu2 kong4 	流控	c=1 d=0.239309 t=787
+liu2 liang4 	流量	c=1 d=0.25284 t=787
+lu4 jing4 	路徑	c=3 d=2.42576 t=787
+lu4 jing4 xia4 	路徑下	c=1 d=0.771052 t=787
+man3 zu2 	滿足	c=3 d=0.645829 t=787
+mei2 bi4 yao1 	沒必要	c=2 d=0.341298 t=787
+mei2 shen2 me5 	沒什麼	c=1 d=0.351692 t=787
+mei2 you3 	沒有	c=2 d=0.625002 t=787
+mei3 ci4 	每次	c=1 d=0.640824 t=787
+mian3 fei4 	免費	c=3 d=0.895105 t=787
+mian4 shi4 	面試	c=1 d=0.396531 t=787
+ming2 ren2 	名人	c=1 d=0.290835 t=787
+ming2 xian3 	明顯	c=1 d=0.831104 t=787
+mo2 kuai4 	模塊	c=1 d=0.366045 t=787
+mo2 xing2 	模型	c=1 d=0.251698 t=787
+mo4 ren4 	默認	c=2 d=0.792869 t=787
+mo4 ren4 gui1 ze2 	默認規則	c=1 d=0.261846 t=787
+mo4 xiang3 	沒想	c=1 d=0.235746 t=787
+mu3 li4 	牡蠣	c=1 d=0.701173 t=787
+mu4 lu4 	目錄	c=2 d=1.41291 t=787
+mu4 qian2 	目前	c=5 d=1.46467 t=787
+na4 ge5 	那個	c=0 d=0.0913931 t=787
+ne5 ge4 	呢個	c=0 d=0.0111917 t=787
+nei4 	內	c=3 d=0.923994 t=787
+neng2 	能	c=1 d=0.927743 t=787
+ni3 he2 	擬合	c=5 d=2.33543 t=787
+ni3 ne5 ge4 	你呢個	c=1 d=0.923116 t=787
+nian2 	年	c=3 d=1.35761 t=787
+pai2 cha2 	排查	c=1 d=0.158025 t=787
+pao3 liang4 	跑量	c=3 d=1.44264 t=787
+pei4 he2 	配合	c=1 d=0.241714 t=787
+pei4 zhi4 	配置	c=1 d=1 t=787
+pian1 cha1 	偏差	c=4 d=1.49634 t=787
+pian1 hao4 	偏好	c=1 d=0.211189 t=787
+pin1 xie3 	拼寫	c=1 d=0.955997 t=787
+pin1 yin1 	拼音	c=0 d=0.0985112 t=787
+qi2 shi2 	其實	c=1 d=0.321422 t=787
+qi2 ta1 	其他	c=1 d=0.15259 t=787
+qi2 zhong1 	其中	c=2 d=1.89137 t=787
+qi3 jian4 	起見	c=1 d=0.477114 t=787
+qian1 yi2 	遷移	c=1 d=0.251579 t=787
+qing2 kuang4 	情況	c=3 d=1.17946 t=787
+qing3 qiu2 	請求	c=1 d=0.733447 t=787
+qu1 fen1 	區分	c=1 d=0.115325 t=787
+qu1 xian4 	曲線	c=1 d=0.311923 t=787
+qu1 yu4 	區域	c=1 d=0.458406 t=787
+qu3 	取	c=2 d=0.672733 t=787
+quan2 mian4 	全面	c=1 d=0.232236 t=787
+quan2 yue4 	全月	c=1 d=0.265803 t=787
+que4 ren4 	確認	c=1 d=0.308819 t=787
+ren2 	人	c=0 d=0.0499074 t=787
+ren2 bi3 jiao4 da4 	人比較大	c=1 d=0.501576 t=787
+reng2 	仍	c=1 d=0.229925 t=787
+ri4 chang2 	日常	c=2 d=0.794534 t=787
+ri4 li4 	日曆	c=1 d=0.740818 t=787
+rong3 yu2 	冗餘	c=2 d=0.519976 t=787
+ru2 guo3 	如果	c=1 d=0.318224 t=787
+ru2 wu2 	如無	c=1 d=0.292293 t=787
+san1 xian4 	三線	c=2 d=0.57198 t=787
+se4 hei1 	塞黑	c=0 d=0.0208045 t=787
+se4 hei1 zhi2 	塞黑值	c=1 d=0.209088 t=787
+shang4 	上	c=5 d=1.05204 t=787
+shang4 ban1 	上班	c=1 d=0.66365 t=787
+shang4 chuan2 	上傳	c=1 d=0.321422 t=787
+shang4 xian4 	上線	c=1 d=0.1764 t=787
+shang4 xian4 	上限	c=1 d=0.38868 t=787
+shao3 	少	c=2 d=1.09491 t=787
+she4 zhi4 	設置	c=6 d=1.54116 t=787
+sheng3 	省	c=1 d=0.941765 t=787
+sheng3 fen4 	省份	c=1 d=0.88692 t=787
+sheng4 yu2 	剩餘	c=5 d=1.93288 t=787
+shi1 bai4 	失敗	c=2 d=1.51593 t=787
+shi2 	時	c=3 d=1.48466 t=787
+shi2 chang2 	時長	c=7 d=1.90077 t=787
+shi2 ji4 	實際	c=1 d=0.239309 t=787
+shi2 jian1 	時間	c=1 d=0.168638 t=787
+shi2 jian1 duan4 	時間段	c=1 d=0.177284 t=787
+shi2 shi2 	實時	c=2 d=0.360838 t=787
+shi2 xian4 	實現	c=2 d=0.784033 t=787
+shi3 yong4 	使用	c=3 d=1.01079 t=787
+shi4 	是	c=3 d=0.980199 t=787
+shi4 bie2 	識別	c=1 d=0.287941 t=787
+shi4 fou3 	是否	c=1 d=0.310367 t=787
+shi4 he2 	適合	c=1 d=0.615697 t=787
+shi4 shi4 gui1 hua4 	是是規劃	c=1 d=0.178173 t=787
+shou1 yi4 	收益	c=2 d=0.396007 t=787
+shou3 ci4 	首次	c=1 d=0.360595 t=787
+shou3 dong4 	手動	c=1 d=0.373439 t=787
+shu1 ru4 	輸入	c=1 d=1 t=787
+shu3 di4 fa3 	屬地法	c=1 d=1 t=1
+shu4 	數	c=1 d=0.514274 t=787
+shu4 ju4 	數據	c=2 d=0.995012 t=787
+shu4 zhi2 	數值	c=1 d=0.444858 t=787
+shuang1 xian4 	雙線	c=1 d=0.247833 t=787
+shui3 ping2 	水平	c=1 d=0.316637 t=787
+shui3 ping2 xian4 	水平線	c=1 d=0.315058 t=787
+shui3 wei4 	水位	c=1 d=0.331211 t=787
+shuo1 	說	c=0 d=0.0120633 t=787
+shuo1 jian4 ji4 suan4 	說見計算	c=1 d=0.121238 t=787
+si1 lu4 	思路	c=1 d=0.431711 t=787
+suan4 fa3 	算法	c=1 d=0.33454 t=787
+suo1 jian3 	縮減	c=1 d=0.121846 t=787
+suo1 liang2 	縮量	c=1 d=0.771052 t=787
+suo3 	鎖	c=1 d=0.774916 t=787
+suo3 zai4 	所在	c=1 d=0.535261 t=787
+tai2 	抬	c=2 d=0.763379 t=787
+tan1 xin1 	貪心	c=1 d=0.279431 t=787
+ti2 gao1 	提高	c=1 d=0.244143 t=787
+tian1 	天	c=1 d=0.394554 t=787
+tian1 jia1 	添加	c=3 d=1.93605 t=787
+tian1 shu4 	天數	c=1 d=0.491644 t=787
+tiao2 	調	c=3 d=0.910336 t=787
+tiao2 gao1 	調高	c=1 d=0.166127 t=787
+tiao2 zheng3 	調整	c=8 d=1.13071 t=787
+tiao4 xian4 	跳線	c=1 d=0.272532 t=787
+tie1 he2 	貼合	c=2 d=1.1141 t=787
+tong1 guo4 	通過	c=2 d=0.262022 t=787
+tong2 bu4 	同步	c=1 d=0.985112 t=787
+tong2 shi2 	同時	c=1 d=0.519442 t=787
+tong3 yi1 	統一	c=0 d=0.0283654 t=787
+tong3 yi1 mo2 xing2 	統一模型	c=1 d=0.285076 t=787
+tu2 xing2 	圖形	c=1 d=0.115903 t=787
+wan2 cheng2 	完成	c=1 d=0.231078 t=787
+wang3 	網	c=3 d=0.733923 t=787
+wei2 	爲	c=4 d=1.39147 t=787
+wei4 	未	c=2 d=0.959459 t=787
+wen2 jian4 	文件	c=0 d=0.0790571 t=787
+wen3 ding4 	穩定	c=1 d=0.255381 t=787
+wen4 ti2 	問題	c=10 d=2.03916 t=787
+wen4 ti2 ji4 suan4 	問題計算	c=1 d=0.343009 t=787
+wo3 de5 	我的	c=1 d=0.106459 t=787
+wu2 	無	c=5 d=1.51993 t=787
+wu2 fa3 	無法	c=4 d=1.36213 t=787
+wu3 jie2 	五節	c=1 d=0.187308 t=787
+wu4 cha1 	誤差	c=1 d=0.522046 t=787
+xi1 wang4 	希望	c=0 d=0.0913931 t=787
+xi1 wang4 na4 ge5 	希望那個	c=1 d=0.918512 t=787
+xi4 hua4 	細化	c=1 d=0.20089 t=787
+xi4 tong3 	系統	c=1 d=0.767206 t=787
+xia4 	下	c=0 d=0.0767206 t=787
+xia4 xian4 	下限	c=1 d=0.390628 t=787
+xia4 zai3 	下載	c=1 d=0.960789 t=787
+xian1 	先	c=0 d=0.0410656 t=787
+xian4 	線	c=22 d=7.2477 t=787
+xian4 	縣	c=1 d=0.304221 t=787
+xian4 shang4 	線上	c=1 d=0.621885 t=787
+xian4 xing4 	線性	c=6 d=3.16126 t=787
+xian4 you3 	現有	c=1 d=0.404542 t=787
+xiang1 dui4 	相對	c=1 d=0.895834 t=787
+xiang1 guan1 	相關	c=1 d=0.540641 t=787
+xiao1 hao4 	消耗	c=2 d=0.535677 t=787
+xiao3 	小	c=1 d=0.480551 t=787
+xiao4 lv4 	效率	c=1 d=0.246597 t=787
+xie3 cuo4 	寫錯	c=1 d=0.111359 t=787
+xin1 zeng1 	新增	c=1 d=0.364219 t=787
+xing2 wei2 	行爲	c=2 d=1.58522 t=787
+xing4 	姓	c=1 d=0.289384 t=787
+xing4 	性	c=0 d=0.0440432 t=787
+xiu1 	休	c=1 d=0.694197 t=787
+xiu1 fu4 	修復	c=0 d=0.0377833 t=787
+xiu1 jia4 	休假	c=1 d=0.666977 t=787
+xiu1 zheng1 	修正	c=1 d=0.108067 t=787
+xu1 qiu2 	需求	c=1 d=0.14808 t=787
+xu1 qiu2 liang2 	需求量	c=1 d=0.235746 t=787
+xu1 yao1 	需要	c=6 d=2.68991 t=787
+xuan3 dian3 	選點	c=1 d=0.120032 t=787
+xuan3 ding4 	選定	c=1 d=0.122456 t=787
+xuan3 yong4 	選用	c=2 d=1.32745 t=787
+xue2 xi2 	學習	c=1 d=0.951229 t=787
+ya5 	呀	c=0 d=0.0104874 t=787
+ye3 zuo4 xia4 	也做下	c=1 d=0.211189 t=787
+yi1 ci4 	一次	c=1 d=0.657047 t=787
+yi2 dong4 	移動	c=1 d=0.548812 t=787
+yi2 ge4 	一個	c=1 d=0.680451 t=787
+yi3 	已	c=4 d=1.47596 t=787
+yi3 an1 zhuang1 	已安裝	c=1 d=0.856415 t=787
+yi3 xiu1 fu4 	已修復	c=1 d=0.22091 t=787
+yi4 chang2 	異常	c=4 d=1.50031 t=787
+yi4 yi4 	意義	c=1 d=0.315058 t=787
+yin1 li4 	陰曆	c=2 d=1.39895 t=787
+yin1 wei4 	因爲	c=1 d=0.384812 t=787
+yin3 ru4 	引入	c=1 d=0.392586 t=787
+yong4 	用	c=1 d=0.509156 t=787
+yong4 dao4 	用到	c=1 d=0.927743 t=787
+you1 hua4 	優化	c=1 d=0.349938 t=787
+you1 xian1 	優先	c=3 d=0.606531 t=787
+you1 xian1 ji2 	優先級	c=3 d=0.776569 t=787
+you2 yu2 	由於	c=1 d=0.358796 t=787
+you3 	有	c=4 d=0.934713 t=787
+you4 	又	c=1 d=0.748264 t=787
+yu2 	於	c=1 d=0.565525 t=787
+yu3 	與	c=1 d=0.199888 t=787
+yu3 xiu1 fu4 	與修復	c=1 d=0.158817 t=787
+yu3 yin1 	語音	c=1 d=0.965605 t=787
+yu4 	域	c=0 d=0.0548812 t=787
+yu4 ming2 	域名	c=1 d=0.214381 t=787
+yu4 qi2 	預期	c=1 d=0.242926 t=787
+yuan2 	元	c=0 d=0.0118245 t=787
+yuan2 	源	c=1 d=0.625002 t=787
+yuan2 mo2 xing2 	元模型	c=1 d=0.118837 t=787
+yuan2 ze2 	原則	c=1 d=0.449329 t=787
+yue1 	約	c=1 d=0.268474 t=787
+yue1 shu4 	約束	c=4 d=1.8068 t=787
+yue4 	月	c=6 d=2.06931 t=787
+yue4 chu1 	月初	c=6 d=1.09561 t=787
+yue4 di3 	月底	c=1 d=0.379083 t=787
+yue4 zhong1 	月中	c=1 d=0.275271 t=787
+yun3 xu3 	允許	c=3 d=0.75256 t=787
+yun4 suan4 	運算	c=3 d=1.32788 t=787
+yun4 xing2 	運行	c=4 d=1.00249 t=787
+zai4 	再	c=1 d=0.628135 t=787
+zai4 	在	c=7 d=2.22218 t=787
+zan4 wei4 	暫未	c=2 d=0.59666 t=787
+zeng1 	增	c=1 d=0.173774 t=787
+zhan4 	站	c=1 d=0.305746 t=787
+zhao3 dao4 	找到	c=1 d=0.790571 t=787
+zhao4 	兆	c=1 d=0.238115 t=787
+zhe4 ge5 	這個	c=2 d=0.648027 t=787
+zhe4 li3 	這裏	c=1 d=0.650509 t=787
+zhen1 ren2 	真人	c=1 d=0.970446 t=787
+zheng1 chang2 	正常	c=4 d=1.50022 t=787
+zheng3 ti3 	整體	c=1 d=0.852144 t=787
+zheng3 xing2 	整形	c=1 d=0.254107 t=787
+zhi1 chi2 	支持	c=1 d=0.647265 t=787
+zhi1 hou4 	之後	c=1 d=0.216536 t=787
+zhi1 jian1 	之間	c=1 d=0.298197 t=787
+zhi2 	值	c=4 d=1.49998 t=787
+zhi2 xing2 	執行	c=2 d=0.437416 t=787
+zhi3 ding4 	指定	c=1 d=0.831104 t=787
+zhi4 ding4 	制定	c=1 d=0.806541 t=787
+zhi4 hou4 	滯後	c=1 d=0.226502 t=787
+zhong1 duan1 	終端	c=1 d=0.117655 t=787
+zhou1 	周	c=1 d=0.715338 t=787
+zhu3 dong4 	主動	c=3 d=0.828079 t=787
+zhu3 yao1 shi4 	主要是	c=2 d=0.431104 t=787
+zhuan1 xian4 	專線	c=1 d=0.225373 t=787
+zhuan3 hua4 	轉化	c=1 d=0.585669 t=787
+zhuan3 huan4 	轉換	c=1 d=0.418952 t=787
+zhuang4 tai4 	狀態	c=1 d=0.752014 t=787
+zhun3 bei4 	準備	c=1 d=0.941765 t=787
+zhun3 que4 	準確	c=1 d=0.311923 t=787
+zi1 fei4 	資費	c=1 d=0.25924 t=787
+zi1 yuan2 	資源	c=1 d=0.302704 t=787
+zi4 dong4 hua4 	自動化	c=2 d=0.389074 t=787
+zi4 dong4 yun4 xing2 	自動運行	c=1 d=0.371577 t=787
+zi4 shi4 ying4 	自適應	c=2 d=0.790264 t=787
+zi4 zhi4 	自治	c=0 d=0.0548812 t=787
+zi4 zhi4 yu4 	自治域	c=1 d=0.551563 t=787
+zong3 	總	c=1 d=0.29523 t=787
+zui4 	最	c=0 d=0.0423162 t=787
+zui4 da4 	最大	c=3 d=1.08053 t=787
+zui4 di1 	最低	c=1 d=0.292293 t=787
+zui4 hou4 	最後	c=1 d=0.677057 t=787
+zui4 xiao3 	最小	c=0 d=0.0444858 t=787
+zui4 xiao3 bi3 li4 	最小比例	c=1 d=0.425283 t=787
+zui4 xiao3 bian4 dong4 	最小變動	c=1 d=0.447088 t=787
+zui4 xin1 	最新	c=1 d=0.634448 t=787
+zuo4 	做	c=1 d=0.343009 t=787

@@ -1,0 +1,31 @@
+#!/bin/bash
+#set -x
+
+cd /opt/src || exit
+
+if [ "${rime_for:-wsl}" == "windows" ] ; then
+    export rime_dir="$HOME/windows/AppData/Roaming/Rime/"
+else
+    export rime_frontend=fcitx5-rime
+    export rime_dir="$HOME/.local/share/fcitx5/rime"
+fi
+
+plum="/opt/src/plum/rime-install"
+
+if [ "$#" -eq 0 ]; then
+    $plum prelude
+    #$plum essay
+    $plum luna-pinyin
+    $plum terra-pinyin
+    $plum emoji:customize:schema=luna_pinyin
+    $plum emoji:customize:schema=terra_pinyin
+    $plum felixonmars/fcitx5-pinyin-zhwiki
+    $plum lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans
+    $plum BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin
+    $plum BlindingDark/rime-easy-en:customize:schema=luna_pinyin
+    mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
+    cp -rf /opt/src/plum/package/rime/emoji/opencc/emoji* "$rime_dir"/opencc/
+    cp -rf /opt/src/plum/package/rime/emoji/emoji_suggestion.yaml "$rime_dir/"
+else
+    $plum "$@"
+fi

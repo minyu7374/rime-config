@@ -42,8 +42,8 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
+  - luna_pinyin
   - dicts/zhwiki
-  - dicts/luna_pinyin
   - dicts/luna_pinyin.sougou
   # - dicts/luna_pinyin.sougou.basic
   - dicts/luna_pinyin.popular

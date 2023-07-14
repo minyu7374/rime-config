@@ -124,9 +124,6 @@ patch:
     - name: ascii_mode
       reset: 0
       states: [ 中文, 西文 ]
-    - name: emoji_suggestion
-      reset: 1
-      states: [ "Emoji Yes", "Emoji No" ]
     - name: full_shape
       states: [ 半角, 全角 ]
     - name: simplification
@@ -141,7 +138,6 @@ patch:
     - script_translator
     - table_translator@custom_phrase
   engine/filters:
-    - simplifier@emoji_suggestion
     #- simplifier@zh_simp
     - simplifier
     - uniquifier
@@ -162,10 +158,6 @@ patch:
   #   - abc_segmentor
   #   - punct_segmentor
   #   - fallback_segmentor
-  emoji_suggestion:
-    opencc_config: emoji.json
-    option_name: emoji_suggestion
-    # tips: all
   reverse_lookup: {}
   
   punctuator:
@@ -202,10 +194,20 @@ patch:
     initial_quality: 1
   "engine/translators/@5": table_translator@custom_phrase
 
-  __include: easy_en:/patch
-  easy_en/initial_quality: -0.618
-  # Rx: lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans
-  __include: grammar:/hant
-  # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
-  __include: lua_select_character:/patch
-  # }
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
+# Rx: lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans {
+  - patch/+:
+      __include: grammar:/hans
+# }
+# Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: lua_select_character:/patch
+# }
+# Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: easy_en:/patch
+# }

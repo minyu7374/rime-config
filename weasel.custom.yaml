@@ -1,9 +1,9 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.14.3
+  distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Jul  7 13:19:28 2023"
-  rime_version: 1.5.3
+  modified_time: "Fri Jul 14 13:42:52 2023"
+  rime_version: 1.8.5
 patch:
   "app_options/findandrunrobot.exe":
     ascii_mode: true

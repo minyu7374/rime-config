@@ -43,8 +43,9 @@ use_preset_vocabulary: true
 
 import_tables:
   - dicts/zhwiki
-  # - dicts/luna_pinyin.sougou
-  - dicts/luna_pinyin.sougou.basic
+  - dicts/luna_pinyin
+  - dicts/luna_pinyin.sougou
+  # - dicts/luna_pinyin.sougou.basic
   - dicts/luna_pinyin.popular
   - dicts/luna_pinyin.computer
   - dicts/luna_pinyin.xiandaihanyu

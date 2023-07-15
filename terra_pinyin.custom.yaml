@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 patch:
+  "translator/dictionary": terra_pinyin.extended
   engine/translators:
     - punct_translator
     - table_translator@custom_phrase
@@ -24,7 +25,19 @@ patch:
   punctuator/import_preset: symbols
   recognizer/patterns/punct: '^/([0-9]0?|[A-Za-z]+)$'
 __patch:
+# Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {
+  - patch/+:
+      __include: easy_en:/patch_terra_pinyin
+# }
+# Rx: BlindingDark/rime-lua-select-character:customize:schema=terra_pinyin {
+  - patch/+:
+      __include: lua_select_character:/patch
+# }
 # Rx: emoji:customize:schema=terra_pinyin {
   - patch/+:
       __include: emoji_suggestion:/patch
+# }
+# Rx: lotem/rime-octagram-data:customize:schema=terra_pinyin,model=hans {
+  - patch/+:
+      __include: grammar:/hans
 # }

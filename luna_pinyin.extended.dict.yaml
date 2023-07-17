@@ -48,9 +48,10 @@ import_tables:
   - dicts/zhwiki
 
   # - dicts/luna_pinyin.sougou.basic
-  # - dicts/luna_pinyin.sougou.conprehensive
+  # - dicts/luna_pinyin.sougou.comprehensive
   - dicts/luna_pinyin.sougou
 
+  - dicts/luna_pinyin.comprehensive
   - dicts/luna_pinyin.xiandaihanyu_t
   - dicts/luna_pinyin.place
   - dicts/luna_pinyin.popular
@@ -59,7 +60,6 @@ import_tables:
   - dicts/luna_pinyin.extra_hanzi
   - dicts/luna_pinyin.basis
   - dicts/luna_pinyin.cnenhybird
-  - dicts/luna_pinyin.comprehensive
   - dicts/luna_pinyin.kaifa
   - dicts/luna_pinyin.mingxing
   - dicts/luna_pinyin.emoji

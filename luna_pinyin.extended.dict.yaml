@@ -53,16 +53,16 @@ import_tables:
 
   - dicts/luna_pinyin.comprehensive
   - dicts/luna_pinyin.xiandaihanyu_t
+  - dicts/luna_pinyin.chengyusuyu
+  - dicts/luna_pinyin.basis
   - dicts/luna_pinyin.place
   - dicts/luna_pinyin.popular
-  - dicts/luna_pinyin.chengyusuyu
   - dicts/luna_pinyin.cn_en
   - dicts/luna_pinyin.extra_hanzi
-  - dicts/luna_pinyin.basis
   - dicts/luna_pinyin.cnenhybird
   - dicts/luna_pinyin.kaifa
-  - dicts/luna_pinyin.mingxing
   - dicts/luna_pinyin.emoji
+  # - dicts/luna_pinyin.mingxing
 
   # 纯词汇
   - dicts/luna_pinyin.hanyu #汉语大词典，多为2字词。 2.2w
@@ -70,7 +70,6 @@ import_tables:
   - dicts/luna_pinyin.practical #挺全面的基本词库，含很丰富基本词条和组句语料，成语、俗语、诗词、人名词条不多。40w
   - dicts/luna_pinyin.computer
   - dicts/luna_pinyin.daily
-  - dicts/luna_pinyin.anime
   - dicts/luna_pinyin.classical
   - dicts/luna_pinyin.chat
   - dicts/luna_pinyin.biaoqing
@@ -84,6 +83,7 @@ import_tables:
   - dicts/luna_pinyin.music
   - dicts/luna_pinyin.name
   - dicts/luna_pinyin.net
+  # - dicts/luna_pinyin.anime
   # - dicts/luna_pinyin.game
   # - dicts/luna_pinyin.gd
   # - dicts/luna_pinyin.moba

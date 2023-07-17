@@ -21,7 +21,6 @@ import_tables:
   - dicts/luna_pinyin.practical #挺全面的基本词库，含很丰富基本词条和组句语料，成语、俗语、诗词、人名词条不多。40w
   - dicts/luna_pinyin.computer
   - dicts/luna_pinyin.daily
-  - dicts/luna_pinyin.anime
   - dicts/luna_pinyin.classical
   - dicts/luna_pinyin.chat
   - dicts/luna_pinyin.biaoqing
@@ -35,6 +34,7 @@ import_tables:
   - dicts/luna_pinyin.music
   - dicts/luna_pinyin.name
   - dicts/luna_pinyin.net
+  # - dicts/luna_pinyin.anime
   # - dicts/luna_pinyin.game
   # - dicts/luna_pinyin.gd
   # - dicts/luna_pinyin.moba

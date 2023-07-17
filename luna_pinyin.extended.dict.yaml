@@ -43,35 +43,50 @@ use_preset_vocabulary: true
 
 import_tables:
   - luna_pinyin
+
+  # 带注音的
   - dicts/zhwiki
-  - dicts/luna_pinyin.sougou
+
   # - dicts/luna_pinyin.sougou.basic
-  - dicts/luna_pinyin.popular
-  - dicts/luna_pinyin.computer
-  - dicts/luna_pinyin.xiandaihanyu
-  - dicts/luna_pinyin.chengyusuyu
-  - dicts/luna_pinyin.kaifa
-  - dicts/luna_pinyin.chat
+  # - dicts/luna_pinyin.sougou.conprehensive
+  - dicts/luna_pinyin.sougou
+
+  - dicts/luna_pinyin.xiandaihanyu_t
   - dicts/luna_pinyin.place
-  - dicts/luna_pinyin.shopping
-  - dicts/luna_pinyin.website
-  - dicts/luna_pinyin.anime
-  - dicts/luna_pinyin.movie
-  - dicts/luna_pinyin.history
-  - dicts/luna_pinyin.classical
-  - dicts/luna_pinyin.hanyu
-  - dicts/luna_pinyin.biaoqing
-  - dicts/luna_pinyin.idiom
-  - dicts/luna_pinyin.daily
-  - dicts/luna_pinyin.diet
-  - dicts/luna_pinyin.basis
-  - dicts/luna_pinyin.name
+  - dicts/luna_pinyin.popular
+  - dicts/luna_pinyin.chengyusuyu
   - dicts/luna_pinyin.cn_en
-  - dicts/luna_pinyin.practical
-  - dicts/luna_pinyin.poetry
+  - dicts/luna_pinyin.extra_hanzi
+  - dicts/luna_pinyin.basis
+  - dicts/luna_pinyin.cnenhybird
+  - dicts/luna_pinyin.comprehensive
+  - dicts/luna_pinyin.kaifa
+  - dicts/luna_pinyin.mingxing
+  - dicts/luna_pinyin.emoji
+
+  # 纯词汇
+  - dicts/luna_pinyin.hanyu #汉语大词典，多为2字词。 2.2w
+  - dicts/luna_pinyin.poetry #常用诗词，来源于唐宋诗词、千家詩、花間集、楚辭、詩經。 2.6w
+  - dicts/luna_pinyin.practical #挺全面的基本词库，含很丰富基本词条和组句语料，成语、俗语、诗词、人名词条不多。40w
+  - dicts/luna_pinyin.computer
+  - dicts/luna_pinyin.daily
+  - dicts/luna_pinyin.anime
+  - dicts/luna_pinyin.classical
+  - dicts/luna_pinyin.chat
+  - dicts/luna_pinyin.biaoqing
+  - dicts/luna_pinyin.shopping
+  - dicts/luna_pinyin.diet
+  - dicts/luna_pinyin.history
+  - dicts/luna_pinyin.idiom
+  - dicts/luna_pinyin.user
+  - dicts/luna_pinyin.website
+  - dicts/luna_pinyin.movie
   - dicts/luna_pinyin.music
+  - dicts/luna_pinyin.name
   - dicts/luna_pinyin.net
-  # - dicts/luna_pinyin.gd
   # - dicts/luna_pinyin.game
+  # - dicts/luna_pinyin.gd
   # - dicts/luna_pinyin.moba
+
+  - dicts/correction_t #《第一批异形词整理表》与《第二批异形词整理表（草案）》收录的正式词汇
 ...

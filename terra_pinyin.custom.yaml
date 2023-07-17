@@ -3,6 +3,8 @@
 
 patch:
   "translator/dictionary": terra_pinyin.extended
+  'translator/preedit_format/@17':
+    xform/([bjqxnl])l/$1iang/ #支持biang
   engine/translators:
     - punct_translator
     - table_translator@custom_phrase

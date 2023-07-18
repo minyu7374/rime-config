@@ -2,30 +2,21 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Jul 14 13:42:52 2023"
+  modified_time: "Tue Jul 18 16:25:19 2023"
   rime_version: 1.8.5
 patch:
-  "app_options/findandrunrobot.exe":
-    ascii_mode: true
-    "style/color_scheme": win10
-  "app_options/gvim.exe":
-    ascii_mode: true
-  "app_options/tcmatch64.exe":
-    ascii_mode: true
-  "app_options/totalcmd64.exe":
-    ascii_mode: true
-  "style/color_scheme": steam
-  #"style/display_tray_icon": true
+  "menu/page_size": 8
+  "style/color_scheme": solarized_rock
   "style/font_face": "Microsoft YaHei"
   "style/font_point": 13
-  "style/horizontal": true
+  "style/horizontal": false
   "style/inline_preedit": true
   "style/layout/border": 0
   "style/layout/border_width": 0
-  "style/layout/candidate_spacing": 24
-  "style/layout/hilite_padding": 12
-  "style/layout/hilite_spacing": 3
-  "style/layout/margin_x": 12
-  "style/layout/margin_y": 12
+  "style/layout/candidate_spacing": 10
+  "style/layout/hilite_padding": 6
+  "style/layout/hilite_spacing": 2
+  "style/layout/margin_x": 6
+  "style/layout/margin_y": 6
   "style/layout/round_corner": 0
-  "style/layout/spacing": 10
+  "style/layout/spacing": 4

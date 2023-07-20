@@ -13,6 +13,13 @@ patch:
     - simplification
     - zh_hans
     - emoji_suggestion
+  # vim/emacs使用英文模式,尤其是emacs，中文输入直接使用liberime
+  app_options/emacs:
+    ascii_mode: true
+  app_options/vim:
+    ascii_mode: true
+  app_options/nvim:
+    ascii_mode: true
   menu/page_size: 8
   style/horizontal: false
   style/inline_preedit: true

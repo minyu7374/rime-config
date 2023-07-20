@@ -5,6 +5,12 @@ customization:
   modified_time: "Tue Jul 18 16:25:19 2023"
   rime_version: 1.8.5
 patch:
+  # WSL使用英文模式，需要使用linux自己的输入法
+  "app_options/wslg.exe":
+    ascii_mode: true
+  "app_options/WindowsTerminal.exe":
+    ascii_mode: true
+
   "menu/page_size": 8
   "style/color_scheme": solarized_rock
   "style/font_face": "Microsoft YaHei"

@@ -132,8 +132,8 @@ patch:
     - name: ascii_punct
       states: [ 。，, ．， ]
   engine/translators:
-    # - lua_translator@date_translator
-    # - lua_translator@week_translator
+    - lua_translator@date_translator
+    - lua_translator@week_translator
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
@@ -198,6 +198,7 @@ __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin {
   - patch/+:
       __include: easy_en:/patch
+      easy_en/initial_quality: -0.01
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
   - patch/+:

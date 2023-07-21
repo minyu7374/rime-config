@@ -132,11 +132,11 @@ patch:
     - name: ascii_punct
       states: [ 。，, ．， ]
   engine/translators:
-    - lua_translator@date_translator
-    - lua_translator@time_translator
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
+    - lua_translator@date_translator
+    - lua_translator@time_translator
   engine/filters:
     #- simplifier@zh_simp
     - simplifier

@@ -6,12 +6,12 @@ patch:
   'translator/preedit_format/@17':
     xform/([bjqxnl])l/$1iang/ #支持biang
   engine/translators:
+    - lua_translator@date_translator
+    - lua_translator@time_translator
     - punct_translator
     - table_translator@custom_phrase
     - reverse_lookup_translator
     - script_translator
-    - lua_translator@date_translator
-    - lua_translator@time_translator
   switches:
     - name: ascii_mode
       reset: 0

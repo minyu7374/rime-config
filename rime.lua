@@ -46,6 +46,11 @@ date_translator = require("date")
 -- 详见 `lua/time.lua`
 time_translator = require("time")
 
+-- plum 目前还不能自动引入 lua 脚本，所以在使用以词定字之前还需要手动在 rime 配置目录下的 rime.lua 文件中添加以下
+-- select_character_processor: 以词定字
+-- 详见 `lua/select_character.lua`
+select_character_processor = require("select_character")
+
 -- II. filters:
 
 -- charset_filter: 滤除含 CJK 扩展汉字的候选项

@@ -29,6 +29,16 @@ if [ "$#" -eq 0 ]; then
     $plum emoji:customize:schema=terra_pinyin
     $plum lotem/rime-octagram-data:customize:schema=terra_pinyin,model=hans
 
+    $plum BlindingDark/rime-easy-en:customize:schema=double_pinyin
+    $plum BlindingDark/rime-lua-select-character:customize:schema=double_pinyin
+    $plum emoji:customize:schema=double_pinyin
+    $plum lotem/rime-octagram-data:customize:schema=double_pinyin,model=hans
+
+    $plum BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy
+    $plum BlindingDark/rime-lua-select-character:customize:schema=double_pinyin_flypy
+    $plum emoji:customize:schema=double_pinyin_flypy
+    $plum lotem/rime-octagram-data:customize:schema=double_pinyin_flypy,model=hans
+
     mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
     cp -rf /opt/src/plum/package/rime/emoji/opencc/emoji* "$rime_dir"/opencc/
     cp -rf /opt/src/plum/package/rime/emoji/emoji_suggestion.yaml "$rime_dir/"

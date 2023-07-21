@@ -39,10 +39,11 @@ patch:
   "engine/translators/@5": table_translator@custom_phrase
 
 __patch:
+  - patch/+:
+      easy_en/initial_quality: -0.01
 # Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {
   - patch/+:
       __include: easy_en:/patch_terra_pinyin
-      easy_en/initial_quality: -0.01
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=terra_pinyin {
   - patch/+:

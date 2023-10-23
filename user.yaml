@@ -1,10 +1,12 @@
 var:
-  last_build_time: 1689950985
+  last_build_time: 1697984580
   option:
     emoji_suggestion: false
-  previously_selected_schema: luna_pinyin
+  previously_selected_schema: luna_pinyin_simp
   schema_access_time:
     easy_en: 1689314869
     emoji: 1689314796
-    luna_pinyin: 1689951029
+    luna_pinyin: 1697984853
+    luna_pinyin_fluency: 1697984642
+    luna_pinyin_simp: 1697984875
     terra_pinyin: 1689950785

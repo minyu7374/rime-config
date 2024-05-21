@@ -28,7 +28,7 @@ patch:
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
     switch_key:
-      Shift_L: commit_code
+      Shift_L: inline_ascii
       Shift_R: noop
       Control_L: noop
       Control_R: noop

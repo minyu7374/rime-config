@@ -3,8 +3,6 @@
 
 patch:
   "translator/dictionary": terra_pinyin.extended
-  'translator/preedit_format/@17':
-    xform/([bjqxnl])l/$1iang/ #支持biang
   "speller/algebra/@before 1": xform/^([b-df-hj-np-tv-z])$/$1_/
   "speller/algebra/@before 2": derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
   "speller/algebra/@before 3": derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
@@ -40,7 +38,6 @@ patch:
     enable_completion: false
     enable_sentence: false
     initial_quality: 1
-  "engine/translators/@5": table_translator@custom_phrase
 
 __patch:
   - patch/+:

@@ -131,7 +131,11 @@ patch:
       states: [ 漢字, 汉字 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+    # - name: prediction
+      # states: [ 關閉預測, 開啓預測 ]
+      # reset: 1
   engine/translators:
+    # - predict_translator
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
@@ -144,6 +148,7 @@ patch:
     # - charset_filter@gbk
     # - single_char_filter
   engine/processors:
+    # - predictor
     - ascii_composer
     - recognizer
     - key_binder
@@ -193,6 +198,19 @@ patch:
     enable_sentence: false
     initial_quality: 1
   "engine/translators/@5": table_translator@custom_phrase
+
+  # 预测词汇 (当前仅支持繁体，且还没有好的联想词库)
+  # predictor:
+    # # predict db file in user directory/shared directory
+    # # default to 'predict.db'
+    # db: predict.db
+    # # max prediction candidates every time
+    # # default to 0, which means showing all candidates
+    # # you may set it the same with page_size so that period doesn't trigger next page
+    # max_candidates: 5
+    # # max continuous prediction times
+    # # default to 0, which means no limitation
+    # max_iterations: 1
 
 __patch:
   - patch/+:

@@ -44,6 +44,12 @@ use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
 
+  # fcitx5-pinyin-sougou-baidu(词汇+注音+词频)
+  # - /usr/share/rime-data/sougou
+  # - /usr/share/rime-data/baidu
+  - dicts/sougou
+  - dicts/baidu
+
   # 带注音的
   - dicts/zhwiki
 

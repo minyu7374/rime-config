@@ -1,0 +1,5 @@
+build/
+sync/
+*.userdb/
+predict.db
+installation.yaml

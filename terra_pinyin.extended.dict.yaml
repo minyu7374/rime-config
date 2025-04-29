@@ -12,8 +12,34 @@ use_preset_vocabulary: true
 import_tables:
   - terra_pinyin
 
-  # 带注音的
+  # fcitx5-pinyin-sougou-baidu(词汇+注音+词频)
+  # - /usr/share/rime-data/sougou
+  # - /usr/share/rime-data/baidu
+  - dicts/sougou
+  - dicts/baidu
+
+  # 注音有音调
   - dicts/terra_pinyin.xiandaihanyu_t
+
+  # 带注音的(无音调)
+  - dicts/zhwiki
+
+  # - dicts/luna_pinyin.sougou.basic
+  # - dicts/luna_pinyin.sougou.comprehensive
+  # - dicts/luna_pinyin.sougou
+
+  # - dicts/luna_pinyin.comprehensive
+  - dicts/luna_pinyin.xiandaihanyu_t
+  # - dicts/luna_pinyin.chengyusuyu
+  # - dicts/luna_pinyin.basis
+  - dicts/luna_pinyin.place
+  # - dicts/luna_pinyin.popular
+  # - dicts/luna_pinyin.cn_en
+  # - dicts/luna_pinyin.extra_hanzi
+  # - dicts/luna_pinyin.cnenhybird
+  - dicts/luna_pinyin.kaifa
+  # - dicts/luna_pinyin.emoji
+  # # - dicts/luna_pinyin.mingxing
 
   # 纯词汇
   - dicts/luna_pinyin.hanyu #汉语大词典，多为2字词。 2.2w

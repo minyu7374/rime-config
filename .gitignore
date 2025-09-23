@@ -1,0 +1,10 @@
+build/
+sync/
+installation.yaml
+user.yaml
+*.userdb.txt
+*.userdb/
+predict.db
+dicts/sougou.dict.yaml
+dicts/baidu.dict.yaml
+dicts/zhwiki.dict.yaml

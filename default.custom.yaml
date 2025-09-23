@@ -1,0 +1,19 @@
+patch:
+  schema_list:
+    - schema: luna_pinyin # 全拼
+    - schema: terra_pinyin # 地球拼音
+    - schema: easy_en # 英文
+    # - schema: double_pinyin # 自然码
+    - schema: double_pinyin_flypy # 小鹤双拼
+    - schema: luna_pinyin_simp
+    - schema: luna_pinyin_fluency
+
+  # vim/emacs使用英文模式,尤其是emacs，中文输入直接使用liberime
+  app_options/emacs:
+    ascii_mode: true
+  app_options/vim:
+    ascii_mode: true
+  app_options/nvim:
+    ascii_mode: true
+
+  menu/page_size: 7

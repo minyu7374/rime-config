@@ -1,0 +1,27 @@
+# Rime custom settings
+# encoding: utf-8
+
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "英文"]
+    - name: full_shape
+      reset: 0
+      states: ["半角", "全角"]
+    - name: zh_simp 
+      reset: 1
+      states: ["繁體", "简体"]
+    - name: chinese_english
+      reset: 0
+      states: ["翻译关", "翻译开"]
+    - name: ascii_punct
+      reset: 0
+      states: ["。，", "．，"]
+    - name: emoji_suggestion
+      reset: 1
+      states: ["🈚︎", "🈶️"]
+
+  key_binder/bindings/+:
+    # 兼容eamcs中的按键布局，继承luna_pinyin.custom时需要调回来
+    - {accept: "Control+dollar", toggle: zh_simp, when: always}

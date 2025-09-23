@@ -1,0 +1,29 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: terra_pinyin.extended
+version: "2025.09.23"
+sort: by_weight  #字典初始排序，可選original或by_weight
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 7
+min_phrase_weight: 100
+
+import_tables:
+  - terra_pinyin
+  - wanxiang
+
+  # 字表
+  # - dicts/8105
+
+  # fcitx5-pinyin-sougou-baidu(词汇+注音+词频)
+  # 自定义脚本去重：rime_dedup /usr/share/rime-data/sougou.dict.yaml dicts/sougou.dict.yaml
+  # - /usr/share/rime-data/sougou
+  # - /usr/share/rime-data/baidu
+  # - dicts/sougou
+  # - dicts/baidu
+
+  # 注音有音调
+  # - dicts/terra_pinyin.xiandaihanyu_t
+...

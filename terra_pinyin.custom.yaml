@@ -2,8 +2,7 @@
 # encoding: utf-8
 
 patch:
-  schema/dependencies/+:
-    - radical_pinyin
+  __include: common:/patch
 
   translator/dictionary: terra_pinyin.extended
   # translator/dictionary: wanxiang
@@ -87,73 +86,6 @@ patch:
     - 'derive/^(.*)-$/$1;/'
     - 'derive/^(.*)<$/$1,/'
     - 'derive/^(.*)\\$/$1./'
-
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: [ 中文, 英文 ]
-    - name: full_shape
-      reset: 0
-      states: [ 半角, 全角 ]
-    - name: simplification
-      reset: 1
-      states: [ 繁體, 简体 ]
-    - name: chinese_english
-      reset: 0
-      states: [ 翻译关, 翻译开 ]
-    - name: ascii_punct
-      reset: 0
-      states: [ 。，, ．， ]
-
-  engine/translators/+:
-    - lua_translator@*shijian              # 农历、日期、节气、节日、时间、周、问候模板等等
-    - lua_translator@*super_calculator     # 超级计算器，Lua内查看高级用法
-
-  engine/filters/+:
-    - simplifier@chinese_english
-
-  punctuator/import_preset: symbols
-
-  recognizer/patterns/punct: '^/([0-9]0?|[A-Za-z]+)$'
-  recognizer/patterns/reverse_lookup: "u[a-z;]*?$"        # 使用reverse_lookup_translator挂载rime-radical-pinyin
-  recognizer/patterns/lunar: "^N[0-9]{1,8}"               # N 作为触发前缀，响应 lua_translator@shijian，公历转农历，输入 N20250515 得到「二〇二五年五月十五」
-  recognizer/patterns/calculator: "^V.*$"                 # V 作为触发前缀，计算器功能引导
-
-  reverse_lookup:
-    dictionary: radical_pinyin
-    enable_completion: true
-    prefix: "u"
-    tips: "〔拆〕"
-
-  #中文转英文
-  chinese_english:
-    option_name: chinese_english
-    opencc_config: chinese_english.json
-    tips: char
-    comment_format:
-      - "xform/-/ /"
-
-  key_binder/bindings/+:
-    - {accept: "Control+Shift+5", toggle: chinese_english, when: always}
-    - {accept: "Control+Shift+6", toggle: ascii_punct, when: always}
-    - {accept: "Control+Shift+7", toggle: emoji_suggestion, when: always}
-    - {accept: "Control+Shift+percent", toggle: chinese_english, when: always}
-    - {accept: "Control+Shift+asciicircum", toggle: ascii_punct, when: always}
-    - {accept: "Control+Shift+ampersand", toggle: emoji_suggestion, when: always}
-    # 兼容eamcs中的按键布局
-    - {accept: "Control+exclam", select: .next, when: always}
-    - {accept: "Control+at", toggle: ascii_mode, when: always}
-    - {accept: "Control+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+dollar", toggle: simplification, when: always}
-    - {accept: "Control+percent", toggle: chinese_english, when: always}
-    - {accept: "Control+asciicircum", toggle: ascii_punct, when: always}
-    - {accept: "Control+ampersand", toggle: emoji_suggestion, when: always}
-
-  key_binder/shijian_keys: ["/"]
-  calculator/trigger: "V"
-
-  # easy_en/initial_quality: 0
-  easy_en/enable_sentence: false
 
 __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {

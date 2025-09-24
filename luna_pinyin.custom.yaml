@@ -17,6 +17,17 @@ patch:
   # translator/dictionary: wanxiang
   # translator/enable_correction: true    #拼写纠错
   speller/algebra:
+    #-- luna_pinyin 原本启用的规则放后面
+    __patch:
+      - preprocessing_algebra
+      - pinyin:/zh_z_bufen
+      - pinyin:/hu_f_buhun
+      - pinyin:/abbreviation
+      - pinyin:/spelling_correction
+      - pinyin:/key_correction
+
+preprocessing_algebra:
+  __append:
     #-- 万象词库迁移放在最前方: https://github.com/amzxyz/RIME-LMDG/wiki/%E5%B0%86%E4%B8%87%E8%B1%A1%E8%AF%8D%E5%BA%93%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
     - xform/^ng$/eng/
@@ -25,16 +36,7 @@ patch:
     - xform/ḿ/m/
 
     #--自定义规则
-    - xform/^([b-df-np-z])$/$1_/  # 单独的声母输入（b、t 等）需要补全一个占位符 _，避免和完整音节混淆。
-
-  speller/algebra/+:
-    #-- luna_pinyin 原有规则
-    __patch:
-      - pinyin:/zh_z_bufen
-      - pinyin:/hu_f_buhun
-      - pinyin:/abbreviation
-      - pinyin:/spelling_correction
-      - pinyin:/key_correction
+    - xform/^([b-df-np-tv-z])$/$1_/  # 单独的声母输入（b、t 等）需要补全一个占位符 _，避免和完整音节混淆。
 
 __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin {

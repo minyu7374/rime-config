@@ -4,8 +4,8 @@
 patch:
   __include: common:/patch
 
-  translator/dictionary: terra_pinyin.extended
-  # translator/dictionary: wanxiang
+  # translator/dictionary: terra_pinyin.extended
+  translator/dictionary: wanxiang
   speller/algebra:
     #-- pinyin.yaml定义的模糊音处理加进中间
     __patch:

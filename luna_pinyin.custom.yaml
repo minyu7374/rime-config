@@ -13,8 +13,8 @@ patch:
   __include: common:/patch
 
   # 載入朙月拼音擴充詞庫
-  translator/dictionary: luna_pinyin.extended
-  # translator/dictionary: wanxiang
+  # translator/dictionary: luna_pinyin.extended
+  translator/dictionary: wanxiang
   # translator/enable_correction: true    #拼写纠错
   speller/algebra:
     #-- luna_pinyin 原本启用的规则放后面

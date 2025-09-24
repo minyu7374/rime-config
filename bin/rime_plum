@@ -25,9 +25,9 @@ if [ "$#" -eq 0 ]; then
     $plum double-pinyin
     $plum BlindingDark/rime-easy-en
     $plum emoji
-    $plum lotem/rime-octagram-data lotem/rime-octagram-data@hans #lotem/rime-octagram-data@hant
+    $plum lotem/rime-octagram-data lotem/rime-octagram-data@hans # lotem/rime-octagram-data@hant
     $plum mirtlecn/rime-radical-pinyin@master # 部件拆字
-    $plum mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin mirtlecn/rime-radical-pinyin@master:config:schema=flypy 
+    $plum mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin mirtlecn/rime-radical-pinyin@master:config:schema=flypy
 
     for schema in luna_pinyin terra_pinyin double_pinyin double_pinyin_flypy; do
         $plum BlindingDark/rime-easy-en:customize:schema=$schema
@@ -49,9 +49,10 @@ if [ "$#" -eq 0 ]; then
     mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
     cd /opt/src/tool/RIME-LMDG && git pull &&
         cp -f dicts/* "$rime_dir"/dicts
-    sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu
+    sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu 2>/dev/null
     for name in sougou baidu; do
-        rime_dedup /usr/share/rime-data/$name.dict.yaml "$rime_dir"/dicts/$name.dict.yaml
+        [ -f "/usr/share/rime-data/$name.dict.yaml" ] &&
+            rime_dedup /usr/share/rime-data/$name.dict.yaml "$rime_dir"/dicts/$name.dict.yaml
     done
 
 else

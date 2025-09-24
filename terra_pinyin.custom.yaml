@@ -2,10 +2,8 @@
 # encoding: utf-8
 
 patch:
-  __include: common:/patch
-
-  # translator/dictionary: terra_pinyin.extended
-  translator/dictionary: wanxiang
+  translator/dictionary: terra_pinyin.extended
+  # translator/dictionary: wanxiang
   speller/algebra:
     #-- pinyin.yaml定义的模糊音处理加进中间
     __patch:
@@ -54,7 +52,7 @@ preprocessing_algebra:
     - xform/^n(\d)/en$1/
 
     #-- 自定义规则
-    - xform/^([b-df-np-z])$/$1_/  # 单独的声母输入需要补全一个占位符 _，避免和完整音节混淆。
+    - xform/^([b-df-np-tv-z])$/$1_/  # 单独的声母输入（b、t 等）需要补全一个占位符 _，避免和完整音节混淆。
 
 terra_orig_algebra:
   #-- terra_pinyin 原有规则
@@ -89,6 +87,10 @@ __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {
   - patch/+:
       __include: easy_en:/patch_terra_pinyin
+# }
+# { 自定义基础统一配置，为保证alphabet正确添加部件拆字辅码引导键，需要在easy_en之后加载
+  - patch/+:
+      __include: common:/patch_terra_pinyin
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=terra_pinyin {
   - patch/+:

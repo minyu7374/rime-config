@@ -10,8 +10,6 @@
 #
 
 patch: 
-  __include: common:/patch
-
   # 載入朙月拼音擴充詞庫
   # translator/dictionary: luna_pinyin.extended
   translator/dictionary: wanxiang
@@ -42,6 +40,10 @@ __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=luna_pinyin {
   - patch/+:
       __include: easy_en:/patch
+# }
+# { 自定义基础统一配置，为保证alphabet正确添加部件拆字辅码引导键，需要在easy_en之后加载
+  - patch/+:
+      __include: common:/patch
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
   - patch/+:

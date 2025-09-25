@@ -1,6 +1,13 @@
 # Common config
 # encoding: utf-8
 ---
+patch_terra_pinyin:
+  __include: patch
+  # terra 有声调，alphabet需要单独处理，注：terra_pinyin 2025.7.22 變更：用 ; / , . 作輸入四聲的替代方案
+  speller/alphabet: 'zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-;/<,\.`'
+  speller/finals: '-;/<,\.`'
+  speller/initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+
 patch:
   schema/dependencies/+:
     - radical_pinyin
@@ -25,17 +32,32 @@ patch:
       # states: [ 關閉預測, 開啓預測 ]
       # reset: 1
 
+  speller/alphabet: 'zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`'     # 将部件拆字辅码引导键加入到 alphabet 后
+
+  engine/segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@radical_lookup  # 部件拆字自定义 tag
+    - punct_segmentor
+    - fallback_segmentor
+
   engine/translators/+:
+    - table_translator@radical_lookup      # 部件拆字反查
     - lua_translator@*shijian              # 农历、日期、节气、节日、时间、周、问候模板等等
     - lua_translator@*super_calculator     # 超级计算器，Lua内查看高级用法
 
-  engine/filters/+:
+  engine/filters:
+    - simplifier
     - simplifier@chinese_english
+    - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
+    - lua_filter@*search # @radical_pinyin          # 部件拆字辅码
+    - uniquifier
 
   punctuator/import_preset: symbols
 
   recognizer/patterns/punct: '^/([0-9]0?|[A-Za-z]+)$'     # symbols
-  recognizer/patterns/reverse_lookup: "u[a-z;]*?$"        # 使用reverse_lookup_translator挂载rime-radical-pinyin
+  recognizer/patterns/radical_lookup: "~[a-z]*'?$"        # 响应部件拆字的反查，触发前缀与 radical_lookup/prefix 匹配，参考已有reverse_lookup(前缀为`)
   recognizer/patterns/lunar: "^N[0-9]{1,8}"               # N 作为触发前缀，响应 lua_translator@shijian，公历转农历，输入 N20250515 得到「二〇二五年五月十五」
   recognizer/patterns/calculator: "^V.*$"                 # V 作为触发前缀，计算器功能引导
 
@@ -52,11 +74,27 @@ patch:
     # # default to 0, which means no limitation
     # max_iterations: 1
   
-  reverse_lookup:
+  # 部件拆字反查
+  radical_lookup:
+    tag: radical_lookup
     dictionary: radical_pinyin
-    enable_completion: true
-    prefix: "u"
-    tips: "〔拆〕"
+    enable_sentence: false
+    enable_user_dict: false
+    prefix: "~"  # 反查前缀，与 recognizer/patterns/radical_lookup 匹配
+    tips: "〔拆字〕"
+    # closing_tips:
+    subfix: "'"
+    comment_format:
+      - erase/^.*$//
+
+  # 部件拆字滤镜
+  radical_reverse_lookup:
+    tags: [ radical_lookup ]
+    overwrite_comment: true
+    dictionary: pinyin   # 提示码词表，官方提供: zdict/kMandarin/pinyin
+    # comment_format:
+        # - xform/^/(/
+        # - xform/$/)/
 
   #中文转英文
   chinese_english:
@@ -65,6 +103,9 @@ patch:
     tips: char
     comment_format:
       - "xform/-/ /"
+
+  search/schema: radical_pinyin # 指定辅码方案
+  key_binder/search: "`" # 此为辅码引导键
 
   key_binder/bindings/+:
     - {accept: "Control+Shift+5", toggle: chinese_english, when: always}
@@ -84,6 +125,3 @@ patch:
 
   key_binder/shijian_keys: ["/"]
   calculator/trigger: "V"
-
-  # easy_en/initial_quality: 0
-  easy_en/enable_sentence: false

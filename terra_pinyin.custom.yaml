@@ -2,12 +2,21 @@
 # encoding: utf-8
 
 patch:
-  __include: common:/patch
-
+  __include: common:/patch_terra_pinyin
   translator/dictionary: terra_pinyin.extended
   # translator/dictionary: wanxiang
-  # 前向追加，不能用 __patch - pinyin/...
   speller/algebra:
+    #-- pinyin.yaml定义的模糊音处理加进中间
+    __patch:
+      - preprocessing_algebra
+      - pinyin:/zh_z_bufen
+      - pinyin:/hu_f_buhun
+      - terra_orig_algebra
+      - pinyin:/spelling_correction
+      - pinyin:/key_correction
+
+preprocessing_algebra:
+  __append:
     #-- 万象词库迁移：https://github.com/amzxyz/RIME-LMDG/wiki/%E5%B0%86%E4%B8%87%E8%B1%A1%E8%AF%8D%E5%BA%93%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BD%A0%E7%9A%84%E9%A1%B9%E7%9B%AE
     - xform/^([a-z]+)$/$1④/
     - xform/^(.*)ā(.*)$/$1a$2①/
@@ -43,24 +52,12 @@ patch:
     - derive/^ng(\d)$/eng$1/
     - xform/^n(\d)/en$1/
 
-    #--自定义规则
-    - xform/^([b-df-np-z])$/$1_/  # 单独的声母输入需要补全一个占位符 _，避免和完整音节混淆。
+    #-- 自定义规则
+    - xform/^([b-df-np-tv-z])$/$1_/  # 单独的声母输入（b、t 等）需要补全一个占位符 _，避免和完整音节混淆。
 
-    #-- 参考pinyin.yaml里的模糊音处理
-    - derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
-    - derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
-
-    - derive/^hu$/fu/                  # hu => fu
-    - derive/^hong$/feng/              # hong => feng
-    - derive/^hu([in])$/fe$1/          # hui => fei, hun => fen
-    - derive/^hu([ao])/f$1/            # hua => fa, ...
-
-    - derive/^fu$/hu/                  # fu => hu
-    - derive/^feng$/hong/              # feng => hong
-    - derive/^fe([in])$/hu$1/          # fei => hui, fen => hun
-    - derive/^f([ao])/hu$1/            # fa => hua, ...
-
-    #-- terra_pinyin 原有规则
+terra_orig_algebra:
+  #-- terra_pinyin 原有规则
+  __append:
     - xform/^r5$/er5/
     # 省略韻母和聲調
     - abbrev/^([a-z]).+$/$1/
@@ -90,7 +87,7 @@ patch:
 __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {
   - patch/+:
-      __include: easy_en:/patch_terra_pinyin
+      __include: easy_en_fix:/patch_terra_pinyin
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=terra_pinyin {
   - patch/+:

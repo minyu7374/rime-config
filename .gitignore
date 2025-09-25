@@ -2,6 +2,7 @@ build/
 sync/
 installation.yaml
 user.yaml
+custom_phrase.txt
 *.userdb.txt
 *.userdb/
 predict.db

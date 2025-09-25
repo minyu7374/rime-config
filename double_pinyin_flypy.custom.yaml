@@ -3,7 +3,6 @@
 
 patch:
   __include: common:/patch
-
   # 載入朙月拼音擴充詞庫
   translator/dictionary: luna_pinyin.extended
   # translator/dictionary: wanxiang
@@ -23,7 +22,7 @@ patch:
 __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy {
   - patch/+:
-      __include: easy_en:/patch
+      __include: easy_en_fix:/patch
 # }
 # Rx: BlindingDark/rime-lua-select-character:customize:schema=double_pinyin_flypy {
   - patch/+:

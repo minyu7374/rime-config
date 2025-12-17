@@ -1,0 +1,31 @@
+#!/bin/bash
+# set -x
+
+FCITX_DICT_PATH="/usr/share/fcitx5/pinyin/dictionaries"
+FCITX_DICT_SUFFIX="dict"
+
+RIME_DICT_PATH="/usr/share/rime-data"
+RIME_DICT_SUFFIX="dict.yaml"
+
+assets="$(curl -s https://api.github.com/repos/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/latest |
+    jq -r '.assets[] | [.name, .browser_download_url] | @tsv')"
+
+# baidu.dict	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/baidu.dict
+# baidu.dict.yaml	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/baidu.dict.yaml
+# baidu_dict.tar.gz	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/baidu_dict.tar.gz
+# sougou.dict	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/sougou.dict
+# sougou.dict.yaml	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/sougou.dict.yaml
+# sougou_dict.tar.gz	https://github.com/blackteahamburger/fcitx5-pinyin-sougou-baidu/releases/download/20251120/sougou_dict.tar.gz
+
+dict_download() {
+    path="$1"
+    mkdir -p "$path" || return 2
+    for name in sougou baidu; do
+        fname="$name.$2"
+        url=$(awk -v n="$fname" '($1==n){print $2}' <<<"$assets")
+        [ -n "$url" ] && wget "$url" -O "$path/$fname"
+    done
+}
+
+dict_download "$FCITX_DICT_PATH" "$FCITX_DICT_SUFFIX"
+dict_download "$RIME_DICT_PATH" "$RIME_DICT_SUFFIX"

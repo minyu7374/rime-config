@@ -16,6 +16,7 @@ esac
 
 plum_dir="/opt/src/tool/plum"
 plum="${plum_dir}/rime-install"
+script_dir="$(cd $(dirname "$0")" && pwd)"
 
 if [ "$#" -eq 0 ]; then
     $plum prelude
@@ -55,7 +56,9 @@ if [ "$#" -eq 0 ]; then
     mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
     cd /opt/src/tool/RIME-LMDG && git pull &&
         cp -f dicts/* "$rime_dir"/dicts
-    sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu 2>/dev/null
+    # 直接从releases里下载即可，安装软件依赖太多（imewlconverter => donet）
+    # sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu 2>/dev/null
+    sudo "$script_dir"/sougou-baidu_dict_download
     for name in sougou baidu; do
         [ -f "/usr/share/rime-data/$name.dict.yaml" ] &&
             rime_dedup /usr/share/rime-data/$name.dict.yaml "$rime_dir"/dicts/$name.dict.yaml

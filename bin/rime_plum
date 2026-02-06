@@ -50,6 +50,9 @@ if [ "$#" -eq 0 ]; then
         wget -nv -O "$rime_dir"/opencc/$file "$rime_wanxiang_refs"/opencc/$file
     done
 
+    # symbols 里去除=的候选，对我完全没用(patch修改时，= '=' /=以及""包起来的写法都不能生效)
+    sed -i "/'='/d" symbols.yaml
+
     # dict
     mkdir -p "$rime_dir"/dicts/
     $plum felixonmars/fcitx5-pinyin-zhwiki

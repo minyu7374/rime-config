@@ -3,6 +3,7 @@ patch:
   show_notifications_via_notification_center: true
 
   # 以下软件默认英文模式
+  # osascript -e 'id of app "Kitty"' : net.kovidgoyal.kitty
   app_options:
     org.gnu.Emacs:
       ascii_mode: true
@@ -13,6 +14,8 @@ patch:
     com.apple.Terminal:
       ascii_mode: true
     com.googlecode.iterm2:
+      ascii_mode: true
+    net.kovidgoyal.kitty:
       ascii_mode: true
     com.apple.finder:
       ascii_mode: true

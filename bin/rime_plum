@@ -16,7 +16,7 @@ esac
 
 plum_dir="/opt/src/tool/plum"
 plum="${plum_dir}/rime-install"
-script_dir="$(cd $(dirname "$0")" && pwd)"
+script_dir="$(cd "$(dirname "$0")" && pwd)"
 
 if [ "$#" -eq 0 ]; then
     $plum prelude

@@ -8,7 +8,7 @@ version: "LTS"
 sort: by_weight
 ...
 安图	ān tú	474
-坝乡	bà xiāng	1
+坝乡	bà xiāng	19
 巴宜	bā yí	305
 保德	bǎo dé	533
 堡镇	bǎo zhèn	430
@@ -135,6 +135,7 @@ sort: by_weight
 渌口	lù kǒu	1
 泸县	lú xiàn	417
 伦镇	lún zhèn	1
+漯河	luò hé	609
 玛家	mǎ jiā	328
 玛乡	mǎ xiāng	1
 马镇	mǎ zhèn	471
@@ -373,7 +374,6 @@ sort: by_weight
 岸堤镇	àn dī zhèn	1
 安底镇	ān dǐ zhèn	1
 安定区	ān dìng qū	182
-安定区	ān dìng qū	1
 安定县	ān dìng xiàn	151
 安定镇	ān dìng zhèn	1
 安东乡	ān dōng xiāng	1
@@ -567,7 +567,6 @@ sort: by_weight
 巴达乡	bā dá xiāng	1
 八达镇	bā dá zhèn	1
 八丹乡	bā dān xiāng	1
-八德区	bā dé qū	1
 八德区	bā dé qū	1
 坝底乡	bà dǐ xiāng	1
 巴迪乡	bā dí xiāng	1
@@ -873,7 +872,6 @@ sort: by_weight
 白沙村	bái shā cūn	364
 白沙县	bái shā xiàn	156
 白沙乡	bái shā xiāng	405
-白沙乡	bái shā xiāng	1
 白沙镇	bái shā zhèn	448
 白砂镇	bái shā zhèn	1
 白山村	bái shān cūn	302
@@ -1132,7 +1130,6 @@ sort: by_weight
 宝山县	bǎo shān xiàn	166
 保山县	bǎo shān xiàn	79
 宝山乡	bǎo shān xiāng	1
-宝山乡	bǎo shān xiāng	1
 宝山镇	bǎo shān zhèn	1
 宝盛乡	bǎo shèng xiāng	1
 保升镇	bǎo shēng zhèn	1
@@ -1172,7 +1169,6 @@ sort: by_weight
 宝藏镇	bǎo zàng zhèn	1
 保障村	bǎo zhàng cūn	100
 褒忠乡	bāo zhōng xiāng	1
-褒忠乡	bāo zhōng xiāng	1
 宝珠镇	bǎo zhū zhèn	1
 薄竹镇	báo zhú zhèn	1
 包座乡	bāo zuò xiāng	1
@@ -1186,7 +1182,6 @@ sort: by_weight
 北碚区	běi bèi qū	221
 背崩乡	bèi bēng xiāng	1
 北壁乡	běi bì xiāng	1
-北埔乡	běi bù xiāng	1
 北埔乡	běi bù xiāng	1
 北蔡镇	běi cài zhèn	1
 北仓镇	běi cāng zhèn	1
@@ -1202,7 +1197,6 @@ sort: by_weight
 北董乡	běi dǒng xiāng	1
 北陡镇	běi dǒu zhèn	1
 北斗镇	běi dǒu zhèn	1
-北斗镇	běi dǒu zhèn	1
 贝墩镇	bèi dūn zhèn	1
 贝恩堡	bèi ēn bǎo	316
 孛畈镇	bèi fàn zhèn	1
@@ -1211,7 +1205,6 @@ sort: by_weight
 北岗乡	běi gǎng xiāng	1
 北港镇	běi gǎng zhèn	396
 北岗镇	běi gǎng zhèn	1
-北港镇	běi gǎng zhèn	1
 北高镇	běi gāo zhèn	1
 北皋镇	běi gāo zhèn	1
 贝戈县	bèi gē xiàn	142
@@ -1266,7 +1259,6 @@ sort: by_weight
 陂面镇	bēi miàn zhèn	1
 碑庙镇	bēi miào zhèn	1
 椑木镇	bēi mù zhèn	1
-卑南乡	bēi nán xiāng	1
 卑南乡	bēi nán xiāng	1
 北票市	běi piào shì	369
 北票县	běi piào xiàn	92
@@ -1532,7 +1524,6 @@ sort: by_weight
 不出县	bù chū xiàn	151
 不出镇	bù chū zhèn	100
 布袋镇	bù dài zhèn	387
-布袋镇	bù dài zhèn	1
 布德镇	bù dé zhèn	1
 不端庄	bù duān zhuāng	100
 布多乡	bù duō xiāng	1
@@ -1549,7 +1540,6 @@ sort: by_weight
 布久乡	bù jiǔ xiāng	1
 不老村	bù lǎo cūn	100
 埔里镇	bù lǐ zhèn	422
-埔里镇	bù lǐ zhèn	1
 埠柳镇	bù liǔ zhèn	1
 布隆乡	bù lóng xiāng	1
 步路乡	bù lù xiāng	1
@@ -1563,9 +1553,7 @@ sort: by_weight
 布拖县	bù tuō xiàn	1
 步仙镇	bù xiān zhèn	1
 埔心乡	bù xīn xiāng	1
-埔心乡	bù xīn xiāng	1
 布亚乡	bù yà xiāng	1
-埔盐乡	bù yán xiāng	1
 埔盐乡	bù yán xiāng	1
 补约乡	bǔ yuē xiāng	1
 埠子镇	bù zǐ zhèn	1
@@ -1720,7 +1708,6 @@ sort: by_weight
 曹田村	cáo tián cūn	133
 曹屯村	cáo tún cūn	82
 草屯镇	cǎo tún zhèn	1
-草屯镇	cǎo tún zhèn	1
 曹洼村	cáo wā cūn	82
 曹洼乡	cáo wā xiāng	1
 曹湾村	cáo wān cūn	155
@@ -1767,6 +1754,7 @@ sort: by_weight
 岑川镇	cén chuān zhèn	1
 岑巩县	cén gǒng xiàn	156
 岑河镇	cén hé zhèn	1
+岑岭县	cén lǐng xiàn	102
 涔南镇	cén nán zhèn	1
 涔山乡	cén shān xiāng	1
 岑松镇	cén sōng zhèn	1
@@ -1885,7 +1873,6 @@ sort: by_weight
 常堡乡	cháng bǎo xiāng	1
 长堡镇	cháng bǎo zhèn	1
 长滨乡	cháng bīn xiāng	357
-长滨乡	cháng bīn xiāng	1
 昌波乡	chāng bō xiāng	1
 长埠镇	cháng bù zhèn	1
 长布镇	cháng bù zhèn	1
@@ -2090,7 +2077,6 @@ sort: by_weight
 长治县	cháng zhì xiàn	184
 长直乡	cháng zhí xiāng	1
 长治乡	cháng zhì xiāng	1
-长治乡	cháng zhì xiāng	1
 长智镇	cháng zhì zhèn	1
 长洲区	cháng zhōu qū	125
 昌洲乡	chāng zhōu xiāng	1
@@ -2126,11 +2112,9 @@ sort: by_weight
 朝阳镇	cháo yáng zhèn	334
 朝邑镇	cháo yì zhèn	1
 潮州镇	cháo zhōu zhèn	1
-潮州镇	cháo zhōu zhèn	1
 潮庄镇	cháo zhuāng zhèn	1
 车板镇	chē bǎn zhèn	1
 车埠镇	chē bù zhèn	1
-车城乡	chē chéng xiāng	1
 车城乡	chē chéng xiāng	1
 车村镇	chē cūn zhèn	1
 车道镇	chē dào zhèn	1
@@ -2191,6 +2175,7 @@ sort: by_weight
 陈沟村	chén gōu cūn	188
 陈古镇	chén gǔ zhèn	133
 陈固镇	chén gù zhèn	1
+陈官营	chén guān yíng
 陈官镇	chén guān zhèn	1
 陈官庄	chén guān zhuāng	282
 晨光镇	chén guāng zhèn	1
@@ -2340,7 +2325,6 @@ sort: by_weight
 呈贡区	chéng gòng qū	220
 呈贡县	chéng gòng xiàn	136
 成功镇	chéng gōng zhèn	1
-成功镇	chéng gōng zhèn	1
 城固县	chéng gù xiàn	187
 城关区	chéng guān qū	252
 城关乡	chéng guān xiāng	1
@@ -2455,7 +2439,6 @@ sort: by_weight
 茌平县	chí píng xiàn	182
 赤沙镇	chì shā zhèn	1
 赤山镇	chì shān zhèn	1
-池上乡	chí shàng xiāng	1
 池上乡	chí shàng xiāng	1
 池上镇	chí shàng zhèn	1
 赤石乡	chì shí xiāng	1
@@ -2599,7 +2582,6 @@ sort: by_weight
 春桥乡	chūn qiáo xiāng	1
 春秋乡	chūn qiū xiāng	1
 春日乡	chūn rì xiāng	1
-春日乡	chūn rì xiāng	1
 春荣镇	chūn róng zhèn	1
 椿树镇	chūn shù zhèn	1
 春水镇	chūn shuǐ zhèn	1
@@ -2731,8 +2713,6 @@ sort: by_weight
 措周乡	cuò zhōu xiāng	1
 大阿镇	dà ā zhèn	89
 大安区	dà ān qū	236
-大安区	dà ān qū	1
-大安区	dà ān qū	1
 大安市	dà ān shì	390
 大安县	dà ān xiàn	75
 大安乡	dà ān xiāng	307
@@ -2755,7 +2735,6 @@ sort: by_weight
 大埔县	dà bù xiàn	205
 大布乡	dà bù xiāng	95
 大埠乡	dà bù xiāng	50
-大埔乡	dà bù xiāng	1
 大埔乡	dà bù xiāng	1
 大埔镇	dà bù zhèn	91
 大布镇	dà bù zhèn	79
@@ -2785,7 +2764,6 @@ sort: by_weight
 大慈县	dà cí xiàn	75
 大村县	dà cūn xiàn	70
 大村乡	dà cūn xiāng	1
-大村乡	dà cūn xiāng	1
 大村镇	dà cūn zhèn	87
 大单镇	dà dān zhèn	71
 大岛县	dà dǎo xiàn	79
@@ -2805,7 +2783,6 @@ sort: by_weight
 大垌镇	dà dòng zhèn	92
 大东镇	dà dōng zhèn	83
 大洞镇	dà dòng zhèn	63
-大肚区	dà dù qū	1
 大肚区	dà dù qū	1
 大塅镇	dà duàn zhèn	91
 大垛镇	dà duǒ zhèn	71
@@ -2853,7 +2830,6 @@ sort: by_weight
 大河镇	dà hé zhèn	1
 大横镇	dà héng zhèn	55
 大候镇	dà hòu zhèn	1
-大湖乡	dà hú xiāng	1
 大湖乡	dà hú xiāng	1
 大湖镇	dà hú zhèn	178
 达浒镇	dá hǔ zhèn	1
@@ -2928,7 +2904,6 @@ sort: by_weight
 大寮区	dà liáo qū	1
 大林乡	dà lín xiāng	56
 大林镇	dà lín zhèn	1
-大林镇	dà lín zhèn	1
 大岭乡	dà lǐng xiāng	95
 大岭镇	dà lǐng zhèn	84
 大流乡	dà liú xiāng	97
@@ -2983,7 +2958,6 @@ sort: by_weight
 大彭镇	dà péng zhèn	94
 大鹏镇	dà péng zhèn	1
 大埤乡	dà pí xiāng	1
-大埤乡	dà pí xiāng	1
 大坪乡	dà píng xiāng	1
 大平镇	dà píng zhèn	95
 大坪镇	dà píng zhèn	1
@@ -3004,7 +2978,6 @@ sort: by_weight
 大全镇	dà quán zhèn	86
 大仁县	dà rén xiàn	70
 达仁乡	dá rén xiāng	1
-达仁乡	dá rén xiāng	1
 达仁镇	dá rén zhèn	1
 达日县	dá rì xiàn	122
 大瑞镇	dà ruì zhèn	72
@@ -3020,7 +2993,6 @@ sort: by_weight
 大石乡	dà shí xiāng	1
 大石镇	dà shí zhèn	256
 大市镇	dà shì zhèn	1
-大树区	dà shù qū	1
 大树区	dà shù qū	1
 大树乡	dà shù xiāng	1
 大树镇	dà shù zhèn	100
@@ -3045,12 +3017,10 @@ sort: by_weight
 大田镇	dà tián zhèn	1
 大同区	dà tóng qū	210
 大通区	dà tōng qū	117
-大同区	dà tóng qū	1
 大通县	dà tōng xiàn	232
 大同县	dà tóng xiàn	176
 大同乡	dà tóng xiāng	387
 大通乡	dà tōng xiāng	60
-大同乡	dà tóng xiāng	1
 大同镇	dà tóng zhèn	1
 大通镇	dà tōng zhèn	1
 打通镇	dǎ tōng zhèn	1
@@ -3069,7 +3039,6 @@ sort: by_weight
 达维镇	dá wéi zhèn	1
 大文乡	dà wén xiāng	78
 大悟县	dà wù xiàn	226
-大武乡	dà wǔ xiāng	1
 大武乡	dà wǔ xiāng	1
 大坞镇	dà wù zhèn	70
 大武镇	dà wǔ zhèn	1
@@ -3180,7 +3149,6 @@ sort: by_weight
 戴埠镇	dài bù zhèn	1
 待补镇	dài bǔ zhèn	1
 大城县	dài chéng xiàn	174
-大城乡	dài chéng xiāng	1
 大城乡	dài chéng xiāng	1
 大城镇	dài chéng zhèn	300
 戴村镇	dài cūn zhèn	1
@@ -3705,7 +3673,6 @@ sort: by_weight
 东港乡	dōng gǎng xiāng	1
 东岗镇	dōng gǎng zhèn	100
 东港镇	dōng gǎng zhèn	1
-东港镇	dōng gǎng zhèn	1
 东高村	dōng gāo cūn	100
 东阁镇	dōng gé zhèn	1
 东巩镇	dōng gǒng zhèn	1
@@ -3735,7 +3702,6 @@ sort: by_weight
 东河村	dōng hé cūn	100
 东河区	dōng hé qū	188
 东和乡	dōng hé xiāng	1
-东河乡	dōng hé xiāng	1
 东河乡	dōng hé xiāng	1
 东河镇	dōng hé zhèn	100
 洞河镇	dòng hé zhèn	1
@@ -3836,10 +3802,8 @@ sort: by_weight
 东沙镇	dōng shā zhèn	1
 东山村	dōng shān cūn	100
 东山区	dōng shān qū	222
-东山区	dōng shān qū	1
 东山县	dōng shān xiàn	188
 东山乡	dōng shān xiāng	299
-冬山乡	dōng shān xiāng	1
 冬山乡	dōng shān xiāng	1
 东山镇	dōng shān zhèn	367
 东上乡	dōng shàng xiāng	1
@@ -3854,12 +3818,9 @@ sort: by_weight
 东升镇	dōng shēng zhèn	326
 东石村	dōng shí cūn	100
 东势区	dōng shì qū	1
-东势区	dōng shì qū	1
 东石县	dōng shí xiàn	94
 东石乡	dōng shí xiāng	1
 东势乡	dōng shì xiāng	1
-东势乡	dōng shì xiāng	1
-东石乡	dōng shí xiāng	1
 东石镇	dōng shí zhèn	100
 董市镇	dǒng shì zhèn	1
 东疏镇	dōng shū zhèn	1
@@ -3982,7 +3943,6 @@ sort: by_weight
 豆门乡	dòu mén xiāng	1
 斗门镇	dǒu mén zhèn	284
 痘姆乡	dòu mǔ xiāng	1
-斗南镇	dòu nán zhèn	1
 斗南镇	dòu nán zhèn	1
 都平镇	dōu píng zhèn	1
 都坪镇	dōu píng zhèn	1
@@ -4220,7 +4180,6 @@ sort: by_weight
 峨蔓镇	é màn zhèn	1
 峨眉县	é méi xiàn	95
 峨眉乡	é méi xiāng	1
-峨眉乡	é méi xiāng	1
 额敏县	é mǐn xiàn	148
 额敏镇	é mǐn zhèn	1
 厄姆县	è mǔ xiàn	88
@@ -4273,17 +4232,14 @@ sort: by_weight
 二里镇	èr lǐ zhèn	1
 二里庄	èr lǐ zhuāng	312
 二林镇	èr lín zhèn	1
-二林镇	èr lín zhèn	1
 珥陵镇	ěr líng zhèn	1
 二龙乡	èr lóng xiāng	1
 二龙镇	èr lóng zhèn	1
 二仑乡	èr lún xiāng	335
-二仑乡	èr lún xiāng	1
 二密镇	èr mì zhèn	1
 二坪镇	èr píng zhèn	1
 二七区	èr qī qū	256
 二圣镇	èr shèng zhèn	1
-二水乡	èr shuǐ xiāng	1
 二水乡	èr shuǐ xiāng	1
 二台乡	èr tái xiāng	1
 二台镇	èr tái zhèn	1
@@ -4335,7 +4291,6 @@ sort: by_weight
 范里镇	fàn lǐ zhèn	1
 范楼镇	fàn lóu zhèn	1
 番路乡	fān lù xiāng	1
-番路乡	fān lù xiāng	1
 饭坡镇	fàn pō zhèn	1
 范坡镇	fàn pō zhèn	1
 范桥镇	fàn qiáo zhèn	1
@@ -4370,7 +4325,6 @@ sort: by_weight
 方家镇	fāng jiā zhèn	1
 方里镇	fāng lǐ zhèn	1
 枋寮乡	fāng liáo xiāng	1
-枋寮乡	fāng liáo xiāng	1
 坊楼镇	fāng lóu zhèn	1
 房木镇	fáng mù zhèn	1
 方前镇	fāng qián zhèn	1
@@ -4379,7 +4333,6 @@ sort: by_weight
 方山县	fāng shān xiàn	182
 房山县	fáng shān xiàn	154
 方山乡	fāng shān xiāng	1
-枋山乡	fāng shān xiāng	1
 枋山乡	fāng shān xiāng	1
 芳山镇	fāng shān zhèn	1
 房山镇	fáng shān zhèn	1
@@ -4402,7 +4355,6 @@ sort: by_weight
 方巷镇	fāng xiàng zhèn	1
 方岩镇	fāng yán zhèn	1
 枋洋镇	fāng yáng zhèn	1
-芳苑乡	fāng yuàn xiāng	1
 芳苑乡	fāng yuàn xiāng	1
 方元镇	fāng yuán zhèn	1
 房寨镇	fáng zhài zhèn	1
@@ -4455,10 +4407,8 @@ sort: by_weight
 分宜镇	fēn yí zhèn	1
 汾阴县	fén yīn xiàn	131
 芬园乡	fēn yuán xiāng	1
-芬园乡	fēn yuán xiāng	1
 凤安镇	fèng ān zhèn	1
 枫边乡	fēng biān xiāng	1
-丰滨乡	fēng bīn xiāng	1
 丰滨乡	fēng bīn xiāng	1
 丰产乡	fēng chǎn xiāng	1
 丰城市	fēng chéng shì	295
@@ -4533,7 +4483,6 @@ sort: by_weight
 丰林县	fēng lín xiàn	1
 枫林镇	fēng lín zhèn	1
 丰林镇	fēng lín zhèn	1
-凤林镇	fèng lín zhèn	1
 凤林镇	fèng lín zhèn	1
 凤岭乡	fèng lǐng xiāng	1
 冯瓴镇	féng líng zhèn	1
@@ -4761,7 +4710,6 @@ sort: by_weight
 弗雷堡	fú léi bǎo	220
 弗里堡	fú lǐ bǎo	396
 富里乡	fù lǐ xiāng	1
-富里乡	fù lǐ xiāng	1
 福利镇	fú lì zhèn	1
 符离镇	fú lí zhèn	1
 富利镇	fù lì zhèn	1
@@ -4876,9 +4824,7 @@ sort: by_weight
 福新镇	fú xīn zhèn	1
 富新镇	fù xīn zhèn	1
 复兴区	fù xīng qū	188
-复兴区	fù xīng qū	1
 复兴乡	fù xīng xiāng	322
-福兴乡	fú xīng xiāng	1
 福兴乡	fú xīng xiāng	1
 复兴镇	fù xīng zhèn	1
 福兴镇	fú xīng zhèn	1
@@ -5179,7 +5125,6 @@ sort: by_weight
 高士镇	gāo shì zhèn	1
 高石镇	gāo shí zhèn	1
 高树乡	gāo shù xiāng	1
-高树乡	gāo shù xiāng	1
 高寺镇	gāo sì zhèn	1
 高笋乡	gāo sǔn xiāng	1
 高塔镇	gāo tǎ zhèn	1
@@ -5349,7 +5294,6 @@ sort: by_weight
 龚坊镇	gōng fāng zhèn	1
 贡嘎县	gòng gā xiàn	139
 公馆乡	gōng guǎn xiāng	1
-公馆乡	gōng guǎn xiāng	1
 公馆镇	gōng guǎn zhèn	1
 共和县	gòng hé xiàn	172
 共和乡	gòng hé xiāng	1
@@ -5497,7 +5441,6 @@ sort: by_weight
 古井镇	gǔ jǐng zhèn	1
 固军镇	gù jūn zhèn	1
 故郡镇	gù jùn zhèn	1
-古坑乡	gǔ kēng xiāng	1
 古坑乡	gǔ kēng xiāng	1
 谷拉乡	gǔ lā xiāng	1
 古拉乡	gǔ lā xiāng	1
@@ -5705,7 +5648,6 @@ sort: by_weight
 官山镇	guān shān zhèn	1
 观山镇	guān shān zhèn	1
 关山镇	guān shān zhèn	1
-关山镇	guān shān zhèn	1
 观上镇	guān shàng zhèn	1
 观胜镇	guān shèng zhèn	1
 官升镇	guān shēng zhèn	1
@@ -5741,7 +5683,6 @@ sort: by_weight
 关溪乡	guān xī xiāng	1
 灌溪镇	guàn xī zhèn	1
 关西镇	guān xī zhèn	1
-关西镇	guān xī zhèn	1
 观兴镇	guān xīng zhèn	1
 关兴镇	guān xīng zhèn	1
 官浔镇	guān xún zhèn	1
@@ -5753,7 +5694,6 @@ sort: by_weight
 管窑镇	guǎn yáo zhèn	1
 馆驿镇	guǎn yì zhèn	1
 观义镇	guān yì zhèn	1
-观音区	guān yīn qū	1
 观音区	guān yīn qū	1
 观音乡	guān yīn xiāng	1
 观音镇	guān yīn zhèn	1
@@ -5794,7 +5734,6 @@ sort: by_weight
 广丰县	guǎng fēng xiàn	160
 广佛镇	guǎng fó zhèn	1
 广福乡	guǎng fú xiāng	1
-光复乡	guāng fù xiāng	1
 光复乡	guāng fù xiāng	1
 广府镇	guǎng fǔ zhèn	1
 光福镇	guāng fú zhèn	1
@@ -5875,7 +5814,6 @@ sort: by_weight
 归仁区	guī rén qū	1
 归仁镇	guī rén zhèn	1
 龟山区	guī shān qū	1
-龟山区	guī shān qū	1
 龟山乡	guī shān xiāng	308
 桂山乡	guì shān xiāng	1
 龟山镇	guī shān zhèn	1
@@ -5953,7 +5891,6 @@ sort: by_weight
 虢王镇	guó wáng zhèn	1
 郭圩乡	guō wéi xiāng	1
 国姓乡	guó xìng xiāng	1
-国姓乡	guó xìng xiāng	1
 涡阳县	guō yáng xiàn	188
 崞阳镇	guō yáng zhèn	1
 果耶镇	guǒ yé zhèn	1
@@ -5996,7 +5933,6 @@ sort: by_weight
 海岛乡	hǎi dǎo xiāng	1
 海淀区	hǎi diàn qū	309
 海东镇	hǎi dōng zhèn	1
-海端乡	hǎi duān xiāng	1
 海端乡	hǎi duān xiāng	1
 海丰县	hǎi fēng xiàn	209
 海丰镇	hǎi fēng zhèn	1
@@ -6337,7 +6273,6 @@ sort: by_weight
 合马镇	hé mǎ zhèn	1
 鹤毛镇	hè máo zhèn	1
 和美镇	hé měi zhèn	1
-和美镇	hé měi zhèn	1
 合面镇	hé miàn zhèn	1
 鹤鸣镇	hè míng zhèn	1
 和睦镇	hé mù zhèn	1
@@ -6349,7 +6284,6 @@ sort: by_weight
 河棚镇	hé péng zhèn	1
 和平村	hé píng cūn	395
 和平区	hé píng qū	316
-和平区	hé píng qū	1
 和平县	hé píng xiàn	182
 和平乡	hé píng xiāng	358
 和平镇	hé píng zhèn	1
@@ -6512,7 +6446,6 @@ sort: by_weight
 横埠镇	héng bù zhèn	1
 横车镇	héng chē zhèn	1
 恒春镇	héng chūn zhèn	394
-恒春镇	héng chūn zhèn	1
 横村镇	héng cūn zhèn	1
 横道镇	héng dào zhèn	1
 横店镇	héng diàn zhèn	1
@@ -6544,7 +6477,6 @@ sort: by_weight
 恒山区	héng shān qū	89
 衡山县	héng shān xiàn	192
 横山县	héng shān xiàn	168
-横山乡	héng shān xiāng	1
 横山乡	héng shān xiāng	1
 横山镇	héng shān zhèn	1
 衡山镇	héng shān zhèn	1
@@ -6728,7 +6660,6 @@ sort: by_weight
 后白镇	hòu bái zhèn	1
 侯堡镇	hóu bǎo zhèn	1
 后壁区	hòu bì qū	1
-后壁区	hòu bì qū	1
 猴场镇	hóu chǎng zhèn	1
 后巢乡	hòu cháo xiāng	1
 侯城乡	hóu chéng xiāng	1
@@ -6749,7 +6680,6 @@ sort: by_weight
 侯口镇	hóu kǒu zhèn	1
 后里区	hòu lǐ qū	1
 后柳镇	hòu liǔ zhèn	1
-后龙镇	hòu lóng zhèn	1
 后龙镇	hòu lóng zhèn	1
 厚禄乡	hòu lù xiāng	1
 侯马市	hóu mǎ shì	172
@@ -6831,7 +6761,6 @@ sort: by_weight
 浒坑镇	hǔ kēng zhèn	1
 湖口县	hú kǒu xiàn	174
 湖口乡	hú kǒu xiāng	1
-湖口乡	hú kǒu xiāng	1
 壶口镇	hú kǒu zhèn	1
 湖口镇	hú kǒu zhèn	1
 呼兰区	hū lán qū	198
@@ -6860,7 +6789,6 @@ sort: by_weight
 户木乡	hù mù xiāng	1
 湖南乡	hú nán xiāng	1
 湖南镇	hú nán zhèn	1
-湖内区	hú nèi qū	1
 湖内区	hú nèi qū	1
 湖坪乡	hú píng xiāng	1
 琥珀堡	hǔ pò bǎo	271
@@ -6899,10 +6827,8 @@ sort: by_weight
 虎圩乡	hǔ wéi xiāng	1
 虎威镇	hǔ wēi zhèn	1
 虎尾镇	hǔ wěi zhèn	1
-虎尾镇	hǔ wěi zhèn	1
 湖雾镇	hú wù zhèn	1
 湖溪乡	hú xī xiāng	1
-湖西乡	hú xī xiāng	1
 湖西乡	hú xī xiāng	1
 湖溪镇	hú xī zhèn	1
 胡襄镇	hú xiāng zhèn	1
@@ -6998,7 +6924,6 @@ sort: by_weight
 华联村	huá lián cūn	52
 花莲市	huā lián shì	1
 花莲县	huā lián xiàn	270
-花莲县	huā lián xiàn	1
 华林村	huá lín cūn	1
 桦林乡	huà lín xiāng	1
 桦林镇	huà lín zhèn	1
@@ -7057,7 +6982,6 @@ sort: by_weight
 画水镇	huà shuǐ zhèn	1
 花所镇	huā suǒ zhèn	1
 花台乡	huā tái xiāng	1
-花坛乡	huā tán xiāng	1
 花坛乡	huā tán xiāng	1
 花滩镇	huā tān zhèn	1
 华堂村	huá táng cūn	127
@@ -7676,7 +7600,6 @@ sort: by_weight
 吉安县	jí ān xiàn	469
 集安县	jí ān xiàn	469
 吉安乡	jí ān xiāng	1
-吉安乡	jí ān xiāng	1
 吉安镇	jí ān zhèn	1
 集兵镇	jí bīng zhèn	1
 吉埠镇	jí bù zhèn	1
@@ -7713,7 +7636,6 @@ sort: by_weight
 吉河镇	jí hé zhèn	1
 计划乡	jì huà xiāng	1
 级及县	jí jí xiàn	62
-集集镇	jí jí zhèn	1
 集集镇	jí jí zhèn	1
 纪家镇	jì jiā zhèn	1
 季家镇	jì jiā zhèn	1
@@ -7835,7 +7757,6 @@ sort: by_weight
 嘉定镇	jiā dìng zhèn	1
 加定镇	jiā dìng zhèn	1
 佳冬乡	jiā dōng xiāng	1
-佳冬乡	jiā dōng xiāng	1
 甲东镇	jiǎ dōng zhèn	1
 加斗镇	jiā dòu zhèn	1
 家发镇	jiā fā zhèn	1
@@ -7929,7 +7850,6 @@ sort: by_weight
 佳阳乡	jiā yáng xiāng	1
 嘉义市	jiā yì shì	1
 嘉义县	jiā yì xiàn	281
-嘉义县	jiā yì xiàn	1
 甲依乡	jiǎ yī xiāng	1
 加依乡	jiā yī xiāng	1
 加义镇	jiā yì zhèn	1
@@ -8016,7 +7936,6 @@ sort: by_weight
 建设镇	jiàn shè zhèn	1
 建胜镇	jiàn shèng zhèn	1
 建始县	jiàn shǐ xiàn	192
-尖石乡	jiān shí xiāng	1
 尖石乡	jiān shí xiāng	1
 剪市镇	jiǎn shì zhèn	1
 建水县	jiàn shuǐ xiàn	186
@@ -8342,10 +8261,8 @@ sort: by_weight
 郊区县	jiāo qū xiàn	178
 郊区乡	jiāo qū xiāng	1
 蕉山乡	jiāo shān xiāng	1
-湫山乡	jiǎo shān xiāng	1
 峤山镇	jiào shān zhèn	1
 角山镇	jiǎo shān zhèn	1
-湫山镇	jiǎo shān zhèn	1
 焦石镇	jiāo shí zhèn	1
 焦滩乡	jiāo tān xiāng	1
 蛟潭镇	jiāo tán zhèn	1
@@ -8354,7 +8271,6 @@ sort: by_weight
 湫头镇	jiǎo tóu zhèn	1
 角尾乡	jiǎo wěi xiāng	1
 郊尾镇	jiāo wěi zhèn	1
-礁溪乡	jiāo xī xiāng	1
 礁溪乡	jiāo xī xiāng	1
 蕉溪镇	jiāo xī zhèn	1
 角斜镇	jiǎo xié zhèn	1
@@ -8498,7 +8414,6 @@ sort: by_weight
 金凤区	jīn fèng qū	182
 金峰乡	jīn fēng xiāng	338
 金凤乡	jīn fèng xiāng	1
-金峰乡	jīn fēng xiāng	1
 金凤镇	jīn fèng zhèn	281
 金峰镇	jīn fēng zhèn	270
 锦丰镇	jǐn fēng zhèn	1
@@ -8652,7 +8567,6 @@ sort: by_weight
 金山堡	jīn shān bǎo	215
 金山村	jīn shān cūn	338
 金山区	jīn shān qū	236
-金山区	jīn shān qū	1
 金山县	jīn shān xiàn	155
 金山乡	jīn shān xiāng	295
 金山镇	jīn shān zhèn	348
@@ -8989,7 +8903,6 @@ sort: by_weight
 九阡镇	jiǔ qiān zhèn	1
 酒泉县	jiǔ quán xiàn	81
 九如乡	jiǔ rú xiāng	1
-九如乡	jiǔ rú xiāng	1
 九山镇	jiǔ shān zhèn	1
 鸠山镇	jiū shān zhèn	1
 久胜镇	jiǔ shèng zhèn	1
@@ -9167,7 +9080,6 @@ sort: by_weight
 开张镇	kāi zhāng zhèn	1
 开州区	kāi zhōu qū	182
 崁顶乡	kàn dǐng xiāng	1
-崁顶乡	kàn dǐng xiāng	1
 堪嘉镇	kān jiā zhèn	1
 坎市镇	kǎn shì zhèn	1
 坎苏镇	kǎn sū zhèn	1
@@ -9315,7 +9227,6 @@ sort: by_weight
 寇店镇	kòu diàn zhèn	1
 口东镇	kǒu dōng zhèn	1
 叩官镇	kòu guān zhèn	1
-口湖乡	kǒu hú xiāng	1
 口湖乡	kǒu hú xiāng	1
 口江乡	kǒu jiāng xiāng	1
 口前镇	kǒu qián zhèn	1
@@ -9542,7 +9453,6 @@ sort: by_weight
 兰洋镇	lán yáng zhèn	1
 岚漪镇	lán yī zhèn	1
 兰英乡	lán yīng xiāng	1
-兰屿乡	lán yǔ xiāng	1
 兰屿乡	lán yǔ xiāng	1
 蓝钟镇	lán zhōng zhèn	1
 浪川乡	làng chuān xiāng	1
@@ -9831,7 +9741,6 @@ sort: by_weight
 李馥镇	lǐ fù zhèn	1
 李垓村	lǐ gāi cūn	1
 李岗村	lǐ gǎng cūn	127
-里港乡	lǐ gǎng xiāng	1
 里港乡	lǐ gǎng xiāng	1
 丽岗镇	lì gǎng zhèn	1
 立岗镇	lì gǎng zhèn	1
@@ -10382,7 +10291,6 @@ sort: by_weight
 临巴镇	lín bā zhèn	1
 林堡乡	lín bǎo xiāng	1
 林边乡	lín biān xiāng	1
-林边乡	lín biān xiāng	1
 林伯镇	lín bó zhèn	8
 临蔡镇	lín cài zhèn	1
 林草局	lín cǎo jú	130
@@ -10406,6 +10314,7 @@ sort: by_weight
 林坊镇	lín fāng zhèn	1
 临汾县	lín fén xiàn	140
 林峰乡	lín fēng xiāng	1
+林凤营	lín fèng yíng
 林逢镇	lín féng zhèn	1
 邻封镇	lín fēng zhèn	1
 林凤镇	lín fèng zhèn	1
@@ -10445,15 +10354,12 @@ sort: by_weight
 临泾镇	lín jīng zhèn	1
 林卡乡	lín kǎ xiāng	1
 林口区	lín kǒu qū	1
-林口区	lín kǒu qū	1
 林口县	lín kǒu xiàn	137
 林口镇	lín kǒu zhèn	1
 磷矿镇	lín kuàng zhèn	78
 临澧县	lín lǐ xiàn	172
 麟洛乡	lín luò xiāng	324
-麟洛乡	lín luò xiāng	1
 临南镇	lín nán zhèn	1
-林内乡	lín nèi xiāng	1
 林内乡	lín nèi xiāng	1
 霖磐镇	lín pán zhèn	1
 临平区	lín píng qū	1
@@ -10616,9 +10522,11 @@ sort: by_weight
 灵芝乡	líng zhī xiāng	1
 领州县	lǐng zhōu xiàn	53
 岭子镇	lǐng zi zhèn	1
+刘安庄	liú ān zhuāng	1
 六鳌镇	liù áo zhèn	1
 留坝县	liú bà xiàn	174
 六坝镇	liù bà zhèn	1
+刘邦村	liú bāng cūn	1
 柳堡镇	liǔ bǎo zhèn	1
 六堡镇	liù bǎo zhèn	1
 刘堡镇	liú bǎo zhèn	1
@@ -10641,6 +10549,7 @@ sort: by_weight
 流村镇	liú cūn zhèn	1
 留村镇	liú cūn zhèn	1
 刘村镇	liú cūn zhèn	1
+刘店村	liú diàn cūn	1
 刘店乡	liú diàn xiāng	1
 刘店镇	liú diàn zhèn	1
 刘洞镇	liú dòng zhèn	1
@@ -10661,9 +10570,11 @@ sort: by_weight
 刘岗镇	liú gǎng zhèn	1
 六个县	liù gè xiàn	122
 柳格镇	liǔ gé zhèn	1
+刘各庄	liú gè zhuāng	1
 留耕镇	liú gēng zhèn	1
 六弓乡	liù gōng xiāng	1
 六工镇	liù gōng zhèn	1
+刘沟村	liú gōu cūn	1
 柳沟乡	liǔ gōu xiāng	1
 六沟镇	liù gōu zhèn	1
 柳沟镇	liǔ gōu zhèn	1
@@ -10674,9 +10585,9 @@ sort: by_weight
 留光镇	liú guāng zhèn	1
 六广镇	liù guǎng zhèn	1
 六龟区	liù guī qū	1
-六龟区	liù guī qū	1
 刘汉乡	liú hàn xiāng	1
 柳壕镇	liǔ háo zhèn	1
+刘河村	liú hé cūn	1
 柳河县	liǔ hé xiàn	162
 六合县	liù hé xiàn	147
 六河乡	liù hé xiāng	1
@@ -10693,11 +10604,12 @@ sort: by_weight
 流湖镇	liú hú zhèn	1
 柳湖镇	liǔ hú zhèn	1
 六华镇	liù huá zhèn	1
+刘黄村	liú huáng cūn	1
 留隍镇	liú huáng zhèn	1
 刘集乡	liú jí xiāng	1
 刘集镇	liú jí zhèn	1
 刘家村	liú jiā cūn	296
-六甲区	liù jiǎ qū	1
+刘家庙	liú jiā miào	1
 六甲区	liù jiǎ qū	1
 柳家乡	liǔ jiā xiāng	1
 刘家镇	liú jiā zhèn	1
@@ -10709,9 +10621,9 @@ sort: by_weight
 柳江县	liǔ jiāng xiàn	169
 柳江镇	liǔ jiāng zhèn	1
 六脚乡	liù jiǎo xiāng	1
-六脚乡	liù jiǎo xiāng	1
 刘街乡	liú jiē xiāng	1
 六街镇	liù jiē zhèn	1
+刘井村	liú jǐng cūn	1
 流井乡	liú jǐng xiāng	1
 六景镇	liù jǐng zhèn	1
 六靖镇	liù jìng zhèn	1
@@ -10720,17 +10632,22 @@ sort: by_weight
 柳科乡	liǔ kē xiāng	1
 刘克庄	liú kè zhuāng	330
 刘客庄	liú kè zhuāng	8
+刘坑村	liú kēng cūn	1
 流口镇	liú kǒu zhèn	1
 刘口镇	liú kǒu zhèn	1
+刘快庄	liú kuài zhuāng	1
 六郎乡	liù láng xiāng	1
 六郎镇	liù láng zhèn	1
 琉璃乡	liú lí xiāng	1
+刘李庄	liú lǐ zhuāng	1
 柳梁镇	liǔ liáng zhèn	1
+刘林村	liú lín cūn	1
 柳林县	liǔ lín xiàn	174
 柳林乡	liǔ lín xiāng	1
 柳林镇	liǔ lín zhèn	326
 六隆镇	liù lóng zhèn	1
 六龙镇	liù lóng zhèn	1
+刘楼村	liú lóu cūn	1
 刘楼乡	liú lóu xiāng	1
 刘楼镇	liú lóu zhèn	1
 六麻镇	liù má zhèn	1
@@ -10744,10 +10661,10 @@ sort: by_weight
 留盆镇	liú pén zhèn	1
 柳坪乡	liǔ píng xiāng	1
 刘坪镇	liú píng zhèn	1
+刘平庄	liú píng zhuāng	1
 刘绮庄	liú qǐ zhuāng	8
 刘桥镇	liú qiáo zhèn	1
 柳桥镇	liǔ qiáo zhèn	1
-琉球乡	liú qiú xiāng	1
 琉球乡	liú qiú xiāng	1
 流曲镇	liú qǔ zhèn	1
 六泉乡	liù quán xiāng	1
@@ -10786,13 +10703,17 @@ sort: by_weight
 六王镇	liù wáng zhèn	1
 刘圩镇	liú wéi zhèn	1
 六圩镇	liù wéi zhèn	1
+刘文村	liú wén cūn	1
 柳溪乡	liǔ xī xiāng	1
 柳溪镇	liǔ xī zhèn	1
 六硍镇	liù xiàn zhèn	1
 六巷乡	liù xiàng xiāng	1
 柳巷镇	liǔ xiàng zhèn	1
 柳新镇	liǔ xīn zhèn	1
+刘辛庄	liú xīn zhuāng	1
+刘行镇	liú xíng zhèn	1
 柳垭镇	liǔ yā zhèn	1
+刘杨村	liú yáng cūn	1
 浏阳市	liú yáng shì	225
 浏阳县	liú yáng xiàn	156
 六也乡	liù yě xiāng	1
@@ -10997,7 +10918,6 @@ sort: by_weight
 龙水镇	lóng shuǐ zhèn	1
 龙台镇	lóng tái zhèn	1
 龙潭区	lóng tán qū	202
-龙潭区	lóng tán qū	1
 龙潭乡	lóng tán xiāng	1
 龙潭镇	lóng tán zhèn	1
 龙滩镇	lóng tān zhèn	1
@@ -11090,7 +11010,6 @@ sort: by_weight
 陆埠镇	lù bù zhèn	1
 禄步镇	lù bù zhèn	1
 鹿草乡	lù cǎo xiāng	1
-鹿草乡	lù cǎo xiāng	1
 鹿厂镇	lù chǎng zhèn	1
 鲁城村	lǔ chéng cūn	31
 鹿城区	lù chéng qū	294
@@ -11129,7 +11048,6 @@ sort: by_weight
 鹿港镇	lù gǎng zhèn	414
 鲁岗镇	lǔ gǎng zhèn	1
 胪岗镇	lú gǎng zhèn	1
-鹿港镇	lù gǎng zhèn	1
 芦稿镇	lú gǎo zhèn	1
 鲁格村	lǔ gé cūn	94
 鲁贡镇	lǔ gòng zhèn	1
@@ -11137,7 +11055,6 @@ sort: by_weight
 芦沟镇	lú gōu zhèn	1
 鹿谷乡	lù gǔ xiāng	389
 鹿固乡	lù gù xiāng	1
-鹿谷乡	lù gǔ xiāng	1
 泸沽镇	lú gū zhèn	1
 潞灌镇	lù guàn zhèn	1
 炉观镇	lú guān zhèn	1
@@ -11216,6 +11133,7 @@ sort: by_weight
 庐山市	lú shān shì	157
 芦山县	lú shān xiàn	214
 鲁山县	lǔ shān xiàn	201
+鲁山窑	lǔ shān yáo
 炉山镇	lú shān zhèn	1
 芦山镇	lú shān zhèn	1
 卢氏县	lú shì xiàn	216
@@ -11270,7 +11188,6 @@ sort: by_weight
 路阳镇	lù yáng zhèn	1
 芦阳镇	lú yáng zhèn	1
 鹿野乡	lù yě xiāng	1
-鹿野乡	lù yě xiāng	1
 鹿邑县	lù yì xiàn	192
 卢医镇	lú yī zhèn	1
 鲁营村	lǔ yíng cūn	159
@@ -11290,7 +11207,6 @@ sort: by_weight
 芦洲区	lú zhōu qū	1
 芦洲乡	lú zhōu xiāng	1
 芦洲镇	lú zhōu zhèn	1
-芦竹区	lú zhú qū	1
 芦竹区	lú zhú qū	1
 路竹区	lù zhú qū	1
 渌渚镇	lù zhǔ zhèn	1
@@ -11314,7 +11230,6 @@ sort: by_weight
 滦州市	luán zhōu shì	112
 栾庄乡	luán zhuāng xiāng	1
 峦庄镇	luán zhuāng zhèn	1
-仑背乡	lún bèi xiāng	1
 仑背乡	lún bèi xiāng	1
 仑苍镇	lún cāng zhèn	1
 伦河镇	lún hé zhèn	1
@@ -11369,7 +11284,6 @@ sort: by_weight
 罗东镇	luó dōng zhèn	420
 罗董镇	luó dǒng zhèn	120
 洛东镇	luò dōng zhèn	1
-罗东镇	luó dōng zhèn	1
 罗渡村	luó dù cūn	181
 罗渡镇	luó dù zhèn	1
 罗墩村	luó dūn cūn	120
@@ -11604,7 +11518,6 @@ sort: by_weight
 绿春县	lǜ chūn xiàn	146
 吕村镇	lǚ cūn zhèn	1
 绿岛乡	lǜ dǎo xiāng	1
-绿岛乡	lǜ dǎo xiāng	1
 吕店村	lǚ diàn cūn	31
 吕店乡	lǚ diàn xiāng	120
 吕店镇	lǚ diàn zhèn	1
@@ -11688,6 +11601,7 @@ sort: by_weight
 马厂村	mǎ chǎng cūn	208
 马厂乡	mǎ chǎng xiāng	171
 马场乡	mǎ chǎng xiāng	120
+马昌营	mǎ chāng yíng
 马厂镇	mǎ chǎng zhèn	258
 马场镇	mǎ chǎng zhèn	239
 马畅镇	mǎ chàng zhèn	1
@@ -11750,6 +11664,7 @@ sort: by_weight
 马关村	mǎ guān cūn	1
 马关县	mǎ guān xiàn	178
 马关乡	mǎ guān xiāng	167
+马官营	mǎ guān yíng
 马灌镇	mǎ guàn zhèn	1
 马官镇	mǎ guān zhèn	1
 马关镇	mǎ guān zhèn	1
@@ -11790,7 +11705,6 @@ sort: by_weight
 马家溪	mǎ jiā xī	133
 马家乡	mǎ jiā xiāng	275
 马家巷	mǎ jiā xiàng	269
-玛家乡	mǎ jiā xiāng	1
 玛家乡	mǎ jiā xiāng	1
 马家堰	mǎ jiā yàn	150
 马家峪	mǎ jiā yù	94
@@ -11845,6 +11759,7 @@ sort: by_weight
 马莲村	mǎ lián cūn	82
 麻莲乡	má lián xiāng	1
 马莲乡	mǎ lián xiāng	1
+马练营	mǎ liàn yíng
 马连镇	mǎ lián zhèn	1
 马连庄	mǎ lián zhuāng	236
 马梁村	mǎ liáng cūn	82
@@ -11900,6 +11815,7 @@ sort: by_weight
 马坡镇	mǎ pō zhèn	259
 马铺村	mǎ pù cūn	1
 马铺乡	mǎ pù xiāng	133
+马铺营	mǎ pù yíng
 马铺镇	mǎ pù zhèn	1
 马前村	mǎ qián cūn	52
 马前乡	mǎ qián xiāng	1
@@ -12075,7 +11991,6 @@ sort: by_weight
 卖酒镇	mài jiǔ zhèn	1
 麦昆乡	mài kūn xiāng	1
 麦寮乡	mài liáo xiāng	1
-麦寮乡	mài liáo xiāng	1
 麦岭镇	mài lǐng zhèn	1
 麦坪镇	mài píng zhèn	1
 麦日乡	mài rì xiāng	1
@@ -12110,7 +12025,6 @@ sort: by_weight
 满月镇	mǎn yuè zhèn	1
 漫云村	màn yún cūn	158
 满掌乡	mǎn zhǎng xiāng	1
-满州乡	mǎn zhōu xiāng	1
 满州乡	mǎn zhōu xiāng	1
 满庄镇	mǎn zhuāng zhèn	1
 芒棒镇	máng bàng zhèn	1
@@ -12174,7 +12088,6 @@ sort: by_weight
 茂兰镇	mào lán zhèn	1
 毛李镇	máo lǐ zhèn	1
 茅栗镇	máo lì zhèn	1
-茂林区	mào lín qū	1
 茂林区	mào lín qū	1
 茂林镇	mào lín zhèn	1
 茅岭镇	máo lǐng zhèn	1
@@ -12260,7 +12173,6 @@ sort: by_weight
 梅萨县	méi sà xiàn	76
 眉山县	méi shān xiàn	111
 眉山乡	méi shān xiāng	1
-梅山乡	méi shān xiāng	1
 梅山乡	méi shān xiāng	1
 梅山镇	méi shān zhèn	253
 煤山镇	méi shān zhèn	1
@@ -12488,7 +12400,6 @@ sort: by_weight
 庙口镇	miào kǒu zhèn	1
 苗栗市	miáo lì shì	1
 苗栗县	miáo lì xiàn	272
-苗栗县	miáo lì xiàn	1
 庙岭乡	miào lǐng xiāng	1
 庙岭镇	miào lǐng zhèn	1
 苗圃场	miáo pǔ chǎng	94
@@ -12545,7 +12456,6 @@ sort: by_weight
 民胜镇	mín shèng zhèn	1
 闵孝镇	mǐn xiào zhèn	1
 民雄乡	mín xióng xiāng	1
-民雄乡	mín xióng xiāng	1
 岷阳镇	mín yáng zhèn	1
 民意乡	mín yì xiāng	1
 民乐县	mín yuè xiàn	170
@@ -12572,7 +12482,6 @@ sort: by_weight
 明集乡	míng jí xiāng	1
 明集镇	míng jí zhèn	1
 名间乡	míng jiān xiāng	376
-名间乡	míng jiān xiāng	1
 明姜镇	míng jiāng zhèn	1
 明江镇	míng jiāng zhèn	1
 明久乡	míng jiǔ xiāng	1
@@ -12669,7 +12578,6 @@ sort: by_weight
 穆村镇	mù cūn zhèn	1
 牡丹区	mǔ dān qū	177
 牡丹乡	mǔ dān xiāng	347
-牡丹乡	mǔ dān xiāng	1
 牡丹镇	mǔ dān zhèn	1
 穆店乡	mù diàn xiāng	1
 穆店镇	mù diàn zhèn	1
@@ -12845,7 +12753,6 @@ sort: by_weight
 南安镇	nán ān zhèn	1
 南岸镇	nán àn zhèn	1
 南澳县	nán ào xiàn	174
-南澳乡	nán ào xiāng	1
 南澳乡	nán ào xiāng	1
 南坝乡	nán bà xiāng	1
 南坝镇	nán bà zhèn	1
@@ -13033,7 +12940,6 @@ sort: by_weight
 南桐镇	nán tóng zhèn	1
 南投市	nán tóu shì	1
 南投县	nán tóu xiàn	273
-南投县	nán tóu xiàn	1
 南头镇	nán tóu zhèn	1
 南屯区	nán tún qū	1
 南屯镇	nán tún zhèn	1
@@ -13101,9 +13007,7 @@ sort: by_weight
 南郑县	nán zhèng xiàn	195
 南政乡	nán zhèng xiāng	1
 南州乡	nán zhōu xiāng	1
-南州乡	nán zhōu xiāng	1
 南洲镇	nán zhōu zhèn	1
-南庄乡	nán zhuāng xiāng	1
 南庄乡	nán zhuāng xiāng	1
 南庄镇	nán zhuāng zhèn	323
 楠梓区	nán zǐ qū	1
@@ -13120,7 +13024,6 @@ sort: by_weight
 讷河县	nè hé xiàn	78
 讷南镇	nè nán zhèn	1
 内步乡	nèi bù xiāng	1
-内埔乡	nèi bù xiāng	1
 内埔乡	nèi bù xiāng	1
 内埠镇	nèi bù zhèn	1
 内厝镇	nèi cuò zhèn	1
@@ -13206,7 +13109,6 @@ sort: by_weight
 鸟河乡	niǎo hé xiāng	1
 鸟江镇	niǎo jiāng zhèn	1
 鸟取县	niǎo qǔ xiàn	244
-鸟松区	niǎo sōng qū	1
 鸟松区	niǎo sōng qū	1
 聂当乡	niè dāng xiāng	1
 聂都乡	niè dōu xiāng	1
@@ -13467,8 +13369,7 @@ sort: by_weight
 彭高镇	péng gāo zhèn	1
 彭公镇	péng gōng zhèn	1
 硼海镇	péng hǎi zhèn	1
-澎湖县	pēng hú xiàn	254
-澎湖县	pēng hú xiàn	1
+澎湖县	péng hú xiàn	254
 蓬壶镇	péng hú zhèn	1
 蓬华镇	péng huá zhèn	1
 彭家乡	péng jiā xiāng	1
@@ -13517,7 +13418,6 @@ sort: by_weight
 皮山县	pí shān xiàn	166
 匹斯堡	pǐ sī bǎo	199
 皮特堡	pí tè bǎo	185
-埤头乡	pí tóu xiāng	1
 埤头乡	pí tóu xiāng	1
 辟展镇	pì zhǎn zhèn	1
 邳州市	pī zhōu shì	204
@@ -13579,7 +13479,6 @@ sort: by_weight
 坪定镇	píng dìng zhèn	1
 屏东市	píng dōng shì	1
 屏东县	píng dōng xiàn	284
-屏东县	píng dōng xiàn	1
 平东镇	píng dōng zhèn	1
 平都镇	píng dōu zhèn	1
 平度市	píng dù shì	238
@@ -13628,7 +13527,6 @@ sort: by_weight
 平里镇	píng lǐ zhèn	1
 平凉县	píng liáng xiàn	97
 平梁镇	píng liáng zhèn	1
-坪林区	píng lín qū	1
 坪林区	píng lín qū	1
 平林镇	píng lín zhèn	1
 平鲁区	píng lǔ qū	146
@@ -13702,7 +13600,6 @@ sort: by_weight
 平圩镇	píng wéi zhèn	1
 平武县	píng wǔ xiàn	176
 平武镇	píng wǔ zhèn	1
-平溪区	píng xī qū	1
 平溪区	píng xī qū	1
 平西乡	píng xī xiāng	1
 平溪镇	píng xī zhèn	1
@@ -13941,7 +13838,6 @@ sort: by_weight
 骑龙镇	qí lóng zhèn	1
 骑马乡	qí mǎ xiāng	1
 齐满镇	qí mǎn zhèn	1
-七美乡	qī měi xiāng	1
 七美乡	qī měi xiāng	1
 祁门县	qí mén xiàn	180
 启蒙镇	qǐ méng zhèn	1
@@ -14217,7 +14113,6 @@ sort: by_weight
 桥梓镇	qiáo zǐ zhèn	1
 癿藏镇	qié cáng zhèn	1
 茄萣区	qié dìng qū	1
-茄萣区	qié dìng qū	1
 切吉乡	qiè jí xiāng	1
 郄马镇	qiè mǎ zhèn	1
 且末县	qiě mò xiàn	162
@@ -14476,6 +14371,8 @@ sort: by_weight
 秋木乡	qiū mù xiāng	1
 秋浦县	qiū pǔ xiàn	111
 秋渠乡	qiū qú xiāng	1
+湫山乡	qiū shān xiāng	1
+湫山镇	qiū shān zhèn	1
 秋田县	qiū tián xiàn	238
 丘头镇	qiū tóu zhèn	1
 秋窝乡	qiū wō xiāng	1
@@ -14669,7 +14566,6 @@ sort: by_weight
 热柘镇	rè zhè zhèn	1
 仁爱区	rén ài qū	1
 仁爱乡	rén ài xiāng	1
-仁爱乡	rén ài xiāng	1
 仁布县	rén bù xiàn	107
 仁布乡	rén bù xiāng	1
 任城区	rèn chéng qū	184
@@ -14822,7 +14718,6 @@ sort: by_weight
 瑞昌县	ruì chāng xiàn	90
 芮城县	ruì chéng xiàn	186
 瑞芳区	ruì fāng qū	1
-瑞芳区	ruì fāng qū	1
 瑞峰镇	ruì fēng zhèn	1
 汭丰镇	ruì fēng zhèn	1
 瑞洪镇	ruì hóng zhèn	1
@@ -14832,7 +14727,6 @@ sort: by_weight
 瑞丽县	ruì lì xiàn	136
 瑞林镇	ruì lín zhèn	1
 瑞穗乡	ruì suì xiāng	353
-瑞穗乡	ruì suì xiāng	1
 瑞溪镇	ruì xī zhèn	1
 润城镇	rùn chéng zhèn	1
 润河镇	rùn hé zhèn	1
@@ -14889,7 +14783,6 @@ sort: by_weight
 三岔镇	sān chà zhèn	261
 三汊镇	sān chà zhèn	1
 三城镇	sān chéng zhèn	1
-三重区	sān chóng qū	1
 三重区	sān chóng qū	1
 三重县	sān chóng xiàn	258
 三川镇	sān chuān zhèn	100
@@ -15022,14 +14915,11 @@ sort: by_weight
 三屯乡	sān tún xiāng	1
 三屯镇	sān tún zhèn	1
 三湾乡	sān wān xiāng	1
-三湾乡	sān wān xiāng	1
 三五镇	sān wǔ zhèn	1
 三溪乡	sān xī xiāng	100
 三溪镇	sān xī zhèn	100
 三峡区	sān xiá qū	1
-三峡区	sān xiá qū	1
 三乡镇	sān xiāng zhèn	100
-三星乡	sān xīng xiāng	1
 三星乡	sān xīng xiāng	1
 三星镇	sān xīng zhèn	100
 三兴镇	sān xīng zhèn	1
@@ -15038,7 +14928,6 @@ sort: by_weight
 三阳镇	sān yáng zhèn	100
 三要镇	sān yào zhèn	1
 三益乡	sān yì xiāng	1
-三义乡	sān yì xiāng	1
 三义乡	sān yì xiāng	1
 三义镇	sān yì zhèn	1
 三营镇	sān yíng zhèn	1
@@ -15054,7 +14943,6 @@ sort: by_weight
 三樟镇	sān zhāng zhèn	1
 三张镇	sān zhāng zhèn	1
 三圳镇	sān zhèn zhèn	1
-三芝区	sān zhī qū	1
 三芝区	sān zhī qū	1
 三州乡	sān zhōu xiāng	1
 三洲镇	sān zhōu zhèn	1
@@ -15576,7 +15464,6 @@ sort: by_weight
 社坛镇	shè tán zhèn	1
 社棠镇	shè táng zhèn	1
 社头乡	shè tóu xiāng	1
-社头乡	shè tóu xiāng	1
 赊湾镇	shē wān zhèn	1
 社溪镇	shè xī zhèn	1
 社硎乡	shè xíng xiāng	1
@@ -15596,7 +15483,6 @@ sort: by_weight
 莘畈乡	shēn fàn xiāng	1
 神冈区	shén gāng qū	1
 神岗乡	shén gǎng xiāng	1
-伸港乡	shēn gǎng xiāng	1
 伸港乡	shēn gǎng xiāng	1
 沈高镇	shěn gāo zhèn	215
 深沟乡	shēn gōu xiāng	1
@@ -15622,7 +15508,6 @@ sort: by_weight
 沈家庄	shěn jiā zhuāng	196
 椹涧乡	shèn jiàn xiāng	1
 深井镇	shēn jǐng zhèn	1
-深坑区	shēn kēng qū	1
 深坑区	shēn kēng qū	1
 莘口镇	shēn kǒu zhèn	1
 神林乡	shén lín xiāng	1
@@ -15796,7 +15681,6 @@ sort: by_weight
 石佛乡	shí fó xiāng	1
 石佛镇	shí fó zhèn	1
 石冈区	shí gāng qū	1
-石冈区	shí gāng qū	1
 石岗乡	shí gǎng xiāng	1
 石港镇	shí gǎng zhèn	1
 石岗镇	shí gǎng zhèn	1
@@ -15900,7 +15784,6 @@ sort: by_weight
 石蟆镇	shí má zhèn	1
 试马镇	shì mǎ zhèn	1
 石门区	shí mén qū	1
-石门区	shí mén qū	1
 石门县	shí mén xiàn	193
 石门乡	shí mén xiāng	325
 石门镇	shí mén zhèn	344
@@ -15965,7 +15848,6 @@ sort: by_weight
 石台镇	shí tái zhèn	1
 狮潭乡	shī tán xiāng	324
 石滩乡	shí tān xiāng	1
-狮潭乡	shī tán xiāng	1
 石滩镇	shí tān zhèn	1
 石潭镇	shí tán zhèn	1
 狮滩镇	shī tān zhèn	1
@@ -16043,7 +15925,6 @@ sort: by_weight
 石子乡	shí zǐ xiāng	1
 什字乡	shí zì xiāng	1
 狮子乡	shī zi xiāng	1
-狮子乡	shī zi xiāng	1
 十字镇	shí zì zhèn	1
 狮子镇	shī zi zhèn	1
 石子镇	shí zǐ zhèn	1
@@ -16061,7 +15942,6 @@ sort: by_weight
 收成镇	shōu chéng zhèn	1
 寿春县	shòu chūn xiàn	137
 寿春镇	shòu chūn zhèn	1
-寿丰乡	shòu fēng xiāng	1
 寿丰乡	shòu fēng xiāng	1
 寿光市	shòu guāng shì	206
 寿光县	shòu guāng xiàn	154
@@ -16232,7 +16112,6 @@ sort: by_weight
 双望镇	shuāng wàng zhèn	1
 双旺镇	shuāng wàng zhèn	1
 双溪区	shuāng xī qū	1
-双溪区	shuāng xī qū	1
 双溪乡	shuāng xī xiāng	1
 双溪镇	shuāng xī zhèn	1
 双岘镇	shuāng xiàn zhèn	1
@@ -16282,9 +16161,7 @@ sort: by_weight
 水口镇	shuǐ kǒu zhèn	355
 水宽乡	shuǐ kuān xiāng	1
 水里乡	shuǐ lǐ xiāng	1
-水里乡	shuǐ lǐ xiāng	1
 水林乡	shuǐ lín xiāng	336
-水林乡	shuǐ lín xiāng	1
 水岭乡	shuǐ lǐng xiāng	1
 水洛镇	shuǐ luò zhèn	1
 水满乡	shuǐ mǎn xiāng	1
@@ -16298,7 +16175,6 @@ sort: by_weight
 水箐镇	shuǐ qìng zhèn	1
 水泉乡	shuǐ quán xiāng	1
 水泉镇	shuǐ quán zhèn	1
-水上乡	shuǐ shàng xiāng	1
 水上乡	shuǐ shàng xiāng	1
 水市镇	shuǐ shì zhèn	1
 水台镇	shuǐ tái zhèn	1
@@ -16389,7 +16265,6 @@ sort: by_weight
 思贺镇	sī hè zhèn	1
 四河镇	sì hé zhèn	1
 泗洪县	sì hóng xiàn	194
-四湖乡	sì hú xiāng	1
 四湖乡	sì hú xiāng	1
 四户镇	sì hù zhèn	1
 四会市	sì huì shì	190
@@ -16540,6 +16415,7 @@ sort: by_weight
 松江县	sōng jiāng xiàn	146
 松江乡	sōng jiāng xiāng	1
 松江镇	sōng jiāng zhèn	258
+宋军营	sòng jūn yíng
 松坎镇	sōng kǎn zhèn	1
 嵩口镇	sōng kǒu zhèn	1
 松口镇	sōng kǒu zhèn	1
@@ -16568,7 +16444,6 @@ sort: by_weight
 宋山村	sòng shān cūn	31
 松山湖	sōng shān hú	248
 松山区	sōng shān qū	273
-松山区	sōng shān qū	1
 松山镇	sōng shān zhèn	1
 嵩市镇	sōng shì zhèn	1
 松树乡	sōng shù xiāng	1
@@ -16608,7 +16483,6 @@ sort: by_weight
 松宗镇	sōng zōng zhèn	1
 宿安乡	sù ān xiāng	1
 苏澳镇	sū ào zhèn	416
-苏澳镇	sū ào zhèn	1
 苏坝镇	sū bà zhèn	1
 苏坂镇	sū bǎn zhèn	1
 苏堡镇	sū bǎo zhèn	112
@@ -16874,7 +16748,6 @@ sort: by_weight
 泰安县	tài ān xiàn	132
 太安乡	tài ān xiāng	1
 泰安乡	tài ān xiāng	1
-泰安乡	tài ān xiāng	1
 太安镇	tài ān zhèn	1
 太拔镇	tài bá zhèn	1
 太白县	tài bái xiàn	166
@@ -16895,7 +16768,6 @@ sort: by_weight
 太德乡	tài dé xiāng	1
 台东市	tái dōng shì	1
 台东县	tái dōng xiàn	268
-台东县	tái dōng xiàn	1
 太东乡	tài dōng xiāng	1
 太莪乡	tài é xiāng	1
 台儿庄	tái ér zhuāng	548
@@ -16938,7 +16810,6 @@ sort: by_weight
 太平堡	tài píng bǎo	98
 太平川	tài píng chuān	113
 太平区	tài píng qū	202
-太平区	tài píng qū	1
 太平县	tài píng xiàn	174
 太平乡	tài píng xiāng	343
 太平镇	tài píng zhèn	441
@@ -16946,7 +16817,6 @@ sort: by_weight
 台前县	tái qián xiàn	168
 太丘镇	tài qiū zhèn	1
 泰山区	tài shān qū	197
-泰山区	tài shān qū	1
 台山市	tái shān shì	216
 台山县	tái shān xiàn	144
 泰山乡	tài shān xiāng	260
@@ -16963,9 +16833,7 @@ sort: by_weight
 太尉镇	tài wèi zhèn	1
 太窝乡	tài wō xiāng	1
 泰武乡	tài wǔ xiāng	1
-泰武乡	tài wǔ xiāng	1
 台溪乡	tái xī xiāng	1
-台西乡	tái xī xiāng	1
 台西乡	tái xī xiāng	1
 太霞乡	tài xiá xiāng	1
 泰兴市	tài xīng shì	198
@@ -17055,7 +16923,6 @@ sort: by_weight
 坛镇乡	tán zhèn xiāng	1
 坦洲镇	tǎn zhōu zhèn	1
 谭庄镇	tán zhuāng zhèn	1
-潭子区	tán zǐ qū	1
 潭子区	tán zǐ qū	1
 塘岸镇	táng àn zhèn	1
 塘坝镇	táng bà zhèn	1
@@ -17185,6 +17052,7 @@ sort: by_weight
 桃城镇	táo chéng zhèn	1
 陶城镇	táo chéng zhèn	1
 桃川镇	táo chuān zhèn	1
+陶瓷窑	táo cí yáo
 陶村乡	táo cūn xiāng	1
 陶村镇	táo cūn zhèn	181
 桃村镇	táo cūn zhèn	1
@@ -17263,7 +17131,6 @@ sort: by_weight
 桃源村	táo yuán cūn	363
 桃源区	táo yuán qū	1
 桃园区	táo yuán qū	1
-桃源区	táo yuán qū	1
 桃园市	táo yuán shì	1
 桃源县	táo yuán xiàn	304
 桃园县	táo yuán xiàn	254
@@ -17351,7 +17218,6 @@ sort: by_weight
 天口镇	tiān kǒu zhèn	1
 天籁村	tiān lài cūn	250
 田寮区	tián liáo qū	1
-田寮区	tián liáo qū	1
 田林县	tián lín xiàn	159
 天林镇	tiān lín zhèn	1
 田柳镇	tián liǔ zhèn	1
@@ -17389,8 +17255,8 @@ sort: by_weight
 天水县	tiān shuǐ xiàn	69
 甜水镇	tián shuǐ zhèn	1
 天水镇	tiān shuǐ zhèn	1
-天台县	tiān tāi xiàn	202
-天台镇	tiān tāi zhèn	1
+天台县	tiān tái xiàn	202
+天台镇	tiān tái zhèn	1
 天坛镇	tiān tán zhèn	1
 天堂堡	tiān táng bǎo	207
 天堂镇	tiān táng zhèn	1
@@ -17401,7 +17267,6 @@ sort: by_weight
 田湾乡	tián wān xiāng	1
 田湾镇	tián wān zhèn	1
 天王镇	tiān wáng zhèn	1
-田尾乡	tián wěi xiāng	1
 田尾乡	tián wěi xiāng	1
 天文镇	tiān wén zhèn	1
 天仙镇	tiān xiān zhèn	1
@@ -17426,7 +17291,6 @@ sort: by_weight
 田园镇	tián yuán zhèn	1
 天增镇	tiān zēng zhèn	1
 天镇县	tiān zhèn xiàn	168
-田中镇	tián zhōng zhèn	1
 田中镇	tián zhōng zhèn	1
 田州镇	tián zhōu zhèn	1
 天祝县	tiān zhù xiàn	170
@@ -17578,7 +17442,6 @@ sort: by_weight
 桐楼乡	tóng lóu xiāng	1
 桐庐县	tóng lú xiàn	212
 铜锣乡	tóng luó xiāng	1
-铜锣乡	tóng luó xiāng	1
 铜锣镇	tóng luó zhèn	1
 通旅镇	tōng lǚ zhèn	1
 通门乡	tōng mén xiāng	1
@@ -17628,7 +17491,6 @@ sort: by_weight
 桐乡县	tóng xiāng xiàn	144
 通宵镇	tōng xiāo zhèn	1
 通霄镇	tōng xiāo zhèn	1
-通霄镇	tōng xiāo zhèn	1
 同心县	tóng xīn xiàn	175
 同心乡	tóng xīn xiāng	1
 同心镇	tóng xīn zhèn	1
@@ -17657,10 +17519,8 @@ sort: by_weight
 透堡镇	tòu bǎo zhèn	1
 头陂镇	tóu bēi zhèn	1
 头城镇	tóu chéng zhèn	1
-头城镇	tóu chéng zhèn	1
 头道镇	tóu dào zhèn	1
 头渡镇	tóu dù zhèn	1
-头份市	tóu fèn shì	1
 头份市	tóu fèn shì	1
 头份镇	tóu fèn zhèn	287
 头沟镇	tóu gōu zhèn	1
@@ -17673,7 +17533,6 @@ sort: by_weight
 头塘镇	tóu táng zhèn	1
 头陀镇	tóu tuó zhèn	1
 头屋乡	tóu wū xiāng	1
-头屋乡	tóu wū xiāng	1
 头营镇	tóu yíng zhèn	1
 头灶镇	tóu zào zhèn	1
 头闸镇	tóu zhá zhèn	1
@@ -17683,7 +17542,6 @@ sort: by_weight
 土博镇	tǔ bó zhèn	1
 涂埠镇	tú bù zhèn	1
 土场镇	tǔ chǎng zhèn	1
-土城区	tǔ chéng qū	1
 土城区	tǔ chéng qū	1
 土城乡	tǔ chéng xiāng	274
 土城镇	tǔ chéng zhèn	1
@@ -17700,7 +17558,6 @@ sort: by_weight
 兔街镇	tù jiē zhèn	1
 涂井乡	tú jǐng xiāng	1
 图克镇	tú kè zhèn	1
-土库镇	tǔ kù zhèn	1
 土库镇	tǔ kù zhèn	1
 涂岭镇	tú lǐng zhèn	1
 图们市	tú men shì	157
@@ -17870,7 +17727,6 @@ sort: by_weight
 万春镇	wàn chūn zhèn	100
 万村乡	wàn cūn xiāng	1
 万丹乡	wàn dān xiāng	1
-万丹乡	wàn dān xiāng	1
 万石镇	wàn dàn zhèn	1
 万德镇	wàn dé zhèn	1
 万堤镇	wàn dī zhèn	1
@@ -17905,7 +17761,6 @@ sort: by_weight
 湾龙镇	wān lóng zhèn	1
 万隆镇	wàn lóng zhèn	1
 万峦乡	wàn luán xiāng	1
-万峦乡	wàn luán xiāng	1
 完冒镇	wán mào zhèn	1
 万民乡	wàn mín xiāng	1
 万木镇	wàn mù zhèn	1
@@ -17924,7 +17779,6 @@ sort: by_weight
 万泉镇	wàn quán zhèn	100
 万泉庄	wàn quán zhuāng	272
 万荣县	wàn róng xiàn	189
-万荣乡	wàn róng xiāng	1
 万荣乡	wàn róng xiāng	1
 万山区	wàn shān qū	164
 万山乡	wàn shān xiāng	1
@@ -17968,7 +17822,6 @@ sort: by_weight
 万庄镇	wàn zhuāng zhèn	1
 万足镇	wàn zú zhèn	1
 王安村	wáng ān cūn	52
-望安乡	wàng ān xiāng	1
 望安乡	wàng ān xiāng	1
 王安镇	wáng ān zhèn	229
 王坝村	wáng bà cūn	145
@@ -18184,6 +18037,7 @@ sort: by_weight
 王桥镇	wáng qiáo zhèn	229
 汪桥镇	wāng qiáo zhèn	1
 汪清县	wāng qīng xiàn	174
+王清营	wáng qīng yíng
 汪清镇	wāng qīng zhèn	1
 王曲村	wáng qǔ cūn	167
 王渠村	wáng qú cūn	69
@@ -18200,6 +18054,7 @@ sort: by_weight
 网市镇	wǎng shì zhèn	1
 望树镇	wàng shù zhèn	1
 王寺村	wáng sì cūn	210
+王四营	wáng sì yíng
 王泗镇	wáng sì zhèn	201
 王寺镇	wáng sì zhèn	69
 王宋村	wáng sòng cūn	69
@@ -18283,6 +18138,7 @@ sort: by_weight
 王寨乡	wáng zhài xiāng	215
 王宅镇	wáng zhái zhèn	237
 王寨镇	wáng zhài zhèn	191
+王战营	wáng zhàn yíng
 王赵村	wáng zhào cūn	94
 王召村	wáng zhào cūn	52
 王召乡	wáng zhào xiāng	139
@@ -18661,7 +18517,6 @@ sort: by_weight
 雾峰区	wù fēng qū	1
 五峰县	wǔ fēng xiàn	158
 五峰乡	wǔ fēng xiāng	1
-五峰乡	wǔ fēng xiāng	1
 五峰镇	wǔ fēng zhèn	1
 吾峰镇	wú fēng zhèn	1
 五丰镇	wǔ fēng zhèn	1
@@ -18685,7 +18540,6 @@ sort: by_weight
 吴沟村	wú gōu cūn	31
 武沟乡	wǔ gōu xiāng	1
 五沟镇	wǔ gōu zhèn	1
-五股区	wǔ gǔ qū	1
 五股区	wǔ gǔ qū	1
 武关镇	wǔ guān zhèn	1
 五桂镇	wǔ guì zhèn	1
@@ -18750,7 +18604,6 @@ sort: by_weight
 勿角镇	wù jiǎo zhèn	1
 五蛟镇	wǔ jiāo zhèn	1
 五结乡	wǔ jié xiāng	361
-五结乡	wǔ jié xiāng	1
 五接镇	wǔ jiē zhèn	1
 五街镇	wǔ jiē zhèn	1
 武进区	wǔ jìn qū	255
@@ -18826,7 +18679,6 @@ sort: by_weight
 乌坡镇	wū pō zhèn	1
 吴铺镇	wú pù zhèn	175
 梧栖区	wú qī qū	1
-梧栖区	wú qī qū	1
 吴起县	wú qǐ xiàn	221
 吴旗县	wú qí xiàn	116
 吴起镇	wú qǐ zhèn	382
@@ -18881,7 +18733,6 @@ sort: by_weight
 吴台村	wú tái cūn	1
 五台县	wǔ tái xiàn	197
 五台乡	wǔ tái xiāng	1
-雾台乡	wù tái xiāng	1
 雾台乡	wù tái xiāng	1
 武台镇	wǔ tái zhèn	1
 吴台镇	wú tái zhèn	1
@@ -19055,9 +18906,7 @@ sort: by_weight
 西湖区	xī hú qū	315
 溪湖区	xī hú qū	137
 西湖乡	xī hú xiāng	1
-西湖乡	xī hú xiāng	1
 西湖镇	xī hú zhèn	1
-溪湖镇	xī hú zhèn	1
 溪湖镇	xī hú zhèn	1
 西华县	xī huá xiàn	186
 西华镇	xī huá zhèn	1
@@ -19076,7 +18925,6 @@ sort: by_weight
 西靖镇	xī jìng zhèn	1
 习酒镇	xí jiǔ zhèn	1
 西坑村	xī kēng cūn	241
-溪口乡	xī kǒu xiāng	1
 溪口乡	xī kǒu xiāng	1
 溪口镇	xī kǒu zhèn	370
 西口镇	xī kǒu zhèn	1
@@ -19101,7 +18949,6 @@ sort: by_weight
 西胪镇	xī lú zhèn	1
 西洛镇	xī luò zhèn	1
 洗洛镇	xǐ luò zhèn	1
-西螺镇	xī luó zhèn	1
 西螺镇	xī luó zhèn	1
 西马乡	xī mǎ xiāng	1
 昔马镇	xī mǎ zhèn	1
@@ -19218,7 +19065,6 @@ sort: by_weight
 西营乡	xī yíng xiāng	1
 西营镇	xī yíng zhèn	300
 西屿乡	xī yǔ xiāng	1
-西屿乡	xī yǔ xiāng	1
 西峪镇	xī yù zhèn	1
 西苑乡	xī yuàn xiāng	1
 溪源乡	xī yuán xiāng	1
@@ -19234,7 +19080,6 @@ sort: by_weight
 汐止镇	xī zhǐ zhèn	279
 息冢镇	xī zhǒng zhèn	1
 西洲乡	xī zhōu xiāng	1
-溪州乡	xī zhōu xiāng	1
 溪州乡	xī zhōu xiāng	1
 西周镇	xī zhōu zhèn	1
 喜洲镇	xǐ zhōu zhèn	1
@@ -19489,7 +19334,6 @@ sort: by_weight
 仙塘镇	xiān táng zhèn	1
 羡塘镇	xiàn táng zhèn	1
 仙桃市	xiān táo shì	200
-线西乡	xiàn xī xiāng	1
 线西乡	xiàn xī xiāng	1
 仙溪镇	xiān xī zhèn	1
 县溪镇	xiàn xī zhèn	1
@@ -19883,7 +19727,6 @@ sort: by_weight
 新宾镇	xīn bīn zhèn	1
 新拨镇	xīn bō zhèn	1
 新埔镇	xīn bù zhèn	1
-新埔镇	xīn bù zhèn	1
 新蔡县	xīn cài xiàn	170
 新仓镇	xīn cāng zhèn	1
 新茶乡	xīn chá xiāng	1
@@ -19897,7 +19740,6 @@ sort: by_weight
 新城区	xīn chéng qū	271
 新城县	xīn chéng xiàn	170
 忻城县	xīn chéng xiàn	166
-新城乡	xīn chéng xiāng	1
 新城乡	xīn chéng xiāng	1
 新城镇	xīn chéng zhèn	74
 新塍镇	xīn chéng zhèn	1
@@ -19937,7 +19779,6 @@ sort: by_weight
 信丰县	xìn fēng xiàn	224
 新丰县	xīn fēng xiàn	174
 新丰乡	xīn fēng xiāng	1
-新丰乡	xīn fēng xiāng	1
 新丰镇	xīn fēng zhèn	1
 辛丰镇	xīn fēng zhèn	1
 忻府区	xīn fǔ qū	172
@@ -19951,7 +19792,6 @@ sort: by_weight
 新淦县	xīn gàn xiàn	153
 新港办	xīn gǎng bàn
 新港城	xīn gǎng chéng	186
-新港乡	xīn gǎng xiāng	1
 新港乡	xīn gǎng xiāng	1
 新港镇	xīn gǎng zhèn	1
 新高乡	xīn gāo xiāng	1
@@ -20049,7 +19889,6 @@ sort: by_weight
 新农乡	xīn nóng xiāng	1
 新农镇	xīn nóng zhèn	1
 新埤乡	xīn pí xiāng	1
-新埤乡	xīn pí xiāng	1
 新平县	xīn píng xiàn	170
 新坪镇	xīn píng zhèn	1
 新坡镇	xīn pō zhèn	1
@@ -20077,7 +19916,6 @@ sort: by_weight
 新盛镇	xīn shèng zhèn	1
 新生镇	xīn shēng zhèn	1
 新市区	xīn shì qū	216
-新市区	xīn shì qū	1
 新市镇	xīn shì zhèn	62
 昕水镇	xīn shuǐ zhèn	1
 新寺乡	xīn sì xiāng	1
@@ -20119,7 +19957,6 @@ sort: by_weight
 新乡镇	xīn xiāng zhèn	1
 新兴村	xīn xīng cūn	267
 新兴区	xīn xīng qū	183
-新兴区	xīn xīng qū	1
 新星市	xīn xīng shì	72
 新兴县	xīn xīng xiàn	190
 新兴乡	xīn xīng xiāng	1
@@ -20134,13 +19971,11 @@ sort: by_weight
 新叶村	xīn yè cūn	316
 新野县	xīn yě xiàn	200
 信义区	xìn yì qū	1
-信义区	xìn yì qū	1
 新沂市	xīn yí shì	270
 信宜市	xìn yí shì	268
 信宜县	xìn yí xiàn	120
 新沂县	xīn yí xiàn	81
 辛义乡	xīn yì xiāng	1
-信义乡	xìn yì xiāng	1
 信义乡	xìn yì xiāng	1
 信义镇	xìn yì zhèn	1
 新驿镇	xīn yì zhèn	1
@@ -20150,7 +19985,6 @@ sort: by_weight
 新营镇	xīn yíng zhèn	1
 新余县	xīn yú xiàn	69
 新源县	xīn yuán xiàn	183
-新园乡	xīn yuán xiāng	1
 新园乡	xīn yuán xiāng	1
 新源镇	xīn yuán zhèn	1
 新袁镇	xīn yuán zhèn	1
@@ -20181,7 +20015,6 @@ sort: by_weight
 新舟镇	xīn zhōu zhèn	1
 新竹市	xīn zhú shì	1
 新竹县	xīn zhú xiàn	278
-新竹县	xīn zhú xiàn	1
 新竹镇	xīn zhú zhèn	1
 辛庄村	xīn zhuāng cūn	281
 新庄区	xīn zhuāng qū	1
@@ -20318,7 +20151,6 @@ sort: by_weight
 雄江镇	xióng jiāng zhèn	1
 熊口镇	xióng kǒu zhèn	1
 芎林乡	xiōng lín xiāng	1
-芎林乡	xiōng lín xiāng	1
 雄玛乡	xióng mǎ xiāng	1
 雄麦乡	xióng mài xiāng	1
 雄梅镇	xióng méi zhèn	1
@@ -20334,7 +20166,6 @@ sort: by_weight
 秀峰乡	xiù fēng xiāng	1
 秀谷镇	xiù gǔ zhèn	1
 秀林乡	xiù lín xiāng	1
-秀林乡	xiù lín xiāng	1
 秀林镇	xiù lín zhèn	1
 秀麻乡	xiù má xiāng	1
 修梅镇	xiū méi zhèn	1
@@ -20346,7 +20177,6 @@ sort: by_weight
 修山镇	xiū shān zhèn	1
 秀市镇	xiù shì zhèn	1
 修水县	xiū shuǐ xiàn	190
-秀水乡	xiù shuǐ xiāng	1
 秀水乡	xiù shuǐ xiāng	1
 秀水镇	xiù shuǐ zhèn	1
 修文县	xiū wén xiàn	208
@@ -20646,6 +20476,7 @@ sort: by_weight
 雅溪镇	yǎ xī zhèn	1
 崖西镇	yá xī zhèn	1
 鸭溪镇	yā xī zhèn	1
+亚先河	yà xiān hé	38
 雅星镇	yǎ xīng zhèn	1
 雅阳镇	yǎ yáng zhèn	1
 雅瑶乡	yǎ yáo xiāng	1
@@ -20668,7 +20499,6 @@ sort: by_weight
 岩比乡	yán bǐ xiāng	1
 盐边县	yán biān xiàn	168
 筵宾镇	yán bīn zhèn	1
-盐埔乡	yán bù xiāng	1
 盐埔乡	yán bù xiāng	1
 盐仓镇	yán cāng zhèn	1
 岩茶乡	yán chá xiāng	1
@@ -20782,7 +20612,6 @@ sort: by_weight
 堰门镇	yàn mén zhèn	1
 严坪村	yán píng cūn	69
 延平区	yán píng qū	196
-延平乡	yán píng xiāng	1
 延平乡	yán píng xiāng	1
 堰坪镇	yàn píng zhèn	1
 延坪镇	yán píng zhèn	1
@@ -21386,7 +21215,6 @@ sort: by_weight
 宜兰市	yí lán shì	1
 宜兰县	yí lán xiàn	274
 依兰县	yī lán xiàn	194
-宜兰县	yí lán xiàn	1
 依兰镇	yī lán zhèn	1
 怡乐镇	yí lè zhèn	1
 以勒镇	yǐ lè zhèn	1
@@ -21482,7 +21310,6 @@ sort: by_weight
 伊州区	yī zhōu qū	166
 宜州区	yí zhōu qū	120
 易州镇	yì zhōu zhèn	1
-义竹乡	yì zhú xiāng	1
 义竹乡	yì zhú xiāng	1
 依庄乡	yī zhuāng xiāng	1
 伊庄镇	yī zhuāng zhèn	1
@@ -21684,7 +21511,6 @@ sort: by_weight
 永建镇	yǒng jiàn zhèn	1
 永靖县	yǒng jìng xiàn	162
 永靖乡	yǒng jìng xiāng	1
-永靖乡	yǒng jìng xiāng	1
 永靖镇	yǒng jìng zhèn	1
 永久乡	yǒng jiǔ xiāng	1
 永久镇	yǒng jiǔ zhèn	1
@@ -21826,7 +21652,6 @@ sort: by_weight
 域城镇	yù chéng zhèn	1
 鱼城镇	yú chéng zhèn	1
 鱼池乡	yú chí xiāng	1
-鱼池乡	yú chí xiāng	1
 鱼池镇	yú chí zhèn	1
 雨冲乡	yǔ chōng xiāng	1
 余川镇	yú chuān zhèn	1
@@ -21911,7 +21736,6 @@ sort: by_weight
 于里镇	yú lǐ zhèn	1
 禹里镇	yǔ lǐ zhèn	1
 尉犁镇	yù lí zhèn	1
-玉里镇	yù lǐ zhèn	1
 玉里镇	yù lǐ zhèn	1
 榆林县	yú lín xiàn	115
 玉林县	yù lín xiàn	61
@@ -22046,7 +21870,6 @@ sort: by_weight
 院堡镇	yuàn bǎo zhèn	1
 元宝镇	yuán bǎo zhèn	1
 元长乡	yuán cháng xiāng	1
-元长乡	yuán cháng xiāng	1
 源城区	yuán chéng qū	174
 元城镇	yuán chéng zhèn	1
 袁冲乡	yuán chōng xiāng	1
@@ -22079,7 +21902,6 @@ sort: by_weight
 元朗区	yuán lǎng qū	1
 袁老乡	yuán lǎo xiāng	1
 苑里镇	yuàn lǐ zhèn	1
-苑里镇	yuàn lǐ zhèn	1
 员林市	yuán lín shì	1
 沅陵县	yuán líng xiàn	188
 沅陵镇	yuán líng zhèn	1
@@ -22099,7 +21921,6 @@ sort: by_weight
 垣曲县	yuán qū xiàn	186
 源泉镇	yuán quán zhèn	1
 渊泉镇	yuān quán zhèn	1
-员山乡	yuán shān xiāng	1
 员山乡	yuán shān xiāng	1
 元善镇	yuán shàn zhèn	1
 元山镇	yuán shān zhèn	1
@@ -22214,6 +22035,7 @@ sort: by_weight
 月照乡	yuè zhào xiāng	1
 曰者镇	yuē zhě zhèn	1
 悦中乡	yuè zhōng xiāng	1
+岳州窑	yuè zhōu yáo
 越州镇	yuè zhōu zhèn	1
 岳庄村	yuè zhuāng cūn	201
 悦庄镇	yuè zhuāng zhèn	1
@@ -22248,7 +22070,6 @@ sort: by_weight
 云锦镇	yún jǐn zhèn	1
 云乐镇	yún lè zhèn	1
 云林县	yún lín xiàn	278
-云林县	yún lín xiàn	1
 云岭乡	yún lǐng xiāng	1
 云岭镇	yún lǐng zhèn	1
 云陵镇	yún líng zhèn	1
@@ -22321,7 +22142,6 @@ sort: by_weight
 枣岭乡	zǎo lǐng xiāng	1
 枣强县	zǎo qiáng xiàn	174
 枣强镇	zǎo qiáng zhèn	1
-造桥乡	zào qiáo xiāng	1
 造桥乡	zào qiáo xiāng	1
 早胜镇	zǎo shèng zhèn	1
 皂市镇	zào shì zhèn	1
@@ -22521,9 +22341,11 @@ sort: by_weight
 张董村	zhāng dǒng cūn	1
 章都乡	zhāng dōu xiāng	1
 樟斗镇	zhāng dòu zhèn	1
+张杜村	zhāng dù cūn	1
 张墩村	zhāng dūn cūn	127
 漳墩镇	zhāng dūn zhèn	1
 章多乡	zhāng duō xiāng	1
+张二庄	zhāng èr zhuāng	1
 张畈村	zhāng fàn cūn	112
 张坊村	zhāng fāng cūn	178
 张坊乡	zhāng fāng xiāng	139
@@ -22540,6 +22362,7 @@ sort: by_weight
 张阁镇	zhāng gé zhèn	159
 张各庄	zhāng gè zhuāng	312
 张戈庄	zhāng gē zhuāng	150
+张格庄	zhāng gé zhuāng	1
 张公村	zhāng gōng cūn	52
 章贡区	zhāng gòng qū	178
 张公镇	zhāng gōng zhèn	159
@@ -22548,7 +22371,10 @@ sort: by_weight
 张沟镇	zhāng gōu zhèn	133
 张古村	zhāng gǔ cūn	1
 章谷镇	zhāng gǔ zhèn	1
+张古庄	zhāng gǔ zhuāng	1
 张官村	zhāng guān cūn	112
+张关庙	zhāng guān miào	1
+张关镇	zhāng guān zhèn	1
 长官镇	zhǎng guān zhèn	1
 彰冠镇	zhāng guān zhèn	1
 章广镇	zhāng guǎng zhèn	1
@@ -22571,7 +22397,6 @@ sort: by_weight
 张化村	zhāng huà cūn	1
 彰化市	zhāng huà shì	1
 彰化县	zhāng huà xiàn	284
-彰化县	zhāng huà xiàn	1
 张华镇	zhāng huá zhèn	175
 章化镇	zhāng huà zhèn	1
 章华镇	zhāng huá zhèn	1
@@ -22663,11 +22488,13 @@ sort: by_weight
 张南村	zhāng nán cūn	1
 张南庄	zhāng nán zhuāng	215
 张牌庄	zhāng pái zhuāng	1
+张畔镇	zhāng pàn zhèn	1
 张潘镇	zhāng pān zhèn	1
 张坪村	zhāng píng cūn	155
 漳平市	zhāng píng shì	236
 漳平县	zhāng píng xiàn	108
 张坡村	zhāng pō cūn	69
+张埔村	zhāng pǔ cūn	1
 张铺村	zhāng pù cūn	1
 漳浦县	zhāng pǔ xiàn	219
 张浦镇	zhāng pǔ zhèn	274
@@ -22736,14 +22563,18 @@ sort: by_weight
 漳溪乡	zhāng xī xiāng	1
 张溪镇	zhāng xī zhèn	133
 樟溪镇	zhāng xī zhèn	1
+张喜庄	zhāng xǐ zhuāng	1
 张夏镇	zhāng xià zhèn	267
 张巷村	zhāng xiàng cūn	171
 张相村	zhāng xiāng cūn	1
 张巷镇	zhāng xiàng zhèn	133
 张相镇	zhāng xiāng zhèn	1
+张谢村	zhāng xiè cūn	1
 张新村	zhāng xīn cūn	231
 张辛村	zhāng xīn cūn	1
 张新镇	zhāng xīn zhèn	145
+张辛庄	zhāng xīn zhuāng	1
+张新庄	zhāng xīn zhuāng	1
 张星镇	zhāng xīng zhèn	196
 张兴庄	zhāng xīng zhuāng	263
 张堰镇	zhāng yàn zhèn	210
@@ -22773,6 +22604,7 @@ sort: by_weight
 张镇村	zhāng zhèn cūn	1
 章镇镇	zhāng zhèn zhèn	1
 掌政镇	zhǎng zhèng zhèn	1
+张芝村	zhāng zhī cūn	1
 张渚镇	zhāng zhǔ zhèn	221
 张庄村	zhāng zhuāng cūn	332
 张庄乡	zhāng zhuāng xiāng	309
@@ -23191,7 +23023,6 @@ sort: by_weight
 中北镇	zhōng běi zhèn	100
 中本镇	zhōng běn zhèn	1
 中埔乡	zhōng bù xiāng	1
-中埔乡	zhōng bù xiāng	1
 众埠镇	zhòng bù zhèn	1
 中埠镇	zhōng bù zhèn	1
 中仓乡	zhōng cāng xiāng	1
@@ -23266,7 +23097,6 @@ sort: by_weight
 中梁镇	zhōng liáng zhèn	100
 中廖村	zhōng liào cūn	100
 中寮乡	zhōng liáo xiāng	1
-中寮乡	zhōng liáo xiāng	1
 钟陵乡	zhōng líng xiāng	1
 钟灵乡	zhōng líng xiāng	1
 中岭乡	zhōng lǐng xiāng	1
@@ -23303,8 +23133,6 @@ sort: by_weight
 中山村	zhōng shān cūn	100
 中山区	zhōng shān qū	600
 钟山区	zhōng shān qū	175
-中山区	zhōng shān qū	1
-中山区	zhōng shān qū	1
 中山市	zhōng shān shì	276
 钟山县	zhōng shān xiàn	168
 中山县	zhōng shān xiàn	69
@@ -23334,7 +23162,6 @@ sort: by_weight
 中旺镇	zhōng wàng zhèn	1
 中卫县	zhōng wèi xiàn	82
 中卫乡	zhōng wèi xiāng	1
-中西区	zhōng xī qū	1
 中西区	zhōng xī qū	1
 中溪镇	zhōng xī zhèn	1
 中仙镇	zhōng xiān zhèn	1
@@ -23379,7 +23206,6 @@ sort: by_weight
 中站区	zhōng zhàn qū	122
 中张镇	zhōng zhāng zhèn	1
 中召乡	zhōng zhào xiāng	1
-中正区	zhōng zhèng qū	1
 中正区	zhōng zhèng qū	1
 中至镇	zhōng zhì zhèn	1
 中洲村	zhōng zhōu cūn	100
@@ -23547,7 +23373,6 @@ sort: by_weight
 朱店镇	zhū diàn zhèn	188
 朱顶镇	zhū dǐng zhèn	1
 竹东镇	zhú dōng zhèn	404
-竹东镇	zhú dōng zhèn	1
 朱坊村	zhū fāng cūn	171
 朱坊乡	zhū fāng xiāng	1
 祝丰镇	zhù fēng zhèn	1
@@ -23643,13 +23468,11 @@ sort: by_weight
 朱庙村	zhū miào cūn	1
 朱明镇	zhū míng zhèn	1
 竹南镇	zhú nán zhèn	1
-竹南镇	zhú nán zhèn	1
 竹坪乡	zhú píng xiāng	1
 朱铺村	zhū pù cūn	127
 柱濮镇	zhù pú zhèn	1
 竹崎乡	zhú qí xiāng	387
 竹岐乡	zhú qí xiāng	1
-竹崎乡	zhú qí xiāng	1
 朱祁镇	zhū qí zhèn	455
 朱桥村	zhū qiáo cūn	103
 朱桥乡	zhū qiáo xiāng	145
@@ -23670,7 +23493,6 @@ sort: by_weight
 珠珊镇	zhū shān zhèn	1
 珠山镇	zhū shān zhèn	1
 竹山镇	zhú shān zhèn	1
-竹山镇	zhú shān zhèn	1
 诸市镇	zhū shì zhèn	1
 竹市镇	zhú shì zhèn	1
 竹寿镇	zhú shòu zhèn	1
@@ -23679,10 +23501,8 @@ sort: by_weight
 朱塘村	zhū táng cūn	145
 竹塘乡	zhú táng xiāng	325
 朱堂乡	zhū táng xiāng	133
-竹塘乡	zhú táng xiāng	1
 祝塘镇	zhù táng zhèn	1
 珠田乡	zhū tián xiāng	1
-竹田乡	zhú tián xiāng	1
 竹田乡	zhú tián xiāng	1
 朱田镇	zhū tián zhèn	219
 珠田镇	zhū tián zhèn	1
@@ -23770,7 +23590,6 @@ sort: by_weight
 庄头镇	zhuāng tóu zhèn	1
 庄圩乡	zhuāng wéi xiāng	1
 壮围乡	zhuàng wéi xiāng	1
-壮围乡	zhuàng wéi xiāng	1
 庄坞镇	zhuāng wù zhèn	1
 壮溪镇	zhuàng xī zhèn	1
 庄行镇	zhuāng xíng zhèn	1
@@ -23780,7 +23599,6 @@ sort: by_weight
 准巴乡	zhǔn bā xiāng	1
 斫曹乡	zhuó cáo xiāng	1
 濯港镇	zhuó gǎng zhèn	1
-卓兰镇	zhuó lán zhèn	1
 卓兰镇	zhuó lán zhèn	1
 涿鹿县	zhuō lù xiàn	194
 涿鹿镇	zhuō lù zhèn	1
@@ -23792,7 +23610,6 @@ sort: by_weight
 浞水镇	zhuó shuǐ zhèn	1
 濯田镇	zhuó tián zhèn	1
 卓瓦乡	zhuó wǎ xiāng	1
-卓溪乡	zhuó xī xiāng	1
 卓溪乡	zhuó xī xiāng	1
 卓洋乡	zhuó yáng xiāng	1
 涿州市	zhuō zhōu shì	196
@@ -23806,7 +23623,6 @@ sort: by_weight
 资福镇	zī fú zhèn	1
 字呷乡	zì gā xiāng	1
 子干乡	zǐ gàn xiāng	1
-梓官区	zǐ guān qū	1
 梓官区	zǐ guān qū	1
 秭归县	zǐ guī xiàn	192
 滋贺县	zī hè xiàn	241
@@ -23990,7 +23806,6 @@ sort: by_weight
 阿勒腾乡	ā lè téng xiāng	1
 阿里地区	ā lǐ dì qū	1
 阿里河镇	ā lǐ hé zhèn	1
-阿里山乡	ā lǐ shān xiāng	1
 阿里山乡	ā lǐ shān xiāng	1
 阿龙山镇	ā lóng shān zhèn	1
 阿玛莲堡	ā mǎ lián bǎo	1
@@ -24790,8 +24605,8 @@ sort: by_weight
 白塔街道	bái tǎ jiē dào	1
 白塔寺村	bái tǎ sì cūn	1
 白塔寺乡	bái tǎ sì xiāng	1
-白塔子村	bái tǎ zǐ cūn	1
-白塔子镇	bái tǎ zǐ zhèn	1
+白塔子村	bái tǎ zi cūn	1
+白塔子镇	bái tǎ zi zhèn	1
 白台子乡	bái tái zi xiāng	1
 白台子镇	bái tái zi zhèn	1
 白塘街道	bái táng jiē dào	1
@@ -25819,7 +25634,7 @@ sort: by_weight
 北田街道	běi tián jiē dào	1
 北天堂村	běi tiān táng cūn	1
 北田庄村	běi tián zhuāng cūn	1
-碑亭子村	bēi tíng zǐ cūn	1
+碑亭子村	bēi tíng zi cūn	1
 北铜冶村	běi tóng yě cūn	1
 北头咀村	běi tóu jǔ cūn	1
 北头岭村	běi tóu lǐng cūn	1
@@ -26717,7 +26532,7 @@ sort: by_weight
 草堂街道	cǎo táng jiē dào	1
 草堂营村	cǎo táng yíng cūn	1
 草条沟村	cǎo tiáo gōu cūn	1
-草洼子村	cǎo wā zǐ cūn	1
+草洼子村	cǎo wā zi cūn	1
 草湾沟村	cǎo wān gōu cūn	1
 草王庄村	cǎo wáng zhuāng cūn	1
 草窝滩镇	cǎo wō tān zhèn	1
@@ -26808,7 +26623,7 @@ sort: by_weight
 岔路河镇	chà lù hé zhèn	1
 岔路口村	chà lù kǒu cūn	1
 岔路口镇	chà lù kǒu zhèn	1
-岔路子村	chà lù zǐ cūn	1
+岔路子村	chà lù zi cūn	1
 查帕雷县	chá pà léi xiàn	1
 茶盘洲镇	chá pán zhōu zhèn	1
 插旗山村	chā qí shān cūn	1
@@ -27558,7 +27373,7 @@ sort: by_weight
 程界西村	chéng jiè xī cūn	1
 程介西村	chéng jiè xī cūn	1
 呈坎古镇	chéng kǎn gǔ zhèn	19
-城口子村	chéng kǒu zǐ cūn	1
+城口子村	chéng kǒu zi cūn	1
 橙里王村	chéng lǐ wáng cūn	1
 城连圩乡	chéng lián wéi xiāng	1
 城连墟乡	chéng lián xū xiāng	1
@@ -27768,7 +27583,7 @@ sort: by_weight
 川西营村	chuān xī yíng cūn	1
 穿心店村	chuān xīn diàn cūn	1
 川崖根村	chuān yá gēn cūn	1
-船营子村	chuán yíng zǐ cūn	1
+船营子村	chuán yíng zi cūn	1
 川主庙村	chuān zhǔ miào cūn	1
 川主寺镇	chuān zhǔ sì zhèn	1
 串庄子村	chuàn zhuāng zǐ cūn	1
@@ -30689,7 +30504,7 @@ sort: by_weight
 东坡杨村	dōng pō yáng cūn	1
 东坡庄村	dōng pō zhuāng cūn	1
 东泊子村	dōng pō zǐ cūn	1
-东坡子村	dōng pō zǐ cūn	1
+东坡子村	dōng pō zi cūn	1
 东蒲城村	dōng pú chéng cūn	1
 东圃黄村	dōng pǔ huáng cūn	1
 东浦街道	dōng pǔ jiē dào	1
@@ -31203,7 +31018,7 @@ sort: by_weight
 东营房村	dōng yíng fáng cūn	1
 东营坊乡	dōng yíng fāng xiāng	1
 东莺新村	dōng yīng xīn cūn	1
-东营子村	dōng yíng zǐ cūn	1
+东营子村	dōng yíng zi cūn	1
 东永安村	dōng yǒng ān cūn	1
 东永惠村	dōng yǒng huì cūn	1
 东涌泉村	dōng yǒng quán cūn	1
@@ -31399,7 +31214,7 @@ sort: by_weight
 斗门街道	dǒu mén jiē dào	1
 陡门头村	dǒu mén tóu cūn	1
 斗门张村	dǒu mén zhāng cūn	1
-陡磨子村	dǒu mò zǐ cūn	1
+陡磨子村	dǒu mò zi cūn	1
 斗姆湖镇	dòu mǔ hú zhèn	1
 斗南街道	dòu nán jiē dào	1
 斗蓬石村	dòu péng shí cūn	1
@@ -33806,7 +33621,7 @@ sort: by_weight
 拐坝桥村	guǎi bà qiáo cūn	1
 拐角铺村	guǎi jiǎo pù cūn	1
 拐磨沟村	guǎi mó gōu cūn	1
-拐磨子村	guǎi mò zǐ cūn	1
+拐磨子村	guǎi mò zi cūn	1
 官坂透堡	guān bǎn tòu bǎo	1
 官北沟村	guān běi gōu cūn	1
 官埠桥镇	guān bù qiáo zhèn	1
@@ -33839,7 +33654,7 @@ sort: by_weight
 官渡口镇	guān dù kǒu zhèn	1
 关尔下村	guān ěr xià cūn	1
 官坊街道	guān fāng jiē dào	1
-官房子村	guān fáng zǐ cūn	1
+官房子村	guān fáng zi cūn	1
 关房子村	guān fáng zi cūn	1
 观风海镇	guān fēng hǎi zhèn	1
 关圪崂村	guān gē láo cūn	1
@@ -33995,7 +33810,7 @@ sort: by_weight
 观音之乡	guān yīn zhī xiāng	1
 官营沟村	guān yíng gōu cūn	1
 观英滩镇	guān yīng tān zhèn	1
-官营子村	guān yíng zǐ cūn	1
+官营子村	guān yíng zi cūn	1
 官园街道	guān yuán jiē dào	1
 官元里村	guān yuán lǐ cūn	1
 官元庙村	guān yuán miào cūn	1
@@ -34829,7 +34644,7 @@ sort: by_weight
 河坝场村	hé bà chǎng cūn	1
 河坝场乡	hé bà chǎng xiāng	1
 何坝街道	hé bà jiē dào	1
-河坝子镇	hé bà zǐ zhèn	1
+河坝子镇	hé bà zi zhèn	1
 河柏桥村	hé bǎi qiáo cūn	1
 河包田村	hé bāo tián cūn	1
 荷包田村	hé bāo tián cūn	1
@@ -35094,10 +34909,10 @@ sort: by_weight
 鹤山街道	hè shān jiē dào	1
 鹤山农场	hè shān nóng chǎng	1
 河山子村	hé shān zǐ cūn	1
-和尚房村	hé shàng fáng cūn	1
-和尚铺村	hé shàng pù cūn	1
-和尚桥镇	hé shàng qiáo zhèn	1
-和尚塬村	hé shàng yuán cūn	1
+和尚房村	hé shang fáng cūn	1
+和尚铺村	hé shang pù cūn	1
+和尚桥镇	hé shang qiáo zhèn	1
+和尚塬村	hé shang yuán cūn	1
 河輋农场	hé shē nóng chǎng	1
 河深沟村	hé shēn gōu cūn	1
 河神庙乡	hé shén miào xiāng	1
@@ -38929,7 +38744,7 @@ sort: by_weight
 九郊街道	jiǔ jiāo jiē dào	1
 旧街街道	jiù jiē jiē dào	1
 九九饭庄	jiǔ jiǔ fàn zhuāng	1
-酒局子村	jiǔ jú zǐ cūn	1
+酒局子村	jiǔ jú zi cūn	1
 久客还乡	jiǔ kè huán xiāng	1
 九棵树村	jiǔ kē shù cūn	1
 九棵松村	jiǔ kē sōng cūn	1
@@ -39113,7 +38928,7 @@ sort: by_weight
 军田余庄	jūn tián yú zhuāng	1
 军王屯村	jūn wáng tún cūn	1
 郡阳乐县	jùn yáng lè xiàn	1
-军营子村	jūn yíng zǐ cūn	1
+军营子村	jūn yíng zi cūn	1
 郡原美村	jùn yuán měi cūn	1
 郡泽谷村	jùn zé gǔ cūn	1
 军寨址村	jūn zhài zhǐ cūn	1
@@ -40380,8 +40195,8 @@ sort: by_weight
 礼明庄镇	lǐ míng zhuāng zhèn	1
 里磨疃村	lǐ mó tuǎn cūn	1
 里木店镇	lǐ mù diàn zhèn	1
-里木栅村	lǐ mù shān cūn	1
 黎母山镇	lí mǔ shān zhèn	1
+里木栅村	lǐ mù zhà cūn	1
 李木庄村	lǐ mù zhuāng cūn	1
 李南岗村	lǐ nán gǎng cūn	1
 李埝坨村	lǐ niàn tuó cūn	1
@@ -40652,7 +40467,7 @@ sort: by_weight
 李子行村	lǐ zi xíng cūn	1
 李子垭村	lǐ zi yā cūn	1
 李子峪村	lǐ zi yù cūn	1
-李子园村	lǐ zi yuán cūn	1
+李子园村	lǐ zǐ yuán cūn	1
 梨子园村	lí zi yuán cūn	1
 栗子园村	lì zi yuán cūn	1
 俩母山村	liǎ mǔ shān cūn	1
@@ -40928,7 +40743,7 @@ sort: by_weight
 良友新村	liáng yǒu xīn cūn	1
 梁原店村	liáng yuán diàn cūn	1
 梁苑街道	liáng yuàn jiē dào	1
-梁园子村	liáng yuán zǐ cūn	1
+梁园子村	liáng yuán zi cūn	1
 梁杖子村	liáng zhàng zi cūn	1
 良正卷村	liáng zhèng juǎn cūn	1
 良种场村	liáng zhǒng chǎng cūn	1
@@ -41504,7 +41319,7 @@ sort: by_weight
 柳林屯乡	liǔ lín tún xiāng	1
 柳林洲镇	liǔ lín zhōu zhèn	1
 柳林庄村	liǔ lín zhuāng cūn	1
-柳林子村	liǔ lín zǐ cūn	1
+柳林子村	liǔ lín zi cūn	1
 刘林子村	liú lín zi cūn	1
 流岭槽村	liú lǐng cáo cūn	1
 流岭沟村	liú lǐng gōu cūn	1
@@ -41959,7 +41774,7 @@ sort: by_weight
 龙湾头村	lóng wān tóu cūn	1
 龙湾屯镇	lóng wān tún zhèn	1
 龙湾庄村	lóng wān zhuāng cūn	1
-龙湾子村	lóng wān zǐ cūn	1
+龙湾子村	lóng wān zi cūn	1
 龙王殿村	lóng wáng diàn cūn	1
 龙王沟村	lóng wáng gōu cūn	1
 龙王江乡	lóng wáng jiāng xiāng	1
@@ -43681,12 +43496,12 @@ sort: by_weight
 盟格庄村	méng gé zhuāng cūn	1
 孟姑集乡	mèng gū jí xiāng	1
 孟姑集镇	mèng gū jí zhèn	1
-蒙古寺村	méng gǔ sì cūn	1
-蒙古屯乡	méng gǔ tún xiāng	1
+蒙古寺村	měng gǔ sì cūn	1
+蒙古屯乡	měng gǔ tún xiāng	1
 孟孤屋村	mèng gū wū cūn	1
-蒙古营村	méng gǔ yíng cūn	1
-蒙古营乡	méng gǔ yíng xiāng	1
-蒙古营镇	méng gǔ yíng zhèn	1
+蒙古营村	měng gǔ yíng cūn	1
+蒙古营乡	měng gǔ yíng xiāng	1
+蒙古营镇	měng gǔ yíng zhèn	1
 孟官营村	mèng guān yíng cūn	1
 孟贯庄村	mèng guàn zhuāng cūn	1
 蒙海子村	méng hǎi zǐ cūn	1
@@ -44125,9 +43940,9 @@ sort: by_weight
 莫扎诺镇	mò zhā nuò zhèn	1
 抹直口村	mǒ zhí kǒu cūn	1
 墨竹工卡	mò zhú gōng kǎ	1
-磨子桥村	mò zǐ qiáo cūn	1
-磨子桥镇	mò zǐ qiáo zhèn	1
-磨子潭镇	mò zǐ tán zhèn	1
+磨子桥村	mò zi qiáo cūn	1
+磨子桥镇	mò zi qiáo zhèn	1
+磨子潭镇	mò zi tán zhèn	1
 末佐美村	mò zuǒ měi cūn	1
 牟家坝村	móu jiā bà cūn	1
 牟家坝镇	móu jiā bà zhèn	1
@@ -44309,7 +44124,6 @@ sort: by_weight
 纳林沟村	nà lín gōu cūn	1
 纳令沟乡	nà lìng gōu xiāng	1
 那玛切乡	nà mǎ qiè xiāng	1
-那玛夏区	nà mǎ xià qū	1
 那玛夏区	nà mǎ xià qū	1
 那玛夏乡	nà mǎ xià xiāng	1
 纳木错乡	nà mù cuò xiāng	1
@@ -48266,7 +48080,6 @@ sort: by_weight
 三道湾镇	sān dào wān zhèn	1
 三道堰镇	sān dào yàn zhèn	1
 三地门乡	sān dì mén xiāng	1
-三地门乡	sān dì mén xiāng	1
 三店街道	sān diàn jiē dào	1
 三洞桥村	sān dòng qiáo cūn	1
 三栋屋村	sān dòng wū cūn	1
@@ -51975,7 +51788,6 @@ sort: by_weight
 泰陵园村	tài líng yuán cūn	1
 台路沟乡	tái lù gōu xiāng	1
 太麻里乡	tài má lǐ xiāng	1
-太麻里乡	tài má lǐ xiāng	1
 台贸十村	tái mào shí cūn	1
 太姥山镇	tài mǔ shān zhèn	1
 泰南新村	tài nán xīn cūn	1
@@ -52490,7 +52302,7 @@ sort: by_weight
 桃苑新村	táo yuàn xīn cūn	1
 桃园新村	táo yuán xīn cūn	1
 桃园一村	táo yuán yī cūn	1
-桃园子村	táo yuán zǐ cūn	1
+桃园子村	táo yuán zi cūn	1
 陶朱街道	táo zhū jiē dào	1
 桃庄河村	táo zhuāng hé cūn	1
 桃庄湾村	táo zhuāng wān cūn	1
@@ -52721,7 +52533,7 @@ sort: by_weight
 田孙庄村	tián sūn zhuāng cūn	1
 天塔街道	tiān tǎ jiē dào	1
 天台山镇	tiān tāi shān zhèn	1
-天台寺村	tiān tāi sì cūn	1
+天台寺村	tiān tái sì cūn	1
 天太永村	tiān tài yǒng cūn	1
 天坛街道	tiān tán jiē dào	1
 天堂寨镇	tiān táng zhài zhèn	1
@@ -52825,7 +52637,6 @@ sort: by_weight
 铁家沟村	tiě jiā gōu cūn	1
 帖家河村	tiē jiā hé cūn	1
 铁家岭村	tiě jiā lǐng cūn	1
-铁茄坪村	tiě jiā píng cūn	1
 铁家湾村	tiě jiā wān cūn	1
 铁家庄村	tiě jiā zhuāng cūn	1
 铁匠沟村	tiě jiàng gōu cūn	1
@@ -52873,6 +52684,7 @@ sort: by_weight
 铁门关村	tiě mén guān cūn	1
 铁门关市	tiě mén guān shì	1
 铁南街道	tiě nán jiē dào	1
+铁茄坪村	tiě qié píng cūn	1
 铁热克镇	tiě rè kè zhèn	1
 铁热木乡	tiě rè mù xiāng	1
 铁热木镇	tiě rè mù zhèn	1
@@ -55009,7 +54821,7 @@ sort: by_weight
 五里塘村	wǔ lǐ táng cūn	1
 五里亭村	wǔ lǐ tíng cūn	1
 伍里头村	wǔ lǐ tou cūn	1
-五里头村	wǔ lǐ tóu cūn	1
+五里头村	wǔ lǐ tou cūn	1
 五里屯村	wǔ lǐ tún cūn	1
 五里湾村	wǔ lǐ wān cūn	1
 五里湾乡	wǔ lǐ wān xiāng	1
@@ -55996,8 +55808,8 @@ sort: by_weight
 西林西村	xī lín xī cūn	1
 西林新村	xī lín xīn cūn	1
 西林庄村	xī lín zhuāng cūn	1
-西林子村	xī lín zǐ cūn	1
-西林子乡	xī lín zǐ xiāng	1
+西林子村	xī lín zi cūn	1
+西林子乡	xī lín zi xiāng	1
 西岭底村	xī lǐng dǐ cūn	1
 西岭后村	xī lǐng hòu cūn	1
 西陵街道	xī líng jiē dào	1
@@ -57133,7 +56945,7 @@ sort: by_weight
 下窑沟村	xià yáo gōu cūn	1
 下应街道	xià yīng jiē dào	1
 下英水村	xià yīng shuǐ cūn	1
-下营子村	xià yíng zǐ cūn	1
+下营子村	xià yíng zi cūn	1
 霞涌街道	xiá yǒng jiē dào	1
 夏雨岙村	xià yǔ ào cūn	1
 夏禹河村	xià yǔ hé cūn	1
@@ -58604,8 +58416,8 @@ sort: by_weight
 新营房村	xīn yíng fáng cūn	1
 新营街道	xīn yíng jiē dào	1
 新营盘乡	xīn yíng pán xiāng	1
-新营子村	xīn yíng zǐ cūn	1
-新营子镇	xīn yíng zǐ zhèn	1
+新营子村	xīn yíng zi cūn	1
+新营子镇	xīn yíng zi zhèn	1
 新玉美乡	xīn yù měi xiāng	1
 新园街道	xīn yuán jiē dào	1
 鑫源街道	xīn yuán jiē dào	1
@@ -61018,10 +60830,10 @@ sort: by_weight
 英塔木村	yīng tǎ mù cūn	1
 英塔木乡	yīng tǎ mù xiāng	1
 英塔木镇	yīng tǎ mù zhèn	1
-樱桃沟村	yīng táo gōu cūn	1
-樱桃园村	yīng táo yuán cūn	1
+樱桃沟村	yīng tao gōu cūn	1
+樱桃园村	yīng tao yuán cūn	1
 英桃塬村	yīng táo yuán cūn	1
-樱桃园镇	yīng táo yuán zhèn	1
+樱桃园镇	yīng tao yuán zhèn	1
 鹦鹉街道	yīng wǔ jiē dào	1
 英武山村	yīng wǔ shān cūn	1
 鹦鹉溪镇	yīng wǔ xī zhèn	1
@@ -61294,7 +61106,7 @@ sort: by_weight
 鱼池沟村	yú chí gōu cūn	1
 鱼池梁村	yú chí liáng cūn	1
 鱼池岭村	yú chí lǐng cūn	1
-鱼池子村	yú chí zǐ cūn	1
+鱼池子村	yú chí zi cūn	1
 玉川街村	yù chuān jiē cūn	1
 于此中乡	yú cǐ zhōng xiāng	1
 玉带街道	yù dài jiē dào	1
@@ -61486,9 +61298,9 @@ sort: by_weight
 育林新村	yù lín xīn cūn	1
 榆林庄村	yú lín zhuāng cūn	1
 羽林庄村	yǔ lín zhuāng cūn	1
-榆林子村	yú lín zǐ cūn	1
-榆林子乡	yú lín zǐ xiāng	1
-榆林子镇	yú lín zǐ zhèn	1
+榆林子村	yú lín zi cūn	1
+榆林子乡	yú lín zi xiāng	1
+榆林子镇	yú lín zi zhèn	1
 榆柳前村	yú liǔ qián cūn	1
 玉龙坝镇	yù lóng bà zhèn	1
 毓龙街道	yù lóng jiē dào	1
@@ -64055,7 +63867,7 @@ sort: by_weight
 朱沙拉村	zhū shā lā cūn	1
 珠山岙村	zhū shān ào cūn	1
 竹山沟村	zhú shān gōu cūn	1
-竹山观村	zhú shān guān cūn	1
+竹山观村	zhú shān guàn cūn	1
 珠山街道	zhū shān jiē dào	1
 朱山头村	zhū shān tóu cūn	1
 竹山头村	zhú shān tóu cūn	1
@@ -65572,7 +65384,7 @@ sort: by_weight
 和平彝族乡	hé píng yí zú xiāng	1
 合浦合浦县	hé pǔ hé pǔ xiàn	1
 鹤山街街道	hè shān jiē jiē dào	1
-和尚房子乡	hé shàng fáng zi xiāng	1
+和尚房子乡	hé shang fáng zi xiāng	1
 和什力克乡	hé shí lì kè xiāng	1
 和田街街道	hé tián jiē jiē dào	1
 河尾山林场	hé wěi shān lín chǎng	1
@@ -65813,6 +65625,7 @@ sort: by_weight
 加尕斯台镇	jiā gǎ sī tái zhèn	1
 加格达奇区	jiā gé dá qí qū	1
 加汗巴格乡	jiā hàn bā gé xiāng	1
+加拉帕戈斯	jiā lā pà gē sī	1
 嘉陵道街道	jiā líng dào jiē dào	1
 佳荣里街道	jiā róng lǐ jiē dào	1
 夹山管理处	jiā shān guǎn lǐ chù
@@ -65950,9 +65763,6 @@ sort: by_weight
 荆河工业园	jīng hé gōng yè yuán
 经济发达镇	jīng jì fā dá zhèn	1
 经济开发区	jīng jì kāi fā qū	1
-经济开发区	jīng jì kāi fā qū	1
-经济开发区	jīng jì kāi fā qū
-经济开发区	jīng jì kāi fā qū
 京泰路街道	jīng tài lù jiē dào	1
 敬亭山街道	jìng tíng shān jiē dào	1
 荆头山农场	jīng tóu shān nóng chǎng	1
@@ -66077,7 +65887,7 @@ sort: by_weight
 来广营地区	lái guǎng yíng dì qū	1
 来华投资区	lái huá tóu zī qū	1
 来龙门街道	lái lóng mén jiē dào	1
-兰花都街道	lán huā dōu jiē dào	1
+兰花都街道	lán huā dū jiē dào	1
 岚角山街道	lán jiǎo shān jiē dào	1
 兰旗卡伦乡	lán qí kǎ lún xiāng	1
 岚山头街道	lán shān tóu jiē dào	1
@@ -66192,7 +66002,7 @@ sort: by_weight
 六村堡街道	liù cūn pù jiē dào	1
 六道湾街道	liù dào wān jiē dào	1
 刘房子街道	liú fáng zi jiē dào	1
-六官营子镇	liù guān yíng zǐ zhèn	1
+六官营子镇	liù guān yíng zi zhèn	1
 六合开发区	liù hé kāi fā qū	1
 六合彝族乡	liù hé yí zú xiāng	1
 柳花泊街道	liǔ huā pō jiē dào	1
@@ -67000,7 +66810,7 @@ sort: by_weight
 四方山农场	sì fāng shān nóng chǎng	1
 四方台农场	sì fāng tái nóng chǎng	1
 四姑娘山镇	sì gū niang shān zhèn	1
-四官营子镇	sì guān yíng zǐ zhèn	1
+四官营子镇	sì guān yíng zi zhèn	1
 四海山林场	sì hǎi shān lín chǎng	1
 四褐山街道	sì hè shān jiē dào	1
 四季青地区	sì jì qīng dì qū	1
@@ -68283,7 +68093,7 @@ sort: by_weight
 兵团红星四场	bīng tuán hóng xīng sì chǎng	1
 兵团黄田农场	bīng tuán huáng tián nóng chǎng	1
 兵团火箭农场	bīng tuán huǒ jiàn nóng chǎng	1
-兵团九十一团	bīng tuán jiǔ shí yì tuán	1
+兵团九十一团	bīng tuán jiǔ shí yī tuán	1
 兵团军户农场	bīng tuán jūn hù nóng chǎng	1
 兵团六十二团	bīng tuán liù shí èr tuán	1
 兵团六十九团	bīng tuán liù shí jiǔ tuán	1
@@ -68432,7 +68242,7 @@ sort: by_weight
 东疆保税港区	dōng jiāng bǎo shuì gǎng qū	1
 东京城林业局	dōng jīng chéng lín yè jú
 东岭机械林场	dōng lǐng jī xiè lín chǎng	1
-东明朝鲜族乡	dōng míng cháo xiǎn zú xiāng	1
+东明朝鲜族乡	dōng míng cháo xiān zú xiāng	1
 东山峰管理区	dōng shān fēng guǎn lǐ qū	1
 东山头办事处	dōng shān tóu bàn shì chù
 东四方台街道	dōng sì fāng tái jiē dào	1
@@ -68744,7 +68554,7 @@ sort: by_weight
 明德北街街道	míng dé běi jiē jiē dào	1
 明德南街街道	míng dé nán jiē jiē dào	1
 莫力庙种羊场	mò lì miào zhǒng yáng chǎng	1
-磨子土家族乡	mò zǐ tǔ jiā zú xiāng	1
+磨子土家族乡	mò zi tǔ jiā zú xiāng	1
 牡丹江市乡镇	mǔ dān jiāng shì xiāng zhèn	1
 木里港管理处	mù lǐ gǎng guǎn lǐ chù
 纳达齐牛录乡	nà dá qí niú lù xiāng	1
@@ -69253,7 +69063,6 @@ sort: by_weight
 安班巴格良繁场	ān bān bā gé liáng fán chǎng	1
 敖汉旗惠州街道	áo hàn qí huì zhōu jiē dào	1
 澳门特别行政区	ào mén tè bié xíng zhèng qū	1
-澳门特别行政区	ào mén tè bié xíng zhèng qū	1
 奥依托格拉克乡	ào yī tuō gé lā kè xiāng	1
 奥依亚依拉克镇	ào yī yà yī lā kè zhèn	1
 八堡彝族苗族乡	bā bǎo yí zú miáo zú xiāng	1
@@ -69371,7 +69180,6 @@ sort: by_weight
 东风农场生活区	dōng fēng nóng chǎng shēng huó qū	1
 东莞滨海湾新区	dōng guǎn bīn hǎi wān xīn qū	1
 东湖风景区街道	dōng hú fēng jǐng qū jiē dào	1
-东湖风景区街道	dōng hú fēng jǐng qū jiē dào	1
 东湖水库管理站	dōng hú shuǐ kù guǎn lǐ zhàn
 东山办事处街道	dōng shān bàn shì chù jiē dào	1
 东至经济开发区	dōng zhì jīng jì kāi fā qū	1
@@ -69407,7 +69215,6 @@ sort: by_weight
 高密市醴泉街道	gāo mì shì lǐ quán jiē dào	1
 高密市密水街道	gāo mì shì mì shuǐ jiē dào	1
 高新技术开发区	gāo xīn jì shù kāi fā qū	1
-高新技术开发区	gāo xīn jì shù kāi fā qū
 高新开发区街道	gāo xīn kāi fā qū jiē dào	1
 高新区东风街道	gāo xīn qū dōng fēng jiē dào	1
 高新区紫贞街道	gāo xīn qū zǐ zhēn jiē dào	1
@@ -69501,6 +69308,7 @@ sort: by_weight
 加尔布拉克农场	jiā ěr bù lā kè nóng chǎng	1
 嘉尔嘎勒赛汉镇	jiā ěr gā lè sài hàn zhèn	1
 加哈乌拉斯台乡	jiā hā wù la sī tái xiāng	1
+加拉帕戈斯群岛	jiā lā pà gē sī qún dǎo	1
 嘉祥经济开发区	jiā xiáng jīng jì kāi fā qū	1
 建昌飞地经济区	jiàn chāng fēi dì jīng jì qū	1
 江汉经济开发区	jiāng hàn jīng jì kāi fā qū	1
@@ -69793,7 +69601,6 @@ sort: by_weight
 仙葫经济开发区	xiān hú jīng jì kāi fā qū	1
 献县经济开发区	xiàn xiàn jīng jì kāi fā qū	1
 县直辖村级区划	xiàn zhí xiá cūn jí qū huà
-香港特别行政区	xiāng gǎng tè bié xíng zhèng qū	1
 香港特别行政区	xiāng gǎng tè bié xíng zhèng qū	1
 香山街道筹备组	xiāng shān jiē dào chóu bèi zǔ
 湘潭九华示范区	xiāng tán jiǔ huá shì fàn qū	1
@@ -70245,12 +70052,12 @@ sort: by_weight
 巴里坤哈萨克自治县	bā lǐ kūn hā sà kè zì zhì xiàn	1
 巴里坤县山南开发区	bā lǐ kūn xiàn shān nán kāi fā qū	1
 巴彦托海经济开发区	bā yàn tuō hǎi jīng jì kāi fā qū	1
-巴音郭楞蒙古自治州	bā yīn guō léng méng gǔ zì zhì zhōu	1
+巴音郭楞蒙古自治州	bā yīn guō léng měng gǔ zì zhì zhōu	1
 白浪开发区白浪街道	bái làng kāi fā qū bái làng jiē dào	1
 保亭黎族苗族自治县	bǎo tíng lí zú miáo zú zì zhì xiàn	1
 北京经济技术开发区	běi jīng jīng jì jì shù kāi fā qū	1
 北京雁栖经济开发区	běi jīng yàn qī jīng jì kāi fā qū	1
-博尔塔拉蒙古自治州	bó ěr tǎ lā méng gǔ zì zhì zhōu	1
+博尔塔拉蒙古自治州	bó ěr tǎ lā měng gǔ zì zhì zhōu	1
 博孜墩柯尔克孜族乡	bó zī dūn kē ěr kè zī zú xiāng	1
 布依鲁克塔吉克族乡	bù yī lǔ kè tǎ jí kè zú xiāng	1
 查巴奇鄂温克民族乡	chá bā qí è wēn kè mín zú xiāng	1
@@ -70337,7 +70144,7 @@ sort: by_weight
 湖北曾都经济开发区	hú běi zēng dū jīng jì kāi fā qū	1
 湖北钟祥经济开发区	hú běi zhōng xiáng jīng jì kāi fā qū	1
 呼和浩特综合保税区	hū hé hào tè zōng hé bǎo shuì qū	1
-呼吉尔特蒙古民族乡	hū jí ěr tè méng gǔ mín zú xiāng	1
+呼吉尔特蒙古民族乡	hū jí ěr tè měng gǔ mín zú xiāng	1
 胡家湾苗族土家族乡	hú jiā wān miáo zú tǔ jiā zú xiāng	1
 湖南醴陵经济开发区	hú nán lǐ líng jīng jì kāi fā qū	1
 桦南林业局岚峰林场	huà nán lín yè jú lán fēng lín chǎng	1
@@ -70348,7 +70155,7 @@ sort: by_weight
 会昌县燕子窝工业园	huì chāng xiàn yàn zi wō gōng yè yuán
 惠南高新科技产业园	huì nán gāo xīn kē jì chǎn yè yuán
 徽州区直辖村级区划	huī zhōu qū zhí xiá cūn jí qū huà
-霍吉尔特蒙古民族乡	huò jí ěr tè méng gǔ mín zú xiāng	1
+霍吉尔特蒙古民族乡	huò jí ěr tè měng gǔ mín zú xiāng	1
 吉林白城经济开发区	jí lín bái chéng jīng jì kāi fā qū	1
 吉林船营经济开发区	jí lín chuán yíng jīng jì kāi fā qū	1
 吉林宁江经济开发区	jí lín níng jiāng jīng jì kāi fā qū	1
@@ -70393,6 +70200,7 @@ sort: by_weight
 鲁布革布依族苗族乡	lǔ bù gé bù yī zú miáo zú xiāng	1
 潞城经济技术开发区	lù chéng jīng jì jì shù kāi fā qū	1
 禄劝彝族苗族自治县	lù quàn yí zú miáo zú zì zhì xiàn	1
+漯河经济技术开发区	luò hé jīng jì jì shù kāi fā qū	1
 满洲里市互市贸易区	mǎn zhōu lǐ shì hù shì mào yì qū	1
 满洲里市经济合作区	mǎn zhōu lǐ shì jīng jì hé zuò qū	1
 芒洪拉祜族布朗族乡	máng hóng lā hù zú bù lǎng zú xiāng	1
@@ -70451,7 +70259,6 @@ sort: by_weight
 宿州经济技术开发区	sù zhōu jīng jì jì shù kāi fā qū	1
 宿州埇桥经济开发区	sù zhōu yǒng qiáo jīng jì kāi fā qū	1
 梭戛苗族彝族回族乡	suō jiá miáo zú yí zú huí zú xiāng	1
-漯河经济技术开发区	tà hé jīng jì jì shù kāi fā qū	1
 天津经济技术开发区	tiān jīn jīng jì jì shù kāi fā qū	1
 天津武清汽车产业园	tiān jīn wǔ qīng qì chē chǎn yè yuán
 天涯区直辖村级区划	tiān yá qū zhí xiá cūn jí qū huà
@@ -70557,7 +70364,7 @@ sort: by_weight
 北大街综合治理办公室	běi dà jiē zōng hé zhì lǐ bàn gōng shì
 蚌埠市高新技术开发区	bèng bù shì gāo xīn jì shù kāi fā qū	1
 兵团农六师北塔山牧场	bīng tuán nóng liù shī běi tǎ shān mù chǎng	1
-兵团农六师土墩子农场	bīng tuán nóng liù shī tǔ dūn zǐ nóng chǎng	1
+兵团农六师土墩子农场	bīng tuán nóng liù shī tǔ dūn zi nóng chǎng	1
 兵团农十二师一零四团	bīng tuán nóng shí èr shī yī líng sì tuán	1
 步行街综合治理办公室	bù xíng jiē zōng hé zhì lǐ bàn gōng shì
 漕河泾新兴技术开发区	cáo hé jīng xīn xīng jì shù kāi fā qū	1
@@ -70579,7 +70386,7 @@ sort: by_weight
 杜尔伯特蒙古族自治县	dù ěr bó tè měng gǔ zú zì zhì xiàn	1
 鄂尔多斯空港物流园区	è ěr duō sī kōng gǎng wù liú yuán qū	1
 鄂尔多斯市生态示范区	è ěr duō sī shì shēng tài shì fàn qū	1
-额玛勒郭楞蒙古民族乡	é mǎ lè guō léng méng gǔ mín zú xiāng	1
+额玛勒郭楞蒙古民族乡	é mǎ lè guō léng měng gǔ mín zú xiāng	1
 恩施大峡谷风景管理处	ēn shī dà xiá gǔ fēng jǐng guǎn lǐ chù
 恩施土家族苗族自治州	ēn shī tǔ jiā zú miáo zú zì zhì zhōu	1
 佛宝山生态综合开发区	fó bǎo shān shēng tài zōng hé kāi fā qū	1
@@ -70594,7 +70401,7 @@ sort: by_weight
 哈日布日格德音乌拉镇	hā rì bù rì gé dé yīn wù la zhèn	1
 海西蒙古族藏族自治州	hǎi xī měng gǔ zú zàng zú zì zhì zhōu	1
 汉川市经济技术开发区	hàn chuān shì jīng jì jì shù kāi fā qū	1
-和布克赛尔蒙古自治县	hé bù kè sài ěr méng gǔ zì zhì xiàn	1
+和布克赛尔蒙古自治县	hé bù kè sài ěr měng gǔ zì zhì xiàn	1
 河南三门峡经济开发区	hé nán sān mén xiá jīng jì kāi fā qū	1
 河南驻马店经济开发区	hé nán zhù mǎ diàn jīng jì kāi fā qū	1
 黑龙江红岗经济开发区	hēi lóng jiāng hóng gǎng jīng jì kāi fā qū	1
@@ -70673,7 +70480,7 @@ sort: by_weight
 四平市铁东区平南街道	sì píng shì tiě dōng qū píng nán jiē dào	1
 松林坡白族彝族苗族乡	sōng lín pō bái zú yí zú miáo zú xiāng	1
 苏州高新区综合保税区	sū zhōu gāo xīn qū zōng hé bǎo shuì qū	1
-塔布勒合特蒙古民族乡	tǎ bù lè hé tè méng gǔ mín zú xiāng	1
+塔布勒合特蒙古民族乡	tǎ bù lè hé tè měng gǔ mín zú xiāng	1
 太泊湖农业综合开发区	tài pō hú nóng yè zōng hé kāi fā qū	1
 田横岛省级旅游度假区	tián héng dǎo shěng jí lǚ yóu dù jià qū	1
 天水市高新技术工业园	tiān shuǐ shì gāo xīn jì shù gōng yè yuán
@@ -70784,7 +70591,7 @@ sort: by_weight
 经济技术开发区乡级单位	jīng jì jì shù kāi fā qū xiāng jí dān wèi	1
 鸠江经济开发区二坝园区	jiū jiāng jīng jì kāi fā qū èr bà yuán qū	1
 喀喇沁左翼蒙古族自治县	kā lǎ qìn zuǒ yì měng gǔ zú zì zhì xiàn	1
-科克浩特浩尔蒙古民族乡	kē kè hào tè hào ěr méng gǔ mín zú xiāng	1
+科克浩特浩尔蒙古民族乡	kē kè hào tè hào ěr měng gǔ mín zú xiāng	1
 克孜勒苏柯尔克孜自治州	kè zī lè sū kē ěr kè zī zì zhì zhōu	1
 昆明滇池国家旅游度假区	kūn míng diān chí guó jiā lǚ yóu dù jià qū	1
 辽宁省北镇市高山子监狱	liáo níng shěng běi zhèn shì gāo shān zǐ jiān yù	1
@@ -70898,7 +70705,7 @@ sort: by_weight
 呼和浩特白塔空港物流园区	hū hé hào tè bái tǎ kōng gǎng wù liú yuán qū	1
 葫芦岛高新技术产业开发区	hú lu dǎo gāo xīn jì shù chǎn yè kāi fā qū	1
 淮河社区行政事务管理中心	huái hé shè qū xíng zhèng shì wù guǎn lǐ zhōng xīn	1
-吉尔格勒特郭愣蒙古民族乡	jí ěr gé lè tè guō lèng méng gǔ mín zú xiāng	1
+吉尔格勒特郭愣蒙古民族乡	jí ěr gé lè tè guō lèng měng gǔ mín zú xiāng	1
 阔克铁热克柯尔克孜民族乡	kuò kè tiě rè kè kē ěr kè zī mín zú xiāng	1
 涞水县城区社区管理办公室	lái shuǐ xiàn chéng qū shè qū guǎn lǐ bàn gōng shì	1
 孟连傣族拉祜族佤族自治县	mèng lián dǎi zú lā hù zú wǎ zú zì zhì xiàn	1

@@ -16,4 +16,4 @@ patch:
   app_options/nvim:
     ascii_mode: true
 
-  menu/page_size: 7
+  menu/page_size: 8

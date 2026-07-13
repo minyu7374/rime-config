@@ -19,15 +19,15 @@ patch:
     - name: full_shape
       reset: 0
       states: [ 半角, 全角 ]
+    - name: ascii_punct
+      reset: 0
+      states: [ 。，, ．， ]
     - name: simplification
       reset: 1
       states: [ 繁體, 简体 ]
     - name: chinese_english
       reset: 0
       states: [ 翻译关, 翻译开 ]
-    - name: ascii_punct
-      reset: 0
-      states: [ 。，, ．， ]
     - name: prediction
       reset: 1
       states: [ 预测关, 预测开 ]
@@ -127,20 +127,28 @@ patch:
   key_binder/search: "`" # 此为辅码引导键
 
   key_binder/bindings/+:
-    - {accept: "Control+Shift+5", toggle: chinese_english, when: always}
-    - {accept: "Control+Shift+6", toggle: ascii_punct, when: always}
-    - {accept: "Control+Shift+7", toggle: emoji_suggestion, when: always}
-    - {accept: "Control+Shift+percent", toggle: chinese_english, when: always}
-    - {accept: "Control+Shift+asciicircum", toggle: ascii_punct, when: always}
-    - {accept: "Control+Shift+ampersand", toggle: emoji_suggestion, when: always}
-    # 兼容eamcs中的按键布局
+    # 数字键按 switches 顺序切换开关；default(numbered_mode_switch) 已含 Ctrl+Shift+1/2/3
+    # → .next/ascii_mode/full_shape，直接沿用。此处覆盖 4/5（default 旧目标不符）并新增 6/7/8。
+    - {accept: "Control+Shift+4", toggle: ascii_punct, when: always}       # default: simplification
+    - {accept: "Control+Shift+5", toggle: simplification, when: always}    # default: extended_charset
+    - {accept: "Control+Shift+6", toggle: chinese_english, when: always}
+    - {accept: "Control+Shift+7", toggle: prediction, when: always}
+    - {accept: "Control+Shift+8", toggle: emoji_suggestion, when: always}  # 非顺序内开关，接末位
+    # Shift+符号写法（覆盖 default 的 dollar/percent，并补齐 6/7/8）
+    - {accept: "Control+Shift+dollar", toggle: ascii_punct, when: always}
+    - {accept: "Control+Shift+percent", toggle: simplification, when: always}
+    - {accept: "Control+Shift+asciicircum", toggle: chinese_english, when: always}
+    - {accept: "Control+Shift+ampersand", toggle: prediction, when: always}
+    - {accept: "Control+Shift+asterisk", toggle: emoji_suggestion, when: always}
+    # 兼容 emacs 的 Control+符号写法（default 未提供，按同序全量给出）
     - {accept: "Control+exclam", select: .next, when: always}
     - {accept: "Control+at", toggle: ascii_mode, when: always}
     - {accept: "Control+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+dollar", toggle: simplification, when: always}
-    - {accept: "Control+percent", toggle: chinese_english, when: always}
-    - {accept: "Control+asciicircum", toggle: ascii_punct, when: always}
-    - {accept: "Control+ampersand", toggle: emoji_suggestion, when: always}
+    - {accept: "Control+dollar", toggle: ascii_punct, when: always}
+    - {accept: "Control+percent", toggle: simplification, when: always}
+    - {accept: "Control+asciicircum", toggle: chinese_english, when: always}
+    - {accept: "Control+ampersand", toggle: prediction, when: always}
+    - {accept: "Control+asterisk", toggle: emoji_suggestion, when: always}
 
   key_binder/shijian_keys: ["/"]
   calculator/trigger: "V"

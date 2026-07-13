@@ -4,8 +4,8 @@ __patch:
       speller/algebra:
         __include: radical_pinyin.schema.yaml:/algebra_double_pinyin
 # }
-# Rx: mirtlecn/rime-radical-pinyin:config:schema=flypy {
+# Rx: mirtlecn/rime-radical-pinyin:config:schema=double_pinyin_flypy {
   - patch/+:
       speller/algebra:
-        __include: radical_pinyin.schema.yaml:/algebra_flypy
+        __include: radical_pinyin.schema.yaml:/algebra_double_pinyin_flypy
 # }

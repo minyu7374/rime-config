@@ -28,11 +28,22 @@ patch:
     - name: ascii_punct
       reset: 0
       states: [ 。，, ．， ]
-    # - name: prediction
-      # states: [ 關閉預測, 開啓預測 ]
-      # reset: 1
+    - name: prediction
+      reset: 1
+      states: [ 预测关, 预测开 ]
 
   speller/alphabet: 'zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`'     # 将部件拆字辅码引导键加入到 alphabet 后
+
+  engine/processors:
+    - lua_processor@*wanxiang.user_predict*P   # 联想预测：按键截取与分发（须在最前）
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
 
   engine/segmentors:
     - ascii_segmentor
@@ -43,15 +54,17 @@ patch:
     - fallback_segmentor
 
   engine/translators/+:
+    - lua_translator@*wanxiang.user_predict*T  # 联想候选生成
     - table_translator@radical_lookup      # 部件拆字反查
     - lua_translator@*shijian              # 农历、日期、节气、节日、时间、周、问候模板等等
     - lua_translator@*super_calculator     # 超级计算器，Lua内查看高级用法
 
   engine/filters:
     - simplifier
-    - simplifier@chinese_english
+    - lua_filter@*wanxiang.super_replacer           # OpenCC 替代器：中英互译等候选替换（取代 simplifier@chinese_english）
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@*search # @radical_pinyin          # 部件拆字辅码
+    - lua_filter@*wanxiang.user_predict*F           # 联想预测上下文调频
     - uniquifier
 
   punctuator/import_preset: symbols
@@ -61,19 +74,18 @@ patch:
   recognizer/patterns/lunar: "^N[0-9]{1,8}"               # N 作为触发前缀，响应 lua_translator@shijian，公历转农历，输入 N20250515 得到「二〇二五年五月十五」
   recognizer/patterns/calculator: "^V.*$"                 # V 作为触发前缀，计算器功能引导
 
-  # 预测词汇 (当前仅支持繁体，且还没有好的联想词库)
-  # predictor:
-    # # predict db file in user directory/shared directory
-    # # default to 'predict.db'
-    # db: predict.db
-    # # max prediction candidates every time
-    # # default to 0, which means showing all candidates
-    # # you may set it the same with page_size so that period doesn't trigger next page
-    # max_candidates: 5
-    # # max continuous prediction times
-    # # default to 0, which means no limitation
-    # max_iterations: 1
-  
+  # 联想预测（user_predict：万象自学习联想，数据存 lua/predict.userdb，无需静态词库）
+  user_predict:
+    db_name: lua/predict
+    mobile_predict_style: post   # 移动端联想：post 上屏后弹出 / reorder 输入时调频 / off 关闭
+    enable_fallback_reorder: false
+    max_candidates: 10           # 屏幕最多显示的联想词数量
+    max_predictions: 3           # 连续触发预测的最高次数
+    expiry_days: 90              # 记录绝对寿命（天）
+    max_memory_branches: 15      # 单前缀最多保留的后续预测分支
+    decay_rate: 0.85             # 单日时间权重衰减
+    context_timeout: 5000        # 上文超时（毫秒）
+
   # 部件拆字反查
   radical_lookup:
     tag: radical_lookup
@@ -96,13 +108,20 @@ patch:
         # - xform/^/(/
         # - xform/$/)/
 
-  #中文转英文
-  chinese_english:
-    option_name: chinese_english
-    opencc_config: chinese_english.json
-    tips: char
-    comment_format:
-      - "xform/-/ /"
+  # 中英互译（super_replacer：万象的 OpenCC 替代器，直接读 txt 词库，无需 opencc json/ocd）
+  super_replacer:
+    db_name: lua/replacer
+    comment_format: "〔%s〕"
+    chain: true  # true 为流水线作业，上一 option 产出交给下一处理
+    rules:
+      - option: chinese_english   # 与 switches 中的 chinese_english 开关同名触发
+        mode: append              # 追加候选，不替换原候选
+        comment_mode: none
+        tags: [ abc ]
+        prefix: "_en_"            # 同库多用途的命名空间前缀
+        files:
+          - lua/data/english_chinese.txt   # 英→中
+          - lua/data/chinese_english.txt   # 中→英
 
   search/schema: radical_pinyin # 指定辅码方案
   key_binder/search: "`" # 此为辅码引导键

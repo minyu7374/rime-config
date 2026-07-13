@@ -27,7 +27,7 @@ if [ "$#" -eq 0 ]; then
     $plum emoji
     $plum lotem/rime-octagram-data lotem/rime-octagram-data@hans # lotem/rime-octagram-data@hant
     $plum mirtlecn/rime-radical-pinyin@master                    # 部件拆字
-    $plum mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin mirtlecn/rime-radical-pinyin@master:config:schema=flypy
+    $plum mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin_flypy
 
     for schema in luna_pinyin terra_pinyin double_pinyin double_pinyin_flypy; do
         $plum BlindingDark/rime-easy-en:customize:schema=$schema
@@ -42,11 +42,11 @@ if [ "$#" -eq 0 ]; then
     cp {$plum_dir/package/mirtlecn/radical-pinyin,"$rime_dir"}/lua/search.lua
     cp $plum_dir/package/mirtlecn/radical-pinyin/build/*.bin "$rime_dir"/build/
 
-    # chinese_english
+    # chinese_english（super_replacer 方案：数据读取自 lua/data/，不再用 opencc simplifier/json）
     rime_wanxiang_refs=https://raw.githubusercontent.com/amzxyz/rime_wanxiang/refs/heads/wanxiang
-    # wget -nv -P "$rime_dir"/opencc/ "$rime_wanxiang_refs"/opencc/{chinese_english.json,chinese_english.txt,english_chinese.txt}
+    mkdir -p "$rime_dir"/lua/data
     for file in chinese_english.txt english_chinese.txt; do
-        wget -nv -O "$rime_dir"/opencc/$file "$rime_wanxiang_refs"/lua/data/$file
+        wget -nv -O "$rime_dir"/lua/data/$file "$rime_wanxiang_refs"/lua/data/$file
     done
 
     # 索性直接创建一个symbols.custom.yaml，按需调整

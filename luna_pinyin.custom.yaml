@@ -9,7 +9,7 @@
 # 朙月拼音·語句流	luna_pinyin_fluency
 #
 
-patch: 
+patch:
   __include: common:/patch
   # 載入朙月拼音擴充詞庫
   # translator/dictionary: luna_pinyin.extended

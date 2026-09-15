@@ -3,8 +3,12 @@
 
 patch:
   __include: common:/patch_terra_pinyin
+  # 当前选择：万象词库 + 地球拼音原生词库，保留精确声调、多音及变调条目
   translator/dictionary: terra_pinyin.extended
+  # 备选：纯万象词库
   # translator/dictionary: wanxiang
+  # 使用 Terra 独立 prism，避免与采用不同拼写规则的方案相互覆盖
+  translator/prism: terra_pinyin
   speller/algebra:
     #-- pinyin.yaml定义的模糊音处理加进中间
     __patch:

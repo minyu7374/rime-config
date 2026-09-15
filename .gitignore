@@ -6,6 +6,7 @@ custom_phrase.txt
 *.userdb.txt
 *.userdb/
 predict.db
+*.gram
 dicts/sougou.dict.yaml
 dicts/baidu.dict.yaml
 dicts/zhwiki.dict.yaml

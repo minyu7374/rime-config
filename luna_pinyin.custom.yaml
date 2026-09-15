@@ -11,9 +11,12 @@
 
 patch:
   __include: common:/patch
-  # 載入朙月拼音擴充詞庫
-  # translator/dictionary: luna_pinyin.extended
+  # 当前选择：纯万象词库，使用其词频和日常词汇覆盖
   translator/dictionary: wanxiang
+  # 备选：万象词库 + 朙月拼音原生词库，补充繁体及冷僻字词
+  # translator/dictionary: luna_pinyin.extended
+  # 使用 Luna 独立 prism，避免与采用不同拼写规则的方案相互覆盖
+  translator/prism: luna_pinyin
   # translator/enable_correction: true    #拼写纠错
   speller/algebra:
     #-- luna_pinyin 原本启用的规则放后面

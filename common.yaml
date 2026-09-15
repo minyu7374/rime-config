@@ -19,12 +19,20 @@ patch:
     - name: full_shape
       reset: 0
       states: [ 半角, 全角 ]
+    - options:
+        - zh_hant
+        - zh_hans
+        - zh_hant_hk
+        - zh_hant_tw
+      states:
+        - 傳統漢字
+        - 简化字
+        - 香港字形
+        - 臺灣字形
+      abbrev: [ 漢, 简, 港, 臺 ]
     - name: ascii_punct
       reset: 0
       states: [ 。，, ．， ]
-    - name: simplification
-      reset: 1
-      states: [ 繁體, 简体 ]
     - name: chinese_english
       reset: 0
       states: [ 翻译关, 翻译开 ]
@@ -60,12 +68,21 @@ patch:
     - lua_translator@*super_calculator     # 超级计算器，Lua内查看高级用法
 
   engine/filters:
-    - simplifier
+    - simplifier@zh_hant
+    - simplifier@zh_hans
+    - simplifier@zh_hant_hk
+    - simplifier@zh_hant_tw
     - lua_filter@*wanxiang.super_replacer           # OpenCC 替代器：中英互译等候选替换（取代 simplifier@chinese_english）
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@*search # @radical_pinyin          # 部件拆字辅码
     - lua_filter@*wanxiang.user_predict*F           # 联想预测上下文调频
     - uniquifier
+
+  zh_hant:
+    option_name: zh_hant
+    opencc_config: s2t.json
+    tips: none
+    excluded_types: [ reverse_lookup ]
 
   punctuator/import_preset: symbols
 
@@ -129,14 +146,14 @@ patch:
   key_binder/bindings/+:
     # 数字键按 switches 顺序切换开关；default(numbered_mode_switch) 已含 Ctrl+Shift+1/2/3
     # → .next/ascii_mode/full_shape，直接沿用。此处覆盖 4/5（default 旧目标不符）并新增 6/7/8。
-    - {accept: "Control+Shift+4", toggle: ascii_punct, when: always}       # default: simplification
-    - {accept: "Control+Shift+5", toggle: simplification, when: always}    # default: extended_charset
+    - {accept: "Control+Shift+4", toggle: zh_hans, when: always}          # default: simplification
+    - {accept: "Control+Shift+5", toggle: ascii_punct, when: always}       # default: extended_charset
     - {accept: "Control+Shift+6", toggle: chinese_english, when: always}
     - {accept: "Control+Shift+7", toggle: prediction, when: always}
     - {accept: "Control+Shift+8", toggle: emoji_suggestion, when: always}  # 非顺序内开关，接末位
     # Shift+符号写法（覆盖 default 的 dollar/percent，并补齐 6/7/8）
-    - {accept: "Control+Shift+dollar", toggle: ascii_punct, when: always}
-    - {accept: "Control+Shift+percent", toggle: simplification, when: always}
+    - {accept: "Control+Shift+dollar", toggle: zh_hans, when: always}
+    - {accept: "Control+Shift+percent", toggle: ascii_punct, when: always}
     - {accept: "Control+Shift+asciicircum", toggle: chinese_english, when: always}
     - {accept: "Control+Shift+ampersand", toggle: prediction, when: always}
     - {accept: "Control+Shift+asterisk", toggle: emoji_suggestion, when: always}
@@ -144,8 +161,8 @@ patch:
     - {accept: "Control+exclam", select: .next, when: always}
     - {accept: "Control+at", toggle: ascii_mode, when: always}
     - {accept: "Control+numbersign", toggle: full_shape, when: always}
-    - {accept: "Control+dollar", toggle: ascii_punct, when: always}
-    - {accept: "Control+percent", toggle: simplification, when: always}
+    - {accept: "Control+dollar", toggle: zh_hans, when: always}
+    - {accept: "Control+percent", toggle: ascii_punct, when: always}
     - {accept: "Control+asciicircum", toggle: chinese_english, when: always}
     - {accept: "Control+ampersand", toggle: prediction, when: always}
     - {accept: "Control+asterisk", toggle: emoji_suggestion, when: always}

@@ -9,11 +9,11 @@
 ├── build
 │   └── {zdict,kMandarin,pinyin,...}.reverse.bin        # 部件拆字方案（radical_pinyin）编译好的提示码词表（当前选用pinyin）
 ├── common.yaml                                         # 主力输入方案通用自定义配置
-├── custom_phrase.txt                                   # 私人词库（加入.gitignore）                           
+├── custom_phrase.txt                                   # 私人词库（加入.gitignore）
 ├── {default,key_bindings,punctuation,symbols}.yaml     # 输入法基础配置（rime-install prelude）
 ├── default.custom.yaml                                 # 基础默认配置自定义调整
 ├── symbols.custom.yaml                                 # 针对符号候选条目的自定义调整
-├── dicts                                               
+├── dicts
 │   └── *.dict.yaml                                     # 三方词库文件（当前主要使用万象词库）
 ├── double_pinyin{,_flypy,_abc,...}.schema.yaml         # 双拼输入方案（rime-install double_pinyin）
 ├── double_pinyin.custom.yaml                           # 双拼自然码自定义调整

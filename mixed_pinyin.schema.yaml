@@ -1,0 +1,15 @@
+# Rime schema
+schema:
+  schema_id: mixed_pinyin
+  name: 中英混合词·全拼
+  version: '1.0'
+
+translator:
+  dictionary: mixed
+  prism: mixed_pinyin
+
+speller:
+  algebra:
+    __patch:
+      - mixed_algebra:/mixed/混合派生
+      - mixed_algebra:/mixed/全拼

@@ -3,6 +3,8 @@
 
 patch:
   __include: common:/patch_terra_pinyin
+  schema/dependencies/@after last: mixed_terra
+  mixed/prism: mixed_terra
   # 当前选择：万象词库 + 地球拼音原生词库，保留精确声调、多音及变调条目
   translator/dictionary: terra_pinyin.extended
   # 备选：纯万象词库
@@ -87,6 +89,31 @@ terra_orig_algebra:
     - 'derive/^(.*)-$/$1;/'
     - 'derive/^(.*)<$/$1,/'
     - 'derive/^(.*)\\$/$1./'
+
+# 声调键在韵母末尾。撇号划分音节，保留英文原有拼写。
+mixed_mark_tones:
+  __append:
+    - xform/(ā|ē|ī|ō|ū|ǖ)([a-z]*)(?='|$)/$1$2ⓣ①/
+    - xform/(á|é|í|ó|ú|ǘ|ń|ḿ)([a-z]*)(?='|$)/$1$2ⓣ②/
+    - xform/(ǎ|ě|ǐ|ǒ|ǔ|ǚ|ň)([a-z]*)(?='|$)/$1$2ⓣ③/
+    - xform/(à|è|ì|ò|ù|ǜ|ǹ)([a-z]*)(?='|$)/$1$2ⓣ④/
+    - xlit/āáǎàēéěèīíǐìōóǒòūúǔùüǖǘǚǜńňǹḿ/aaaaeeeeiiiioooouuuuvvvvvnnnm/
+
+# 每轮只处理一个 ⓣ，为该音节派生省调和替代键。重复次数随词库最长带调编码生成。
+mixed_one_tone:
+  __append:
+    - xform/^(.*?)ⓣ/$1Ⓣ/
+    - derive/Ⓣ(①|②|③|④)//
+    - derive/Ⓣ①/;/
+    - derive/Ⓣ③/,/
+    - derive/Ⓣ④/./
+    - xform/Ⓣ//
+
+mixed_finish_spelling:
+  __append:
+    - 'xlit ①②③④ -/<\'
+    - xform/'//
+    - derive/^.+$/\L$0/
 
 __patch:
 # Rx: BlindingDark/rime-easy-en:customize:schema=terra_pinyin {

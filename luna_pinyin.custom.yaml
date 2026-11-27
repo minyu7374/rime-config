@@ -11,6 +11,8 @@
 
 patch:
   __include: common:/patch
+  schema/dependencies/@after last: mixed_pinyin
+  mixed/prism: mixed_pinyin
   # 当前选择：纯万象词库，使用其词频和日常词汇覆盖
   translator/dictionary: wanxiang
   # 备选：万象词库 + 朙月拼音原生词库，补充繁体及冷僻字词

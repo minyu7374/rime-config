@@ -1,0 +1,13 @@
+# Rime schema
+schema:
+  schema_id: mixed_terra
+  name: 中英混合词·地球拼音
+  version: '1.0'
+
+translator:
+  dictionary: mixed
+  prism: mixed_terra
+
+speller:
+  algebra:
+    __include: mixed_algebra:/mixed/地球拼音逐音节标调

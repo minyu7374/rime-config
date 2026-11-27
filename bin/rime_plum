@@ -1,77 +1,146 @@
 #!/bin/bash
 # set -x
+set -eo pipefail
 
-case "$(uname -s)" in
-Linux*)
-    export rime_frontend=fcitx5-rime
-    rime_dir="$HOME/.local/share/fcitx5/rime"
-    ;;
-Darwin*)
-    rime_dir="$HOME/Library/Rime"
-    ;;
-CYGWIN* | MINGW* | MSYS*)
-    rime_dir="$HOME/windows/AppData/Roaming/Rime/"
-    ;;
-esac
-
-plum_dir="/opt/src/tool/plum"
-plum="${plum_dir}/rime-install"
-
-if [ "$#" -eq 0 ]; then
-    $plum prelude
-    $plum essay # 预设词库
-    $plum luna-pinyin
-    $plum terra-pinyin
-    $plum double-pinyin
-    $plum BlindingDark/rime-easy-en
-    $plum emoji
-    $plum lotem/rime-octagram-data lotem/rime-octagram-data@hans lotem/rime-octagram-data@hant
-    $plum mirtlecn/rime-radical-pinyin@master                    # 部件拆字
-    $plum mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin_flypy
-
-    for schema in luna_pinyin terra_pinyin double_pinyin double_pinyin_flypy; do
-        $plum BlindingDark/rime-easy-en:customize:schema=$schema
-        $plum BlindingDark/rime-lua-select-character:customize:schema=$schema
-        $plum emoji:customize:schema=$schema
-        $plum lotem/rime-octagram-data:customize:schema=$schema,model=hans
-        sed -i 's/__include: easy_en:/__include: easy_en_fix:/g' "$rime_dir"/$schema.custom.yaml
-    done
-
-    # 万象语法模型
-    wget -nv -O "$rime_dir"/wanxiang-lts-zh-hans.gram https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
-
-    # 部件拆字
-    mkdir -p "$rime_dir"/{lua,build}
-    cp {$plum_dir/package/mirtlecn/radical-pinyin,"$rime_dir"}/lua/search.lua
-    cp $plum_dir/package/mirtlecn/radical-pinyin/build/*.bin "$rime_dir"/build/
-
-    # chinese_english（super_replacer 方案：数据读取自 lua/data/，不再用 opencc simplifier/json）
-    rime_wanxiang_refs=https://raw.githubusercontent.com/amzxyz/rime_wanxiang/refs/heads/wanxiang
-    mkdir -p "$rime_dir"/lua/data
-    for file in chinese_english.txt english_chinese.txt; do
-        wget -nv -O "$rime_dir"/lua/data/$file "$rime_wanxiang_refs"/lua/data/$file
-    done
-
-    # 索性直接创建一个symbols.custom.yaml，按需调整
-    # # symbols 里去除=的候选，对我完全没用(patch修改时，= '=' /=以及""包起来的写法都不能生效)
-    # sed -i "/'='/d" symbols.yaml
-
-    # dict 暂时不用
-    # mkdir -p "$rime_dir"/dicts/
-    # $plum felixonmars/fcitx5-pinyin-zhwiki
-    # mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
-    # cd /opt/src/tool/RIME-LMDG && git pull &&
-    #     cp -f dicts/* "$rime_dir"/dicts
-
-    # # 直接从releases里下载即可，安装软件依赖太多（imewlconverter => donet）
-    # # sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu 2>/dev/null
-    # script_dir="$(cd "$(dirname "$0")" && pwd)"
-    # sudo "$script_dir"/sougou-baidu_dict_download
-    # for name in sougou baidu; do
-    #     [ -f "/usr/share/rime-data/$name.dict.yaml" ] &&
-    #         rime_dedup /usr/share/rime-data/$name.dict.yaml "$rime_dir"/dicts/$name.dict.yaml
-    # done
-
-else
-    $plum "$@"
+# rime_dict 可指定本次同步目录，省略时使用平台默认值。
+rime_dir=${rime_dict:-}
+if [[ -z "$rime_dir" ]]; then
+    case "$(uname -s)" in
+        Linux*) export rime_frontend=fcitx5-rime; rime_dir="$HOME/.local/share/fcitx5/rime" ;;
+        Darwin*) rime_dir="$HOME/Library/Rime" ;;
+        CYGWIN*|MINGW*|MSYS*) rime_dir="$HOME/windows/AppData/Roaming/Rime" ;;
+        *) echo '请通过 rime_dict 指定 Rime 数据目录' >&2; exit 1 ;;
+    esac
 fi
+mkdir -p "$rime_dir"
+export rime_dir
+rime_dir=$(cd "$rime_dir" && pwd)
+export plum_dir
+plum_dir=$(cd "${plum_dir:-/opt/src/tool/plum}" && pwd)
+plum="$plum_dir/rime-install"
+
+# 指定 recipe 时直接交给 Plum，多个 recipe 中任一失败就返回。
+if (( $# )); then
+    exec bash -e "$plum" "$@"
+fi
+
+"$plum" prelude
+"$plum" essay # 预设词库
+"$plum" luna-pinyin
+"$plum" terra-pinyin
+"$plum" double-pinyin
+"$plum" BlindingDark/rime-easy-en
+"$plum" emoji
+
+# Plum 切换已有模型分支时只做 checkout；本地分支落后时再安装一次完成快进。
+cache="$plum_dir/package/lotem/octagram-data"
+for branch in master hans hant; do
+    "$plum" "lotem/rime-octagram-data@$branch"
+    if [[ $(git -C "$cache" rev-parse HEAD) != "$(git -C "$cache" rev-parse "origin/$branch")" ]]; then
+        "$plum" "lotem/rime-octagram-data@$branch"
+    fi
+done
+
+# 部件拆字
+"$plum" mirtlecn/rime-radical-pinyin@master
+"$plum" mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin
+"$plum" mirtlecn/rime-radical-pinyin@master:config:schema=double_pinyin_flypy
+radical="$plum_dir/package/mirtlecn/radical-pinyin"
+mkdir -p "$rime_dir"/{lua,build}
+cp "$radical/lua/search.lua" "$rime_dir/lua/"
+cp "$radical"/build/*.bin "$rime_dir/build/"
+
+project_dir=$(cd "$(dirname "$0")/.." && pwd)
+stage=$(mktemp -d "$rime_dir/.rime-plum.XXXXXXXX")
+trap 'rm -rf "$stage"' EXIT
+for schema in luna_pinyin terra_pinyin double_pinyin double_pinyin_flypy; do
+    "$plum" "BlindingDark/rime-easy-en:customize:schema=$schema"
+    "$plum" "BlindingDark/rime-lua-select-character:customize:schema=$schema"
+    "$plum" "emoji:customize:schema=$schema"
+    "$plum" "lotem/rime-octagram-data:customize:schema=$schema,model=hans"
+    sed 's/__include: easy_en:/__include: easy_en_fix:/g' "$rime_dir/$schema.custom.yaml" > "$stage/schema.yaml"
+    mv "$stage/schema.yaml" "$rime_dir/$schema.custom.yaml"
+done
+
+cd "$stage"
+mkdir -p dicts lua/data lua/wanxiang
+
+# 万象词库：按发布页的 SHA-256 校验，只解压项目选用的词表。
+release=https://github.com/amzxyz/rime-wanxiang-data/releases/download
+api=https://api.github.com/repos/amzxyz/rime-wanxiang-data/releases/tags
+curl -fsSL --retry 2 "$api/dict-nightly" |
+    jq -er '.assets[] | select(.name == "dicts.zip") |
+        (.digest | capture("^sha256:(?<sha>[0-9a-f]{64})$").sha) + "  " + .name' > dicts.sha256
+curl -fLsS --retry 2 -o dicts.zip "$release/dict-nightly/dicts.zip"
+shasum -a 256 -c dicts.sha256
+unzip -q dicts.zip dicts/{zi,jichu,cuoyin,duoyin,shici,diming,yixue,huaxue,yaopin,mingren,yiren,wuzhong,taifeng,fangyan,mixed}.dict.yaml
+
+# 万象语法模型较大。先用目标目录的模型，其次用仓库副本，都不匹配才下载。
+model=wanxiang-lts-zh-hans.gram
+curl -fsSL --retry 2 "$api/LTS" |
+    jq -er --arg model "$model" '.assets[] | select(.name == $model) |
+        (.digest | capture("^sha256:(?<sha>[0-9a-f]{64})$").sha) + "  " + .name' > model.sha256
+if (cd "$rime_dir" && shasum -a 256 --status -c "$stage/model.sha256" 2>/dev/null); then
+    : # 目标已有校验通过的模型。
+elif [[ "$project_dir" != "$rime_dir" ]] && (cd "$project_dir" && shasum -a 256 --status -c "$stage/model.sha256" 2>/dev/null); then
+    cp "$project_dir/$model" .
+else
+    curl -fLsS --retry 2 -o "$model" "$release/LTS/$model"
+    shasum -a 256 -c model.sha256
+fi
+
+# 通用 Lua 和混合词拼写规则取自同一上游提交。
+revision=$(git ls-remote --exit-code https://github.com/amzxyz/rime-wanxiang.git refs/heads/wanxiang | cut -f1)
+rime_wanxiang_refs="https://raw.githubusercontent.com/amzxyz/rime-wanxiang/$revision"
+for file in lua/wanxiang/{wanxiang,userdb}.lua lua/data/english_chinese.txt; do
+    curl -fLsS --retry 2 -o "$file" "$rime_wanxiang_refs/$file"
+done
+curl -fLsS --retry 2 -o lua/super_calculator.lua "$rime_wanxiang_refs/lua/wanxiang/super_calculator.lua"
+curl -fLsS --retry 2 -o wanxiang_algebra.yaml "$rime_wanxiang_refs/wanxiang_algebra.yaml"
+python3 "$project_dir/bin/mixed_algebra.py" wanxiang_algebra.yaml dicts/mixed.dict.yaml > mixed_algebra.yaml
+
+# 时间工具和翻译器含本地定制，随项目源码安装。
+cp "$project_dir/lua/shijian.lua" lua/
+cp "$project_dir/lua/wanxiang/super_replacer.lua" lua/wanxiang/
+
+# 中英互译由 super_replacer 直接读取 lua/data/，无需 OpenCC json/ocd。
+# 英译中随上游更新。中译英保留项目版本，并恢复旧脚本遇到 404 时截空的词表。
+if [[ ! -s "$rime_dir/lua/data/chinese_english.txt" ]]; then
+    [[ -s "$project_dir/lua/data/chinese_english.txt" ]] || { echo '项目中译英词表缺失或为空' >&2; exit 1; }
+    cp "$project_dir/lua/data/chinese_english.txt" lua/data/
+fi
+for file in dicts/lianxiang.dict.yaml dicts/renming.dict.yaml lua/wanxiang/user_predict.lua; do
+    if [[ ! -e "$rime_dir/$file" ]]; then
+        [[ -s "$project_dir/$file" ]] || { echo "项目源文件缺失或为空: $file" >&2; exit 1; }
+        cp "$project_dir/$file" "$file"
+    fi
+done
+
+# 万象依赖下载、校验完成后再安装。相同文件保留时间戳，避免 Rime 重新编译。
+mkdir -p "$rime_dir"/{dicts,lua/data,lua/wanxiang}
+shopt -s nullglob
+for file in dicts/*.dict.yaml lua/*.lua lua/wanxiang/*.lua lua/data/*.txt mixed_algebra.yaml *.gram; do
+    if ! cmp -s "$file" "$rime_dir/$file"; then
+        mv "$file" "$rime_dir/$file"
+    fi
+done
+
+# 索性直接创建一个symbols.custom.yaml，按需调整
+# # symbols 里去除=的候选，对我完全没用(patch修改时，= '=' /=以及""包起来的写法都不能生效)
+# sed -i "/'='/d" symbols.yaml
+
+# 以下可选词库暂时不用
+# mkdir -p "$rime_dir"/dicts/
+# $plum felixonmars/fcitx5-pinyin-zhwiki
+# mv "$rime_dir"/zhwiki.dict.yaml "$rime_dir"/dicts/
+# cd /opt/src/tool/RIME-LMDG && git pull &&
+#     cp -f dicts/* "$rime_dir"/dicts
+
+# # 直接从releases里下载即可，安装软件依赖太多（imewlconverter => donet）
+# # sudo emerge --update app-dicts/fcitx-pinyin-sougou-baidu 2>/dev/null
+# script_dir="$project_dir/bin"
+# sudo "$script_dir"/sougou-baidu_dict_download
+# for name in sougou baidu; do
+#     [ -f "/usr/share/rime-data/$name.dict.yaml" ] &&
+#         rime_dedup /usr/share/rime-data/$name.dict.yaml "$rime_dir"/dicts/$name.dict.yaml
+# done

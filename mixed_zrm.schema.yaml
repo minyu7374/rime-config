@@ -1,0 +1,15 @@
+# Rime schema
+schema:
+  schema_id: mixed_zrm
+  name: 中英混合词·自然码
+  version: '1.0'
+
+translator:
+  dictionary: mixed
+  prism: mixed_zrm
+
+speller:
+  algebra:
+    __patch:
+      - mixed_algebra:/mixed/混合派生
+      - mixed_algebra:/mixed/自然码

@@ -1,0 +1,15 @@
+# Rime schema
+schema:
+  schema_id: mixed_flypy
+  name: 中英混合词·小鹤双拼
+  version: '1.0'
+
+translator:
+  dictionary: mixed
+  prism: mixed_flypy
+
+speller:
+  algebra:
+    __patch:
+      - mixed_algebra:/mixed/混合派生
+      - mixed_algebra:/mixed/小鹤双拼
